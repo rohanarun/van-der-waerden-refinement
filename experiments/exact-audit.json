@@ -51,6 +51,23 @@
         "rich_union_bound_gap": "127/1000000",
         "drift_less_than_eta_gap": "39/20"
       }
+    },
+    {
+      "name": "near-limit-518x",
+      "factor_over_release": "100000/193",
+      "margins": {
+        "dimension_grows": "1/4",
+        "period_less_than_heavy_cutoff": "3/10",
+        "global_entropy_less_than_M": "1/20",
+        "M_sublinear": "1/5",
+        "flip_probability_decays": "2499/10000",
+        "affine_global_entropy_gap": "1/10000",
+        "affine_norm_entropy_gap": "1/10000",
+        "light_color_margin": "1/3000",
+        "long_block_color_margin": "1/3000",
+        "rich_union_bound_gap": "31481/3860000000",
+        "drift_less_than_eta_gap": "39/20"
+      }
     }
   ],
   "negative_controls_rejected": 3,
