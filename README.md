@@ -14,9 +14,9 @@ The original manuscript establishes a bound of the form
 W_r(k)>k^{c k\lfloor\log_2 r\rfloor}
 ```
 
-with $c=1/100000$, for sufficiently large $k$ and every integer $r\ge2$. Our conditional parameter-transfer argument admits **$c=1/200$**, with the threshold independent of $r$.
+with $c=1/100000$, for sufficiently large $k$ and every integer $r\ge2$. Our conditional parameter-transfer argument admits **$c=1/193$**, with the threshold independent of $r$.
 
-That is a **500-fold increase in the coefficient inside the exponent**. It is not a 500-fold increase in a finite van der Waerden number, an explicit finite coloring record, or a runtime improvement. The threshold may be very large and is not made explicit here.
+That is a **$100000/193\approx518.13$-fold increase in the coefficient inside the exponent**. The earlier $c=1/200$ choice remains included for comparison. No explicit finite coloring record or runtime improvement follows. The threshold may be very large and is not made explicit here.
 
 ### Why the argument changes
 
@@ -44,9 +44,12 @@ a,b,c>0,\quad 3a\lt m\lt 1,\quad b\lt a,\quad 3a\lt 1-b,
 |---|---|---|---|---|---|---|---|
 | Original dimension scales | 1/10 | 1/2 | 1/20 | 1/10 | 1/40 | 1/4000 | 25 |
 | Retuned parameters | 1/5 | 3/4 | 1/6 | 1/10 | 1/40 | 1/1000 | 100 |
-| Main proposed choice | 1/4 | 4/5 | 247/1000 | 1/3 | 41/500 | 1/200 | 500 |
+| Earlier 500-fold choice | 1/4 | 4/5 | 247/1000 | 1/3 | 41/500 | 1/200 | 500 |
+| New proposed choice | 1/4 | 4/5 | 2499/10000 | 1/3 | 83/1000 | 1/193 | 100000/193 |
 
-For the last row, $\gamma b/2-2c=127/1000000$ and both affine entropy power gaps equal $3/1000$. These strict margins are checked with exact rational arithmetic in [parameters.json](parameters.json) and [audit_math.py](audit_math.py).
+The new choice has strictly positive exact margins and stays below the retained region's endpoint $1/192$. Its full transfer argument and margin table are in [near-limit-proof.md](near-limit-proof.md).
+
+For the earlier 500-fold row, $\gamma b/2-2c=127/1000000$ and both affine entropy power gaps equal $3/1000$. These strict margins are checked with exact rational arithmetic in [parameters.json](parameters.json) and [audit_math.py](audit_math.py).
 
 The same sufficient region admits every fixed positive $c<1/192$. The endpoint is not asserted, and this is only a supremum within the retained estimates. The full transfer proof and its dependencies are in the note; passing the scripts does not establish that transfer as a theorem.
 
@@ -91,7 +94,7 @@ Do not run with `-O` or `PYTHONOPTIMIZE`: the verification scripts use assertion
 
 | Check | Evidence | Limitation |
 |---|---|---|
-| Three parameter proposals | Exact rational margins; three invalid boundary controls rejected | Validates inequalities, not the imported lemmas |
+| Four parameter proposals | Exact rational margins for four choices; three invalid boundary controls rejected | Validates inequalities, not the imported lemmas |
 | Norm-band lemma | Displayed proof plus 26,180 finite rational cases | Finite cases supplement the proof |
 | Abstract matrix profile | Symbolic identities plus 10,000 exact cube comparisons | No tensor realizability claim |
 | Released Sidorenko baseline | Independent reconstruction; duplicate-face and incomplete-exposure controls rejected | Finite combinatorial hypotheses only |
