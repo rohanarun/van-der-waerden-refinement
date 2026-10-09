@@ -33,7 +33,7 @@ contradicting membership in a common half-open interval of width one. This eleme
 Using this multiplicity bound, write $D=\lceil k^a\rceil$, $M=\lceil k^m\rceil$, and $p=k^{-b}$. The note derives the sufficient region
 
 ```math
-a,b,c>0,\quad 3a<m<1,\quad b<a,\quad 3a<1-b,
+a,b,c>0,\quad 3a\lt m\lt 1,\quad b\lt a,\quad 3a\lt 1-b,
 ```
 
 ```math
