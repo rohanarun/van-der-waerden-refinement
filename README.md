@@ -10,7 +10,9 @@ Read the full argument in **[research-note.tex](research-note.tex)**. Exact chec
 
 The original manuscript establishes a bound of the form
 
-$$W_r(k)>k^{c k\lfloor\log_2 r\rfloor}$$
+```math
+W_r(k)>k^{c k\lfloor\log_2 r\rfloor}
+```
 
 with $c=1/100000$, for sufficiently large $k$ and every integer $r\ge2$. Our conditional parameter-transfer argument admits **$c=1/200$**, with the threshold independent of $r$.
 
@@ -22,15 +24,21 @@ The source bounds the multiplicity of a geometric key by four. Its affinity and 
 
 In fact there are at most **two** such points. Parameterize the line by signed arclength $t$ from its nearest point to the origin, so squared norm is $t^2+C$. Among three parameters, two lie on the same half-line. Their absolute values satisfy $v-u\ge1$, hence
 
-$$v^2-u^2=(v-u)(v+u)\ge1,$$
+```math
+v^2-u^2=(v-u)(v+u)\ge1,
+```
 
 contradicting membership in a common half-open interval of width one. This elementary lemma is proved directly; applying it to the original construction still requires the source's hypotheses.
 
 Using this multiplicity bound, write $D=\lceil k^a\rceil$, $M=\lceil k^m\rceil$, and $p=k^{-b}$. The note derives the sufficient region
 
-$$a,b,c>0,\quad 3a<m<1,\quad b<a,\quad 3a<1-b,$$
+```math
+a,b,c>0,\quad 3a<m<1,\quad b<a,\quad 3a<1-b,
+```
 
-$$0<\delta<1,\quad 0<\gamma\le\delta/4,\quad \gamma<(1-\delta)/8,\quad 2c<\gamma b/2.$$
+```math
+0<\delta<1,\quad 0<\gamma\le\delta/4,\quad \gamma<(1-\delta)/8,\quad 2c<\gamma b/2.
+```
 
 | Choice | $a$ | $m$ | $b$ | $\delta$ | $\gamma$ | $c$ | Coefficient ratio |
 |---|---|---|---|---|---|---|---|
@@ -57,7 +65,9 @@ The original authors retain credit for their constructions, lemmas, and results.
 
 For the selected scalar matrix-profile constraints, let $u=\min(a,b)$ and $v=\max(a,b)$. The explicit profile
 
-$$P_*(a,b)=\left(\frac{3u-1}{2}\right)^{1/3}\left(v+\frac{u-1}{2}\right)$$
+```math
+P_*(a,b)=\left(\frac{3u-1}{2}\right)^{1/3}\left(v+\frac{u-1}{2}\right)
+```
 
 is symmetric, positive, nondecreasing, and separately concave, with $P_*(1,b)=b$. It satisfies shifted tripling and the rank envelope at $t=3/4$, while its diagonal grows as $\Theta(a^{4/3})$. Thus those listed constraints alone cannot exclude $t=3/4$. **This is not an actual tensor character or a lower bound on the matrix-multiplication exponent.** The note gives an analytic proof; finite LP experiments are exploratory.
 
