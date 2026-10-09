@@ -1,0 +1,9 @@
+{
+  "tested": 28281,
+  "discrete": 2518,
+  "lp_feasible": 0,
+  "exact_hits": 0,
+  "best": 35,
+  "elapsed": 120.008566291,
+  "seen": 326578
+}

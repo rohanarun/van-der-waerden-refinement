@@ -1,0 +1,11 @@
+upstream/
+research-state.json
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.aux
+*.log
+*.out
+*.pdf
+experiments/vdw-parameter-occurrences.txt

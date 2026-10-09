@@ -1,0 +1,13 @@
+[
+  {
+    "file": "experiments/complex-contractions/baseline.json",
+    "certificate": {
+      "vertices": 35,
+      "edges": 66,
+      "cuts": 3,
+      "min_pair_coverage": "1/3",
+      "support_intersections": "passed",
+      "discrete_refinement": "passed"
+    }
+  }
+]

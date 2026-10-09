@@ -1,0 +1,32 @@
+[
+  {
+    "N": 100,
+    "target": 8,
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "diagonal": 25.39897373367881,
+    "finite_log_slope": 1.5555660999295275,
+    "baseline_power": 15.999999999999998,
+    "max_constraint_error": 1.389253156958148e-10
+  },
+  {
+    "N": 100,
+    "target": 16,
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "diagonal": 65.85272213584943,
+    "finite_log_slope": 1.510292793222396,
+    "baseline_power": 40.317473596635935,
+    "max_constraint_error": 1.389253156958148e-10
+  },
+  {
+    "N": 100,
+    "target": 24,
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "diagonal": 114.14111905310945,
+    "finite_log_slope": 1.4906719087124178,
+    "baseline_power": 69.22797937475559,
+    "max_constraint_error": 1.389253156958148e-10
+  }
+]

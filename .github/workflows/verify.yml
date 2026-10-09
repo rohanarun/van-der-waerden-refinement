@@ -1,0 +1,17 @@
+name: Exact mathematical checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -B audit_math.py
+      - run: python -B check_complex.py experiments/complex-contractions/baseline.json --output experiments/baseline-independent-check.json
+      - run: git diff --exit-code -- experiments/exact-audit.json experiments/baseline-independent-check.json

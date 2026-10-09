@@ -1,0 +1,20 @@
+{
+  "seed": 20261009,
+  "elapsed": 180.009629542,
+  "tested": {
+    "13": 34,
+    "12": 139,
+    "11": 1865,
+    "10": 9231,
+    "9": 21572,
+    "8": 20077,
+    "7": 3870,
+    "6": 185,
+    "5": 10,
+    "4": 1
+  },
+  "seen": 396019,
+  "best_finite_hypotheses": 35,
+  "hit_count": 0,
+  "status": "finite hypotheses only; analytic transfer not certified"
+}
