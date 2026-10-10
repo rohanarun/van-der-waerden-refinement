@@ -13,8 +13,11 @@
 We derive a conditional quantitative refinement of the released van der
 Waerden construction, and an explicit obstruction to improving the matrix
 multiplication exponent using only its stated profile inequalities.
-The former admits the coefficient $c=1/200$, versus the manuscript's
-$10^{-5}$, subject to the upstream geometric and counting arguments.
+The former admits the coefficient $c=1/200$ in the manuscript's own
+parameter region, and, after sharpening the balance demanded of the
+outer coloring and shortening the dilation, every $c<1/24$ with the
+explicit choice $c=1/25$, versus the manuscript's $10^{-5}$, subject to
+the upstream geometric and counting arguments.
 The latter is a limitation of the abstract inequalities, not a lower bound
 on the actual matrix multiplication exponent. These are research drafts:
 neither literature priority nor independent formal verification is claimed.
@@ -189,6 +192,115 @@ This is a supremum within these retained estimates, not a universal
 barrier on other improvements to the construction. The endpoint is not
 asserted. Literature searches found no specific competing numerical
 refinement, but this does not establish novelty or world-best status.
+
+\section{A sharper balance and a shorter dilation}\label{sec:sharpened}
+The supremum $1/192$ of Proposition~\ref{prop:region} is produced by
+two fixed choices in the source rather than by its geometry: the outer
+coloring is only asked to place one quarter of each bit on the tested
+positions, and the short-period cutoff $h_0=D^2$ makes
+$\log T_{\rm glob}=O(k^{3a}\log k)$. We relax both.
+
+Fix $0<\varepsilon<1/2$, $0<\varepsilon_{\rm r}\le1/2$, and $\delta>0$.
+Replace the source's cutoff and truncation scale by
+\[
+ h_0=D\lceil\log k\rceil^2,\qquad \eta=\frac{\varepsilon_{\rm r}}{8D},
+\]
+keeping the dilation $\lambda$ as the product of the full primary parts
+of every period at most $2M$ over primes at most $h_0$.
+
+\begin{proposition}\label{prop:sharpened}
+The parameter-dependent estimates in the released construction continue
+to hold, using Lemma~\ref{lem:band}, if
+\begin{gather*}
+ a,b,c>0,\quad 2a<m<1,\quad b<a,\quad 2a<1-b,\\
+ \gamma<(\tfrac12-\varepsilon)(1-\varepsilon_{\rm r})(1-\delta),\quad
+ 2c<\gamma b/2.
+\end{gather*}
+Consequently, conditional on the source's geometric and counting lemmas
+with the parameter transfer proved below, $W_r(k)>k^{ck\lfloor\log_2r\rfloor}$
+for all sufficiently large $k$ and every integer $r\ge2$, with a
+threshold independent of $r$. In particular every fixed $c<1/24$ is
+admitted, and $1/24$ is the supremum of this region.
+\end{proposition}
+\begin{proof}
+\emph{Dilation.} The dilation lemma is unchanged, so
+$\log\lambda\le h_0\log(2M)=O(k^a\log^3k)$ and every scalar denominator
+$s=h/\gcd(h,\lambda t)$ is $1$ or exceeds $h_0$. Hence
+$\log T_{\rm glob}=O(D(\log k+\log\lambda))=O(k^{2a}\log^3k)$, which is
+$o(M)$ by $2a<m$. The short-period case uses only $h\mid\lambda$ for
+$h\le h_0$. In the long-period case the nonregular fraction is at most
+$D(4\eta+1/h_0)=\varepsilon_{\rm r}/2+1/\lceil\log k\rceil^2\le\varepsilon_{\rm r}$
+for large $k$. The truncated mesh has at most $16/\eta+4\le C_1D$
+breakpoints with $C_1$ depending only on $\varepsilon_{\rm r}$, so the
+anchored count is $(CDh)^{6D}$ with $C=C(\varepsilon_{\rm r})$, and
+$6D\log(CDh)/h\le6\log(CD^2\log^2k)/\log^2k=o(1)$ uniformly for
+$h>h_0$. The inequality $h_0<2M<k$ follows from $a<m<1$.
+
+\emph{Balance.} Ask every tested family of $l$ distinct labels to carry
+each bit on at least a $(\frac12-\varepsilon)$ fraction of its positions.
+With $X$ the number of ones, the source's bound
+$\mathbb{E}\,e^{s(X-l/2)}\le e^{s^2l/8}$ at $s=4\varepsilon$ gives
+$\Pr(|X-l/2|\ge\varepsilon l)\le2e^{-2\varepsilon^2l}$.
+Weight the event by $z=e^{-\varepsilon^2l}$. The incident weight at one
+label is at most $kT_{\rm glob}e^{-\varepsilon^2(\delta M-1)}+
+\sum_{h>h_0}(CDh)^{6D}e^{-\varepsilon^2h/2}=o(1)$, so it is at most
+$\varepsilon^2/4$ eventually, and the local-lemma criterion
+$e^{-(\varepsilon^2+\varepsilon^2/2)l}\ge2e^{-2\varepsilon^2l}$ holds once
+$l\ge2\log2/\varepsilon^2$; tested sizes are at least $\delta M-1$ or
+$h/2$, both unbounded.
+
+\emph{Light positions outside heavy blocks.} For a progression word,
+choose the heavy label of smallest first occurrence and its closest-return
+gap $h$, cut the indices into full blocks of length $h$ and a remainder
+of fewer than $h$ indices, and call a full block eligible if it contains
+a heavy index. Let $S$ be the set of light positions outside eligible
+blocks; it is a function of the word. If there is no heavy label,
+$S$ is the whole progression. Whenever $|S|\ge\delta k$, form rows of
+$S$ as in the source's first family, each of size at least
+$\delta M-1$ with distinct labels, and demand
+$(\frac12-\varepsilon)$-balance on each row.
+
+\emph{Dichotomy.} Let the progression be nonaffine, so there is no heavy
+label or $h_0<h\le2M$. Full blocks that are not eligible consist of
+light positions, so with $E$ the union of eligible blocks,
+$k-|E|\le|S|+h$. Each eligible block is eligible in the source's sense
+by the unchanged verification, has at least $(1-\varepsilon_{\rm r})h$
+regular positions, and contributes at least
+$(\frac12-\varepsilon)(1-\varepsilon_{\rm r})h$ of each bit; when
+$|S|\ge\delta k$ the rows contribute $(\frac12-\varepsilon)|S|$ more on
+disjoint positions. In every case each bit occurs at least
+$(\frac12-\varepsilon)(1-\varepsilon_{\rm r})(k-h-\delta k)$ times, and
+$h\le2M=o(k)$ gives the stated $\gamma$.
+
+\emph{Probability.} By Lemma~\ref{lem:band} a rich progression needs
+$\gamma k/2$ distinct flips, so
+$R_k\le2q^{2D}p^{\gamma k/2}=o(1)$ when $2c<\gamma b/2$.
+For affine progressions,
+$\log\max(1,T_{\rm aff})=O(k^{2a}\log^3k)+6\log q+O(\log k)=o(k^{1-b})$
+by $2a<1-b$ and $b<a$, so $A_k\le2T_{\rm aff}(1-p)^{k/2}=o(1)$.
+The drift conditions have exponents $m-1$, $m-2$, $m-3$, $m+a-3$, all
+negative. The digit product is unchanged.
+
+\emph{Supremum.} From $b<a$ and $2a+b<1$ we get $b<1/3$; the balance
+condition gives $\gamma<1/2$; hence $c<\gamma b/4<1/24$, and every
+smaller $c$ is attained by letting $\varepsilon,\varepsilon_{\rm r},\delta\to0$,
+$b\to1/3$, $a$ slightly above $b$, and $m\in(2a,1)$.
+\end{proof}
+
+\subsection{Explicit choice}
+Take
+\[
+ a=\tfrac{333}{1000},\quad m=\tfrac45,\quad b=\tfrac{331}{1000},\quad
+ \delta=\varepsilon=\varepsilon_{\rm r}=\tfrac1{200},\quad
+ \gamma=\tfrac{97}{200},\quad c=\tfrac1{25}.
+\]
+The margins are $m-2a=67/500$, $a-b=1/500$, $1-b-2a=3/1000$,
+$(\frac12-\varepsilon)(1-\varepsilon_{\rm r})(1-\delta)-\gamma=40499/8000000$,
+and $\gamma b/2-2c=107/400000$. The coefficient ratio to $10^{-5}$ is
+exactly $4000$. These are verified by \texttt{audit\_math.py} together
+with rejection controls at $b=a$, $b=1-2a$, zero rich exponent, the
+exact balance bound, and $c=1/24$. The threshold is not explicit and
+may be very large; no finite coloring or runtime gain is claimed.
 
 \section{An obstruction for the matrix profile inequalities}
 The matrix paper defines a symmetric positive profile $P(a,b)$ with

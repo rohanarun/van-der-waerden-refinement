@@ -39,6 +39,46 @@ p=dict(config['proposals'][-1]);p['b']=p['a'];assert not valid(p)
 p=dict(config['proposals'][-1]);p['c']=str(Q(p['gamma'])*Q(p['b'])/4);assert not valid(p)
 p=dict(config['proposals'][-1]);p['m']=str(3*Q(p['a']));assert not valid(p)
 
+# Sharpened region: h_0=D*ceil(log k)^2 instead of D^2 (global entropy k^{2a}),
+# (1/2-eps)-balanced outer coloring, eps_reg nonregular fraction, and light
+# positions outside heavy blocks balanced separately. See sharpened-region-proof.md.
+def sharpened_margins(p):
+    a,m,b,d,e,er,g,c=(Q(p[k]) for k in ('a','m','b','delta','eps','eps_reg','gamma','c'))
+    return {
+        'dimension_grows':a,
+        'short_period_cutoff_below_M':m-a,
+        'global_entropy_less_than_M':m-2*a,
+        'M_sublinear':1-m,
+        'flip_probability_decays':b,
+        'affine_global_entropy_gap':1-b-2*a,
+        'affine_norm_entropy_gap':a-b,
+        'balance_tolerance_positive':e,
+        'balance_tolerance_below_half':Q(1,2)-e,
+        'nonregular_fraction_positive':er,
+        'nonregular_fraction_at_most_half':Q(1,2)-er,
+        'light_threshold_positive':d,
+        'outer_color_margin':(Q(1,2)-e)*(1-er)*(1-d)-g,
+        'rich_union_bound_gap':g*b/2-2*c,
+        'drift_less_than_eta_gap':3-m-a,
+    }
+def sharpened_valid(p):
+    ms=sharpened_margins(p)
+    return all(v>=0 if k=='nonregular_fraction_at_most_half' else v>0 for k,v in ms.items())
+sharpened=[]
+for p in config['sharpened_proposals']:
+    assert sharpened_valid(p),p
+    sharpened.append({'name':p['name'],'factor_over_release':str(Q(p['c'])/Q(config['baseline_c'])),'margins':{k:str(v) for k,v in sharpened_margins(p).items()}})
+# Rejection controls: b=a loses the affine norm gap; c=gamma*b/4 gives a zero
+# rich exponent; b=1-2a loses the affine global gap; gamma at the exact outer
+# color bound leaves no room for the o(k) remainder block; the supremum 1/24 fails.
+p=dict(config['sharpened_proposals'][-1]);p['b']=p['a'];assert not sharpened_valid(p)
+p=dict(config['sharpened_proposals'][-1]);p['c']=str(Q(p['gamma'])*Q(p['b'])/4);assert not sharpened_valid(p)
+p=dict(config['sharpened_proposals'][-1]);p['b']=str(1-2*Q(p['a']));assert not sharpened_valid(p)
+p=dict(config['sharpened_proposals'][-1]);p['gamma']=str((Q(1,2)-Q(p['eps']))*(1-Q(p['eps_reg']))*(1-Q(p['delta'])));assert not sharpened_valid(p)
+p=dict(config['sharpened_proposals'][-1]);p['c']='1/24';assert not sharpened_valid(p)
+# Supremum check: with b<a, 2a+b<1 the rich gap forces c<gamma*b/4<(1/2)(1/3)/4=1/24.
+assert all(Q(p['gamma'])*Q(p['b'])/4<Q(1,24) for p in config['sharpened_proposals'])
+
 # Independent finite tests of the exact half-open norm-band lemma. The proof
 # is analytic; these tests include unit-distance equality and t=0 cases.
 points=[Q(i,4) for i in range(-20,21)];band_cases=0
@@ -67,7 +107,8 @@ for a in range(1,101):
         tripling_cases+=1
 
 out={'scope':'Exact algebra and finite checks only; not an independent formal proof of upstream results',
-     'parameter_certificates':checks,'negative_controls_rejected':3,
+     'parameter_certificates':checks,'sharpened_parameter_certificates':sharpened,
+     'negative_controls_rejected':8,
      'half_open_band_test_cases':band_cases,'profile_exact_test_cases':tripling_cases,
      'symbolic_identities':'passed'}
 (ROOT/'experiments'/'exact-audit.json').write_text(json.dumps(out,indent=2))
