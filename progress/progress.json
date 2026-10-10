@@ -1,0 +1,42 @@
+{
+  "quantity": "Coefficient c in the conditional lower bound W_r(k) > k^{c k floor(log2 r)}",
+  "note": "Repository entries are conditional on the upstream OpenAI geometric and counting lemmas and have not been independently reviewed. Before 2026-09-23 no bound of this k^{ck} form was known (c = 0), so that era does not appear on the log scale.",
+  "series": [
+    {
+      "name": "OpenAI (Sept 23, 2026 preprint)",
+      "key": "openai",
+      "points": [
+        {
+          "date": "2026-09-23T00:00:00Z",
+          "c": "1/100000",
+          "label": "c = 1/100000",
+          "ref": "https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026"
+        }
+      ]
+    },
+    {
+      "name": "This repository (conditional refinements)",
+      "key": "repo",
+      "points": [
+        {
+          "date": "2026-10-09T11:02:17Z",
+          "c": "1/200",
+          "label": "1/200 (two-point band lemma, retuned scales)",
+          "ref": "commit 14a9529"
+        },
+        {
+          "date": "2026-10-09T12:28:09Z",
+          "c": "1/193",
+          "label": "1/193 (near the 1/192 ceiling)",
+          "ref": "PR #1"
+        },
+        {
+          "date": "2026-10-10T06:00:00Z",
+          "c": "1/25",
+          "label": "1/25 (sharper balance, shorter dilation; sup 1/24)",
+          "ref": "PR #2"
+        }
+      ]
+    }
+  ]
+}
