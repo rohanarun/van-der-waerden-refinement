@@ -1,0 +1,49 @@
+{
+  "scope": "Conditional source review; pinned OpenAI construction is assumed. No complete formal theorem claim.",
+  "upstream_manifest": {
+    "repository": "https://github.com/openai/math",
+    "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
+  },
+  "upstream_sections": [
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/01-introduction.tex",
+      "sha256": "d9df34764dab48d839cd4e8bdf612d167a9fd92e2a243e08c4e50016ffee1f80"
+    },
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/02-setup.tex",
+      "sha256": "9ba2817eda5b94221c4f05ba59835bef53760fbffe7eda896228b323b7cb3beb"
+    },
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/03-counting.tex",
+      "sha256": "ca84ac51bf6c8539f2458bdc462c98ef465ea70afaa15496d0e6fcaec453c243"
+    },
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/04-outer.tex",
+      "sha256": "e602972f1194c81ec780c4e17b8c5d3f94874db59f42dbfbc3008f9cec0d5ae8"
+    },
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/05-dichotomy.tex",
+      "sha256": "ef0ff02ce80fe4351eb84b1f5db0ea2fce0085030f0ee30eea64f6dbec1f26ae"
+    },
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/06-perturbation.tex",
+      "sha256": "863d06426a7f4b24386e39172c1b5b243ff7587179895befd68aa8ff11c38774"
+    },
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/07-transfers.tex",
+      "sha256": "4d54ebb5b4605ad42c2111b5d4d723ac010cacd76da1bc04c581c5a04b04502d"
+    },
+    {
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/08-upper.tex",
+      "sha256": "76d46da40c1d8cdef2b2f2b0efda291e8d9f2b73a401d3fb408828a40509cda3"
+    }
+  ],
+  "reviewed_pr_heads": {
+    "10": "815a4c0b3afd7738a0d7428550bd040db8d9803d",
+    "9": "89660352f5dfcf1180a47b224610d444b2ce8701",
+    "7": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+    "6": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+    "4": "4b4e80ea5e0ffec956577004905f22659af0bff5",
+    "3": "6caa55cb9d6ed24e6f50ad54d0760b9853faca4e"
+  }
+}

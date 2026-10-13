@@ -1,0 +1,2657 @@
+{
+  "checks_not_executed_again_during_submission_preparation": true,
+  "finite_corroboration_only": {
+    "balanced_start_form_identities": 248,
+    "coherent_return_form_identities": 248,
+    "execution_boundary": {
+      "installation_or_external_models": false,
+      "submitted_source_or_prior_review_programs_executed": false,
+      "theorem_sized_colorings_generated": false
+    },
+    "finite_evidence_limit": "The small enumerations and identities corroborate exact primitives. Universal geometry, counting, LLL, and effective termination require the separately reconstructed analytic proof.",
+    "independent_digit_products": [
+      {
+        "L": 7,
+        "all_ordinary_4_APs_checked": 5,
+        "s": 1
+      },
+      {
+        "L": 49,
+        "all_ordinary_4_APs_checked": 376,
+        "s": 2
+      },
+      {
+        "L": 343,
+        "all_ordinary_4_APs_checked": 19437,
+        "s": 3
+      }
+    ],
+    "independent_small_cyclic_exhaustions": [
+      {
+        "N": 5,
+        "candidates_checked": 32,
+        "first_valid_mask": null,
+        "k": 3,
+        "ordered_nonzero_APs_per_candidate": 20
+      },
+      {
+        "N": 7,
+        "candidates_checked": 12,
+        "first_valid_mask": 11,
+        "k": 4,
+        "ordered_nonzero_APs_per_candidate": 42
+      },
+      {
+        "N": 11,
+        "candidates_checked": 80,
+        "first_valid_mask": 79,
+        "k": 5,
+        "ordered_nonzero_APs_per_candidate": 110
+      }
+    ],
+    "mesh_controls": {
+      "cut_label": 0,
+      "keys": [
+        [
+          [
+            1881,
+            861
+          ],
+          3600
+        ],
+        [
+          [
+            1881,
+            861
+          ],
+          3600
+        ],
+        [
+          [
+            1880,
+            861
+          ],
+          3602
+        ]
+      ],
+      "literal_small_m": 42,
+      "not_literal_large_theorem_instances": true,
+      "repeated_key_case_m": 941,
+      "zero_label": 83
+    },
+    "nonzero_lower_tail_controls": 177,
+    "rank_profile_counts": [
+      {
+        "D": 1,
+        "R": 1,
+        "cases": 12,
+        "rho": 1
+      },
+      {
+        "D": 2,
+        "R": 1,
+        "cases": 2,
+        "rho": 1
+      },
+      {
+        "D": 2,
+        "R": 2,
+        "cases": 4,
+        "rho": 1
+      },
+      {
+        "D": 2,
+        "R": 2,
+        "cases": 6,
+        "rho": 2
+      },
+      {
+        "D": 3,
+        "R": 1,
+        "cases": 2,
+        "rho": 1
+      },
+      {
+        "D": 3,
+        "R": 2,
+        "cases": 2,
+        "rho": 1
+      },
+      {
+        "D": 3,
+        "R": 2,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 3,
+        "R": 3,
+        "cases": 3,
+        "rho": 2
+      },
+      {
+        "D": 3,
+        "R": 3,
+        "cases": 4,
+        "rho": 3
+      },
+      {
+        "D": 4,
+        "R": 1,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 4,
+        "R": 2,
+        "cases": 2,
+        "rho": 1
+      },
+      {
+        "D": 4,
+        "R": 2,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 4,
+        "R": 4,
+        "cases": 2,
+        "rho": 2
+      },
+      {
+        "D": 4,
+        "R": 3,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 4,
+        "R": 4,
+        "cases": 2,
+        "rho": 3
+      },
+      {
+        "D": 4,
+        "R": 4,
+        "cases": 3,
+        "rho": 4
+      },
+      {
+        "D": 5,
+        "R": 1,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 5,
+        "R": 2,
+        "cases": 2,
+        "rho": 1
+      },
+      {
+        "D": 5,
+        "R": 2,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 5,
+        "R": 4,
+        "cases": 2,
+        "rho": 2
+      },
+      {
+        "D": 5,
+        "R": 3,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 5,
+        "R": 5,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 5,
+        "R": 4,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 5,
+        "R": 5,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 5,
+        "R": 5,
+        "cases": 2,
+        "rho": 5
+      },
+      {
+        "D": 6,
+        "R": 1,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 6,
+        "R": 2,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 6,
+        "R": 2,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 6,
+        "R": 4,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 6,
+        "R": 3,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 6,
+        "R": 6,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 6,
+        "R": 4,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 6,
+        "R": 6,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 6,
+        "R": 6,
+        "cases": 2,
+        "rho": 5
+      },
+      {
+        "D": 6,
+        "R": 6,
+        "cases": 2,
+        "rho": 6
+      },
+      {
+        "D": 7,
+        "R": 1,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 7,
+        "R": 2,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 7,
+        "R": 2,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 7,
+        "R": 4,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 7,
+        "R": 3,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 7,
+        "R": 6,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 7,
+        "R": 4,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 7,
+        "R": 7,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 7,
+        "R": 7,
+        "cases": 2,
+        "rho": 5
+      },
+      {
+        "D": 7,
+        "R": 7,
+        "cases": 1,
+        "rho": 6
+      },
+      {
+        "D": 7,
+        "R": 7,
+        "cases": 1,
+        "rho": 7
+      },
+      {
+        "D": 8,
+        "R": 1,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 8,
+        "R": 2,
+        "cases": 1,
+        "rho": 1
+      },
+      {
+        "D": 8,
+        "R": 2,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 8,
+        "R": 4,
+        "cases": 1,
+        "rho": 2
+      },
+      {
+        "D": 8,
+        "R": 3,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 8,
+        "R": 6,
+        "cases": 1,
+        "rho": 3
+      },
+      {
+        "D": 8,
+        "R": 4,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 8,
+        "R": 8,
+        "cases": 1,
+        "rho": 4
+      },
+      {
+        "D": 8,
+        "R": 8,
+        "cases": 1,
+        "rho": 5
+      },
+      {
+        "D": 8,
+        "R": 8,
+        "cases": 1,
+        "rho": 6
+      },
+      {
+        "D": 8,
+        "R": 8,
+        "cases": 1,
+        "rho": 7
+      },
+      {
+        "D": 8,
+        "R": 8,
+        "cases": 1,
+        "rho": 8
+      }
+    ],
+    "rank_scope": "Exact rational minors; a bounded-entry matrix of determinant -523 verifies why a modular-rank requirement is not a premise. Generated carry rows/vertex parameters test algebra, not the global certificate-count theorem.",
+    "rational_rank_cases": 96,
+    "status": "all_reviewer_owned_assertions_passed",
+    "strict_FM_controls": 6,
+    "threshold_proof": "Monomial x^-d(log x)^j is decreasing for log x>=j/d; log(2^t) lies between t/2 and t. The recorded integer tests imply every checklist condition for every k>=2^t. No giant k or K was constructed.",
+    "thresholds": {
+      "general_1/100": {
+        "K": "2^8388608",
+        "checks": [
+          {
+            "lhs": "4",
+            "name": "k>=16",
+            "passed": true,
+            "rhs": "8388608"
+          },
+          {
+            "lhs": "1",
+            "name": "logk>=1",
+            "passed": true,
+            "rhs": "4194304"
+          },
+          {
+            "lhs": "3520000",
+            "name": "anchor entropy",
+            "passed": true,
+            "rhs": "4194304"
+          },
+          {
+            "lhs": "1220000",
+            "name": "third incidence entropy",
+            "passed": true,
+            "rhs": "4194304"
+          },
+          {
+            "lhs": "1/8796093022208",
+            "name": "regular fraction",
+            "passed": true,
+            "rhs": "1/100"
+          },
+          {
+            "A": "128",
+            "decay": "13/25",
+            "floor_decay_t": 4362076,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dimension",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 8,
+            "target": "1"
+          },
+          {
+            "A": "8",
+            "decay": "49/100",
+            "floor_decay_t": 4110417,
+            "integer_comparison_passed": true,
+            "log_degree": 2,
+            "monotone_for_all_larger_k": true,
+            "name": "short period cutoff",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 50,
+            "target": "1"
+          },
+          {
+            "A": "64",
+            "decay": "3/100",
+            "floor_decay_t": 251658,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "small blocks",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 7,
+            "target": "1"
+          },
+          {
+            "A": "128",
+            "decay": "31/20",
+            "floor_decay_t": 13002342,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rotating drift",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 14,
+            "target": "1/100"
+          },
+          {
+            "A": "4851/2500",
+            "decay": "3/100",
+            "floor_decay_t": 251658,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dichotomy remainder",
+            "passed": true,
+            "ratio_denominator_bits": 14,
+            "ratio_numerator_bits": 21,
+            "target": "10249/1000000"
+          },
+          {
+            "A": "1",
+            "decay": "47/100",
+            "floor_decay_t": 3942645,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "flip bias",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 2,
+            "target": "1/2"
+          },
+          {
+            "A": "40001",
+            "decay": "97/100",
+            "floor_decay_t": 8136949,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "first row size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 22,
+            "target": "1/100"
+          },
+          {
+            "A": "80000",
+            "decay": "12/25",
+            "floor_decay_t": 4026531,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 17,
+            "target": "1"
+          },
+          {
+            "A": "80000",
+            "decay": "12/25",
+            "floor_decay_t": 4026531,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "third size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 17,
+            "target": "1"
+          },
+          {
+            "A": "279",
+            "decay": "1/100",
+            "floor_decay_t": 83886,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "first incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 98,
+            "target": "1/1000000"
+          },
+          {
+            "A": "84",
+            "decay": "12/25",
+            "floor_decay_t": 4026531,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 20,
+            "target": "1/10000"
+          },
+          {
+            "lhs": "625/262144",
+            "name": "rich inverse log",
+            "passed": true,
+            "rhs": "2303/120000"
+          },
+          {
+            "A": "10000",
+            "decay": "13/25",
+            "floor_decay_t": 4362076,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich dimension error",
+            "passed": true,
+            "ratio_denominator_bits": 12,
+            "ratio_numerator_bits": 31,
+            "target": "2303/120000"
+          },
+          {
+            "A": "10000",
+            "decay": "12/25",
+            "floor_decay_t": 4026531,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich digit error",
+            "passed": true,
+            "ratio_denominator_bits": 12,
+            "ratio_numerator_bits": 31,
+            "target": "2303/120000"
+          },
+          {
+            "A": "200",
+            "decay": "1/20",
+            "floor_decay_t": 419430,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "heavy run entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 80,
+            "target": "1/8"
+          },
+          {
+            "A": "200",
+            "decay": "1/100",
+            "floor_decay_t": 83886,
+            "integer_comparison_passed": true,
+            "log_degree": 1,
+            "monotone_for_all_larger_k": true,
+            "name": "affine key entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 34,
+            "target": "1/8"
+          }
+        ],
+        "constants": {
+          "B0": 12804,
+          "C1": 279,
+          "CL": 88,
+          "L_epsilon": 19
+        },
+        "doubling_rounds": 22,
+        "margins": {
+          "a": "12/25",
+          "a_minus_b": "1/100",
+          "b": "47/100",
+          "c": "1/100",
+          "delta": "1/100",
+          "delta_s": "1/2",
+          "eps": "1/100",
+          "eps_reg": "1/100",
+          "half_minus_eps": "49/100",
+          "m_minus_2a": "1/100",
+          "nonrich": "1/20",
+          "one_minus_delta": "99/100",
+          "one_minus_delta_s": "1/2",
+          "one_minus_m": "3/100",
+          "outer_balance": "10249/1000000",
+          "rich_mu": "2009/20000"
+        },
+        "parameters": {
+          "a": "12/25",
+          "b": "47/100",
+          "c": "1/100",
+          "delta": "1/100",
+          "delta_s": "1/2",
+          "eps": "1/100",
+          "eps_reg": "1/100",
+          "gamma": "47/100",
+          "m": "97/100"
+        },
+        "passed": true,
+        "route": "digit-runs",
+        "t": 8388608,
+        "valid_region": true
+      },
+      "general_1/9": {
+        "K": "2^67108864",
+        "checks": [
+          {
+            "lhs": "4",
+            "name": "k>=16",
+            "passed": true,
+            "rhs": "67108864"
+          },
+          {
+            "lhs": "1",
+            "name": "logk>=1",
+            "passed": true,
+            "rhs": "33554432"
+          },
+          {
+            "lhs": "31850496",
+            "name": "anchor entropy",
+            "passed": true,
+            "rhs": "33554432"
+          },
+          {
+            "lhs": "10616832",
+            "name": "third incidence entropy",
+            "passed": true,
+            "rhs": "33554432"
+          },
+          {
+            "lhs": "1/562949953421312",
+            "name": "regular fraction",
+            "passed": true,
+            "rhs": "1/288"
+          },
+          {
+            "A": "128",
+            "decay": "73/144",
+            "floor_decay_t": 34020465,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dimension",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 8,
+            "target": "1"
+          },
+          {
+            "A": "8",
+            "decay": "143/288",
+            "floor_decay_t": 33321415,
+            "integer_comparison_passed": true,
+            "log_degree": 2,
+            "monotone_for_all_larger_k": true,
+            "name": "short period cutoff",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 56,
+            "target": "1"
+          },
+          {
+            "A": "64",
+            "decay": "1/96",
+            "floor_decay_t": 699050,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "small blocks",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 7,
+            "target": "1"
+          },
+          {
+            "A": "128",
+            "decay": "437/288",
+            "floor_decay_t": 101828380,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rotating drift",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 16,
+            "target": "1/288"
+          },
+          {
+            "A": "41041/20736",
+            "decay": "1/96",
+            "floor_decay_t": 699050,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dichotomy remainder",
+            "passed": true,
+            "ratio_denominator_bits": 17,
+            "ratio_numerator_bits": 26,
+            "target": "83663/23887872"
+          },
+          {
+            "A": "1",
+            "decay": "47/96",
+            "floor_decay_t": 32855381,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "flip bias",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 2,
+            "target": "1/2"
+          },
+          {
+            "A": "331777",
+            "decay": "95/96",
+            "floor_decay_t": 66409813,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "first row size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 27,
+            "target": "1/288"
+          },
+          {
+            "A": "663552",
+            "decay": "71/144",
+            "floor_decay_t": 33088398,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 20,
+            "target": "1"
+          },
+          {
+            "A": "663552",
+            "decay": "71/144",
+            "floor_decay_t": 33088398,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "third size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 20,
+            "target": "1"
+          },
+          {
+            "A": "282",
+            "decay": "1/288",
+            "floor_decay_t": 233016,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "first incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 111,
+            "target": "1/23887872"
+          },
+          {
+            "A": "96",
+            "decay": "71/144",
+            "floor_decay_t": 33088398,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 23,
+            "target": "1/82944"
+          },
+          {
+            "lhs": "625/2097152",
+            "name": "rich inverse log",
+            "passed": true,
+            "rhs": "161/55296"
+          },
+          {
+            "A": "10000",
+            "decay": "73/144",
+            "floor_decay_t": 34020465,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich dimension error",
+            "passed": true,
+            "ratio_denominator_bits": 8,
+            "ratio_numerator_bits": 30,
+            "target": "161/55296"
+          },
+          {
+            "A": "10000",
+            "decay": "71/144",
+            "floor_decay_t": 33088398,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich digit error",
+            "passed": true,
+            "ratio_denominator_bits": 8,
+            "ratio_numerator_bits": 30,
+            "target": "161/55296"
+          },
+          {
+            "A": "200",
+            "decay": "5/288",
+            "floor_decay_t": 1165084,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "heavy run entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 89,
+            "target": "1/8"
+          },
+          {
+            "A": "200",
+            "decay": "1/288",
+            "floor_decay_t": 233016,
+            "integer_comparison_passed": true,
+            "log_degree": 1,
+            "monotone_for_all_larger_k": true,
+            "name": "affine key entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 37,
+            "target": "1/8"
+          }
+        ],
+        "constants": {
+          "B0": 36868,
+          "C1": 282,
+          "CL": 96,
+          "L_epsilon": 22
+        },
+        "doubling_rounds": 25,
+        "margins": {
+          "a": "71/144",
+          "a_minus_b": "1/288",
+          "b": "47/96",
+          "c": "1/9",
+          "delta": "1/288",
+          "delta_s": "1/2",
+          "eps": "1/288",
+          "eps_reg": "1/288",
+          "half_minus_eps": "143/288",
+          "m_minus_2a": "1/288",
+          "nonrich": "5/288",
+          "one_minus_delta": "287/288",
+          "one_minus_delta_s": "1/2",
+          "one_minus_m": "1/96",
+          "outer_balance": "83663/23887872",
+          "rich_mu": "161/18432"
+        },
+        "parameters": {
+          "a": "71/144",
+          "b": "47/96",
+          "c": "1/9",
+          "delta": "1/288",
+          "delta_s": "1/2",
+          "eps": "1/288",
+          "eps_reg": "1/288",
+          "gamma": "47/96",
+          "m": "95/96"
+        },
+        "passed": true,
+        "route": "digit-runs",
+        "t": 67108864,
+        "valid_region": true
+      },
+      "general_1249/10000": {
+        "K": "2^2199023255552",
+        "checks": [
+          {
+            "lhs": "4",
+            "name": "k>=16",
+            "passed": true,
+            "rhs": "2199023255552"
+          },
+          {
+            "lhs": "1",
+            "name": "logk>=1",
+            "passed": true,
+            "rhs": "1099511627776"
+          },
+          {
+            "lhs": "793600000000",
+            "name": "anchor entropy",
+            "passed": true,
+            "rhs": "1099511627776"
+          },
+          {
+            "lhs": "252800000000",
+            "name": "third incidence entropy",
+            "passed": true,
+            "rhs": "1099511627776"
+          },
+          {
+            "lhs": "1/604462909807314587353088",
+            "name": "regular fraction",
+            "passed": true,
+            "rhs": "1/40000"
+          },
+          {
+            "A": "128",
+            "decay": "10001/20000",
+            "floor_decay_t": 1099621578938,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dimension",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 8,
+            "target": "1"
+          },
+          {
+            "A": "8",
+            "decay": "19999/40000",
+            "floor_decay_t": 1099456652194,
+            "integer_comparison_passed": true,
+            "log_degree": 2,
+            "monotone_for_all_larger_k": true,
+            "name": "short period cutoff",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 86,
+            "target": "1"
+          },
+          {
+            "A": "64",
+            "decay": "3/40000",
+            "floor_decay_t": 164926744,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "small blocks",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 7,
+            "target": "1"
+          },
+          {
+            "A": "128",
+            "decay": "12001/8000",
+            "floor_decay_t": 3298809761234,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rotating drift",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 23,
+            "target": "1/40000"
+          },
+          {
+            "A": "799940001/400000000",
+            "decay": "3/40000",
+            "floor_decay_t": 164926744,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dichotomy remainder",
+            "passed": true,
+            "ratio_denominator_bits": 31,
+            "ratio_numerator_bits": 47,
+            "target": "1600099999/64000000000000"
+          },
+          {
+            "A": "1",
+            "decay": "19997/40000",
+            "floor_decay_t": 1099346701031,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "flip bias",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 2,
+            "target": "1/2"
+          },
+          {
+            "A": "6400000001",
+            "decay": "39997/40000",
+            "floor_decay_t": 2198858328807,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "first row size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 48,
+            "target": "1/40000"
+          },
+          {
+            "A": "12800000000",
+            "decay": "9999/20000",
+            "floor_decay_t": 1099401676613,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 34,
+            "target": "1"
+          },
+          {
+            "A": "12800000000",
+            "decay": "9999/20000",
+            "floor_decay_t": 1099401676613,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "third size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 34,
+            "target": "1"
+          },
+          {
+            "A": "297",
+            "decay": "1/40000",
+            "floor_decay_t": 54975581,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "first incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 178,
+            "target": "1/64000000000000"
+          },
+          {
+            "A": "156",
+            "decay": "9999/20000",
+            "floor_decay_t": 1099401676613,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 38,
+            "target": "1/1600000000"
+          },
+          {
+            "lhs": "625/68719476736",
+            "name": "rich inverse log",
+            "passed": true,
+            "rhs": "200009/9600000000"
+          },
+          {
+            "A": "10000",
+            "decay": "10001/20000",
+            "floor_decay_t": 1099621578938,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich dimension error",
+            "passed": true,
+            "ratio_denominator_bits": 18,
+            "ratio_numerator_bits": 47,
+            "target": "200009/9600000000"
+          },
+          {
+            "A": "10000",
+            "decay": "9999/20000",
+            "floor_decay_t": 1099401676613,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich digit error",
+            "passed": true,
+            "ratio_denominator_bits": 18,
+            "ratio_numerator_bits": 47,
+            "target": "200009/9600000000"
+          },
+          {
+            "A": "200",
+            "decay": "1/8000",
+            "floor_decay_t": 274877906,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "heavy run entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 134,
+            "target": "1/8"
+          },
+          {
+            "A": "200",
+            "decay": "1/40000",
+            "floor_decay_t": 54975581,
+            "integer_comparison_passed": true,
+            "log_degree": 1,
+            "monotone_for_all_larger_k": true,
+            "name": "affine key entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 52,
+            "target": "1/8"
+          }
+        ],
+        "constants": {
+          "B0": 5120004,
+          "C1": 297,
+          "CL": 124,
+          "L_epsilon": 37
+        },
+        "doubling_rounds": 40,
+        "margins": {
+          "a": "9999/20000",
+          "a_minus_b": "1/40000",
+          "b": "19997/40000",
+          "c": "1249/10000",
+          "delta": "1/40000",
+          "delta_s": "1/2",
+          "eps": "1/40000",
+          "eps_reg": "1/40000",
+          "half_minus_eps": "19999/40000",
+          "m_minus_2a": "1/40000",
+          "nonrich": "1/8000",
+          "one_minus_delta": "39999/40000",
+          "one_minus_delta_s": "1/2",
+          "one_minus_m": "3/40000",
+          "outer_balance": "1600099999/64000000000000",
+          "rich_mu": "200009/3200000000"
+        },
+        "parameters": {
+          "a": "9999/20000",
+          "b": "19997/40000",
+          "c": "1249/10000",
+          "delta": "1/40000",
+          "delta_s": "1/2",
+          "eps": "1/40000",
+          "eps_reg": "1/40000",
+          "gamma": "19997/40000",
+          "m": "39997/40000"
+        },
+        "passed": true,
+        "route": "digit-runs",
+        "t": 2199023255552,
+        "valid_region": true
+      },
+      "general_near_endpoint": {
+        "K": "2^39614081257132168796771975168",
+        "checks": [
+          {
+            "lhs": "4",
+            "name": "k>=16",
+            "passed": true,
+            "rhs": "39614081257132168796771975168"
+          },
+          {
+            "lhs": "1",
+            "name": "logk>=1",
+            "passed": true,
+            "rhs": "19807040628566084398385987584"
+          },
+          {
+            "lhs": "14592000000000000000000000000",
+            "name": "anchor entropy",
+            "passed": true,
+            "rhs": "19807040628566084398385987584"
+          },
+          {
+            "lhs": "4224000000000000000000000000",
+            "name": "third incidence entropy",
+            "passed": true,
+            "rhs": "19807040628566084398385987584"
+          },
+          {
+            "lhs": "1/196159429230833773869868419475239575503198607639501078528",
+            "name": "regular fraction",
+            "passed": true,
+            "rhs": "1/4000000000000"
+          },
+          {
+            "A": "128",
+            "decay": "1000000000001/2000000000000",
+            "floor_decay_t": 19807040628585891439014553668,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dimension",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 8,
+            "target": "1"
+          },
+          {
+            "A": "8",
+            "decay": "1999999999999/4000000000000",
+            "floor_decay_t": 19807040628556180878071704541,
+            "integer_comparison_passed": true,
+            "log_degree": 2,
+            "monotone_for_all_larger_k": true,
+            "name": "short period cutoff",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 194,
+            "target": "1"
+          },
+          {
+            "A": "64",
+            "decay": "3/4000000000000",
+            "floor_decay_t": 29710560942849126,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "small blocks",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 7,
+            "target": "1"
+          },
+          {
+            "A": "128",
+            "decay": "1200000000001/800000000000",
+            "floor_decay_t": 59421121885747770796729377962,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rotating drift",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 49,
+            "target": "1/4000000000000"
+          },
+          {
+            "A": "7999999999994000000000001/4000000000000000000000000",
+            "decay": "3/4000000000000",
+            "floor_decay_t": 29710560942849126,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dichotomy remainder",
+            "passed": true,
+            "ratio_denominator_bits": 84,
+            "ratio_numerator_bits": 127,
+            "target": "16000000000009999999999999/64000000000000000000000000000000000000"
+          },
+          {
+            "A": "1",
+            "decay": "1999999999997/4000000000000",
+            "floor_decay_t": 19807040628536373837443138457,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "flip bias",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 2,
+            "target": "1/2"
+          },
+          {
+            "A": "64000000000000000000000001",
+            "decay": "3999999999997/4000000000000",
+            "floor_decay_t": 39614081257102458235829126041,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "first row size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 128,
+            "target": "1/4000000000000"
+          },
+          {
+            "A": "128000000000000000000000000",
+            "decay": "999999999999/2000000000000",
+            "floor_decay_t": 19807040628546277357757421499,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 87,
+            "target": "1"
+          },
+          {
+            "A": "128000000000000000000000000",
+            "decay": "999999999999/2000000000000",
+            "floor_decay_t": 19807040628546277357757421499,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "third size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 87,
+            "target": "1"
+          },
+          {
+            "A": "350",
+            "decay": "1/4000000000000",
+            "floor_decay_t": 9903520314283042,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "first incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 420,
+            "target": "1/64000000000000000000000000000000000000"
+          },
+          {
+            "A": "368",
+            "decay": "999999999999/2000000000000",
+            "floor_decay_t": 19807040628546277357757421499,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 93,
+            "target": "1/16000000000000000000000000"
+          },
+          {
+            "lhs": "625/1237940039285380274899124224",
+            "name": "rich inverse log",
+            "passed": true,
+            "rhs": "20000000000009/96000000000000000000000000"
+          },
+          {
+            "A": "10000",
+            "decay": "1000000000001/2000000000000",
+            "floor_decay_t": 19807040628585891439014553668,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich dimension error",
+            "passed": true,
+            "ratio_denominator_bits": 45,
+            "ratio_numerator_bits": 100,
+            "target": "20000000000009/96000000000000000000000000"
+          },
+          {
+            "A": "10000",
+            "decay": "999999999999/2000000000000",
+            "floor_decay_t": 19807040628546277357757421499,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich digit error",
+            "passed": true,
+            "ratio_denominator_bits": 45,
+            "ratio_numerator_bits": 100,
+            "target": "20000000000009/96000000000000000000000000"
+          },
+          {
+            "A": "200",
+            "decay": "1/800000000000",
+            "floor_decay_t": 49517601571415210,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "heavy run entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 296,
+            "target": "1/8"
+          },
+          {
+            "A": "200",
+            "decay": "1/4000000000000",
+            "floor_decay_t": 9903520314283042,
+            "integer_comparison_passed": true,
+            "log_degree": 1,
+            "monotone_for_all_larger_k": true,
+            "name": "affine key entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 106,
+            "target": "1/8"
+          }
+        ],
+        "constants": {
+          "B0": 512000000000004,
+          "C1": 350,
+          "CL": 228,
+          "L_epsilon": 90
+        },
+        "doubling_rounds": 94,
+        "margins": {
+          "a": "999999999999/2000000000000",
+          "a_minus_b": "1/4000000000000",
+          "b": "1999999999997/4000000000000",
+          "c": "124999999999/1000000000000",
+          "delta": "1/4000000000000",
+          "delta_s": "1/2",
+          "eps": "1/4000000000000",
+          "eps_reg": "1/4000000000000",
+          "half_minus_eps": "1999999999999/4000000000000",
+          "m_minus_2a": "1/4000000000000",
+          "nonrich": "1/800000000000",
+          "one_minus_delta": "3999999999999/4000000000000",
+          "one_minus_delta_s": "1/2",
+          "one_minus_m": "3/4000000000000",
+          "outer_balance": "16000000000009999999999999/64000000000000000000000000000000000000",
+          "rich_mu": "20000000000009/32000000000000000000000000"
+        },
+        "parameters": {
+          "a": "999999999999/2000000000000",
+          "b": "1999999999997/4000000000000",
+          "c": "124999999999/1000000000000",
+          "delta": "1/4000000000000",
+          "delta_s": "1/2",
+          "eps": "1/4000000000000",
+          "eps_reg": "1/4000000000000",
+          "gamma": "1999999999997/4000000000000",
+          "m": "3999999999997/4000000000000"
+        },
+        "passed": true,
+        "route": "digit-runs",
+        "t": 39614081257132168796771975168,
+        "valid_region": true
+      },
+      "literal_PR6": {
+        "K": "2^33554432",
+        "checks": [
+          {
+            "lhs": "4",
+            "name": "k>=16",
+            "passed": true,
+            "rhs": "33554432"
+          },
+          {
+            "lhs": "1",
+            "name": "logk>=1",
+            "passed": true,
+            "rhs": "16777216"
+          },
+          {
+            "lhs": "14720000",
+            "name": "anchor entropy",
+            "passed": true,
+            "rhs": "16777216"
+          },
+          {
+            "lhs": "5040000",
+            "name": "third incidence entropy",
+            "passed": true,
+            "rhs": "16777216"
+          },
+          {
+            "lhs": "1/140737488355328",
+            "name": "regular fraction",
+            "passed": true,
+            "rhs": "1/200"
+          },
+          {
+            "A": "128",
+            "decay": "667/1000",
+            "floor_decay_t": 22380806,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dimension",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 8,
+            "target": "1"
+          },
+          {
+            "A": "8",
+            "decay": "467/1000",
+            "floor_decay_t": 15669919,
+            "integer_comparison_passed": true,
+            "log_degree": 2,
+            "monotone_for_all_larger_k": true,
+            "name": "short period cutoff",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 54,
+            "target": "1"
+          },
+          {
+            "A": "64",
+            "decay": "1/5",
+            "floor_decay_t": 6710886,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "small blocks",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 7,
+            "target": "1"
+          },
+          {
+            "A": "128",
+            "decay": "1867/1000",
+            "floor_decay_t": 62646124,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rotating drift",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 15,
+            "target": "1/200"
+          },
+          {
+            "A": "19701/10000",
+            "decay": "1/5",
+            "floor_decay_t": 6710886,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dichotomy remainder",
+            "passed": true,
+            "ratio_denominator_bits": 16,
+            "ratio_numerator_bits": 24,
+            "target": "40499/8000000"
+          },
+          {
+            "A": "1",
+            "decay": "331/1000",
+            "floor_decay_t": 11106516,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "flip bias",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 2,
+            "target": "1/2"
+          },
+          {
+            "A": "160001",
+            "decay": "4/5",
+            "floor_decay_t": 26843545,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "first row size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 25,
+            "target": "1/200"
+          },
+          {
+            "A": "320000",
+            "decay": "333/1000",
+            "floor_decay_t": 11173625,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 19,
+            "target": "1"
+          },
+          {
+            "A": "320000",
+            "decay": "333/1000",
+            "floor_decay_t": 11173625,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "third size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 19,
+            "target": "1"
+          },
+          {
+            "A": "281",
+            "decay": "67/500",
+            "floor_decay_t": 4496293,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "first incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 107,
+            "target": "1/8000000"
+          },
+          {
+            "A": "92",
+            "decay": "333/1000",
+            "floor_decay_t": 11173625,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 22,
+            "target": "1/40000"
+          },
+          {
+            "lhs": "625/1048576",
+            "name": "rich inverse log",
+            "passed": true,
+            "rhs": "857/1200000"
+          },
+          {
+            "A": "10000",
+            "decay": "667/1000",
+            "floor_decay_t": 22380806,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich dimension error",
+            "passed": true,
+            "ratio_denominator_bits": 10,
+            "ratio_numerator_bits": 34,
+            "target": "857/1200000"
+          },
+          {
+            "A": "10000",
+            "decay": "333/1000",
+            "floor_decay_t": 11173625,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich digit error",
+            "passed": true,
+            "ratio_denominator_bits": 10,
+            "ratio_numerator_bits": 34,
+            "target": "857/1200000"
+          },
+          {
+            "A": "300",
+            "decay": "3/1000",
+            "floor_decay_t": 100663,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "affine full-label entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 86,
+            "target": "1/4"
+          },
+          {
+            "A": "300",
+            "decay": "1/500",
+            "floor_decay_t": 67108,
+            "integer_comparison_passed": true,
+            "log_degree": 1,
+            "monotone_for_all_larger_k": true,
+            "name": "affine band entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 36,
+            "target": "1/4"
+          }
+        ],
+        "constants": {
+          "B0": 25604,
+          "C1": 281,
+          "CL": 92,
+          "L_epsilon": 21
+        },
+        "doubling_rounds": 24,
+        "margins": {
+          "a": "333/1000",
+          "a_minus_b": "1/500",
+          "b": "331/1000",
+          "c": "1/16",
+          "delta": "1/200",
+          "delta_s": "1/2",
+          "eps": "1/200",
+          "eps_reg": "1/200",
+          "half_minus_eps": "99/200",
+          "m_minus_2a": "67/500",
+          "nonrich": "3/1000",
+          "one_minus_delta": "199/200",
+          "one_minus_delta_s": "1/2",
+          "one_minus_m": "1/5",
+          "outer_balance": "40499/8000000",
+          "rich_mu": "857/400000"
+        },
+        "parameters": {
+          "a": "333/1000",
+          "b": "331/1000",
+          "c": "1/16",
+          "delta": "1/200",
+          "delta_s": "1/2",
+          "eps": "1/200",
+          "eps_reg": "1/200",
+          "gamma": "97/200",
+          "m": "4/5"
+        },
+        "passed": true,
+        "route": "carry-affine",
+        "t": 33554432,
+        "valid_region": true
+      },
+      "literal_PR7": {
+        "K": "2^33554432",
+        "checks": [
+          {
+            "lhs": "4",
+            "name": "k>=16",
+            "passed": true,
+            "rhs": "33554432"
+          },
+          {
+            "lhs": "1",
+            "name": "logk>=1",
+            "passed": true,
+            "rhs": "16777216"
+          },
+          {
+            "lhs": "14720000",
+            "name": "anchor entropy",
+            "passed": true,
+            "rhs": "16777216"
+          },
+          {
+            "lhs": "5040000",
+            "name": "third incidence entropy",
+            "passed": true,
+            "rhs": "16777216"
+          },
+          {
+            "lhs": "1/140737488355328",
+            "name": "regular fraction",
+            "passed": true,
+            "rhs": "1/200"
+          },
+          {
+            "A": "128",
+            "decay": "51/100",
+            "floor_decay_t": 17112760,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dimension",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 8,
+            "target": "1"
+          },
+          {
+            "A": "8",
+            "decay": "1/2",
+            "floor_decay_t": 16777216,
+            "integer_comparison_passed": true,
+            "log_degree": 2,
+            "monotone_for_all_larger_k": true,
+            "name": "short period cutoff",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 54,
+            "target": "1"
+          },
+          {
+            "A": "64",
+            "decay": "1/100",
+            "floor_decay_t": 335544,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "small blocks",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 7,
+            "target": "1"
+          },
+          {
+            "A": "128",
+            "decay": "38/25",
+            "floor_decay_t": 51002736,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rotating drift",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 15,
+            "target": "1/200"
+          },
+          {
+            "A": "19701/10000",
+            "decay": "1/100",
+            "floor_decay_t": 335544,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "dichotomy remainder",
+            "passed": true,
+            "ratio_denominator_bits": 16,
+            "ratio_numerator_bits": 24,
+            "target": "40499/8000000"
+          },
+          {
+            "A": "1",
+            "decay": "97/200",
+            "floor_decay_t": 16273899,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "flip bias",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 2,
+            "target": "1/2"
+          },
+          {
+            "A": "160001",
+            "decay": "99/100",
+            "floor_decay_t": 33218887,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "first row size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 25,
+            "target": "1/200"
+          },
+          {
+            "A": "320000",
+            "decay": "49/100",
+            "floor_decay_t": 16441671,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 19,
+            "target": "1"
+          },
+          {
+            "A": "320000",
+            "decay": "49/100",
+            "floor_decay_t": 16441671,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "third size",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 19,
+            "target": "1"
+          },
+          {
+            "A": "281",
+            "decay": "1/100",
+            "floor_decay_t": 335544,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "first incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 107,
+            "target": "1/8000000"
+          },
+          {
+            "A": "92",
+            "decay": "49/100",
+            "floor_decay_t": 16441671,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "second incidence",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 22,
+            "target": "1/40000"
+          },
+          {
+            "lhs": "625/1048576",
+            "name": "rich inverse log",
+            "passed": true,
+            "rhs": "4681/2160000"
+          },
+          {
+            "A": "10000",
+            "decay": "51/100",
+            "floor_decay_t": 17112760,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich dimension error",
+            "passed": true,
+            "ratio_denominator_bits": 13,
+            "ratio_numerator_bits": 35,
+            "target": "4681/2160000"
+          },
+          {
+            "A": "10000",
+            "decay": "49/100",
+            "floor_decay_t": 16441671,
+            "integer_comparison_passed": true,
+            "log_degree": 0,
+            "monotone_for_all_larger_k": true,
+            "name": "rich digit error",
+            "passed": true,
+            "ratio_denominator_bits": 13,
+            "ratio_numerator_bits": 35,
+            "target": "4681/2160000"
+          },
+          {
+            "A": "200",
+            "decay": "1/40",
+            "floor_decay_t": 838860,
+            "integer_comparison_passed": true,
+            "log_degree": 3,
+            "monotone_for_all_larger_k": true,
+            "name": "heavy run entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 86,
+            "target": "1/8"
+          },
+          {
+            "A": "200",
+            "decay": "1/200",
+            "floor_decay_t": 167772,
+            "integer_comparison_passed": true,
+            "log_degree": 1,
+            "monotone_for_all_larger_k": true,
+            "name": "affine key entropy",
+            "passed": true,
+            "ratio_denominator_bits": 1,
+            "ratio_numerator_bits": 36,
+            "target": "1/8"
+          }
+        ],
+        "constants": {
+          "B0": 25604,
+          "C1": 281,
+          "CL": 92,
+          "L_epsilon": 21
+        },
+        "doubling_rounds": 24,
+        "margins": {
+          "a": "49/100",
+          "a_minus_b": "1/200",
+          "b": "97/200",
+          "c": "1/9",
+          "delta": "1/200",
+          "delta_s": "1/2",
+          "eps": "1/200",
+          "eps_reg": "1/200",
+          "half_minus_eps": "99/200",
+          "m_minus_2a": "1/100",
+          "nonrich": "1/40",
+          "one_minus_delta": "199/200",
+          "one_minus_delta_s": "1/2",
+          "one_minus_m": "1/100",
+          "outer_balance": "40499/8000000",
+          "rich_mu": "4681/720000"
+        },
+        "parameters": {
+          "a": "49/100",
+          "b": "97/200",
+          "c": "1/9",
+          "delta": "1/200",
+          "delta_s": "1/2",
+          "eps": "1/200",
+          "eps_reg": "1/200",
+          "gamma": "97/200",
+          "m": "99/100"
+        },
+        "passed": true,
+        "route": "digit-runs",
+        "t": 33554432,
+        "valid_region": true
+      }
+    },
+    "vertex_identity_cases": 96
+  },
+  "literal_certificates": {
+    "literal_PR6": {
+      "K": "2^33554432",
+      "checks": [
+        {
+          "lhs": "4",
+          "name": "k>=16",
+          "passed": true,
+          "rhs": "33554432"
+        },
+        {
+          "lhs": "1",
+          "name": "logk>=1",
+          "passed": true,
+          "rhs": "16777216"
+        },
+        {
+          "lhs": "14720000",
+          "name": "anchor entropy",
+          "passed": true,
+          "rhs": "16777216"
+        },
+        {
+          "lhs": "5040000",
+          "name": "third incidence entropy",
+          "passed": true,
+          "rhs": "16777216"
+        },
+        {
+          "lhs": "1/140737488355328",
+          "name": "regular fraction",
+          "passed": true,
+          "rhs": "1/200"
+        },
+        {
+          "A": "128",
+          "decay": "667/1000",
+          "floor_decay_t": 22380806,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "dimension",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 8,
+          "target": "1"
+        },
+        {
+          "A": "8",
+          "decay": "467/1000",
+          "floor_decay_t": 15669919,
+          "integer_comparison_passed": true,
+          "log_degree": 2,
+          "monotone_for_all_larger_k": true,
+          "name": "short period cutoff",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 54,
+          "target": "1"
+        },
+        {
+          "A": "64",
+          "decay": "1/5",
+          "floor_decay_t": 6710886,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "small blocks",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 7,
+          "target": "1"
+        },
+        {
+          "A": "128",
+          "decay": "1867/1000",
+          "floor_decay_t": 62646124,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "rotating drift",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 15,
+          "target": "1/200"
+        },
+        {
+          "A": "19701/10000",
+          "decay": "1/5",
+          "floor_decay_t": 6710886,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "dichotomy remainder",
+          "passed": true,
+          "ratio_denominator_bits": 16,
+          "ratio_numerator_bits": 24,
+          "target": "40499/8000000"
+        },
+        {
+          "A": "1",
+          "decay": "331/1000",
+          "floor_decay_t": 11106516,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "flip bias",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 2,
+          "target": "1/2"
+        },
+        {
+          "A": "160001",
+          "decay": "4/5",
+          "floor_decay_t": 26843545,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "first row size",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 25,
+          "target": "1/200"
+        },
+        {
+          "A": "320000",
+          "decay": "333/1000",
+          "floor_decay_t": 11173625,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "second size",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 19,
+          "target": "1"
+        },
+        {
+          "A": "320000",
+          "decay": "333/1000",
+          "floor_decay_t": 11173625,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "third size",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 19,
+          "target": "1"
+        },
+        {
+          "A": "281",
+          "decay": "67/500",
+          "floor_decay_t": 4496293,
+          "integer_comparison_passed": true,
+          "log_degree": 3,
+          "monotone_for_all_larger_k": true,
+          "name": "first incidence",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 107,
+          "target": "1/8000000"
+        },
+        {
+          "A": "92",
+          "decay": "333/1000",
+          "floor_decay_t": 11173625,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "second incidence",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 22,
+          "target": "1/40000"
+        },
+        {
+          "lhs": "625/1048576",
+          "name": "rich inverse log",
+          "passed": true,
+          "rhs": "857/1200000"
+        },
+        {
+          "A": "10000",
+          "decay": "667/1000",
+          "floor_decay_t": 22380806,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "rich dimension error",
+          "passed": true,
+          "ratio_denominator_bits": 10,
+          "ratio_numerator_bits": 34,
+          "target": "857/1200000"
+        },
+        {
+          "A": "10000",
+          "decay": "333/1000",
+          "floor_decay_t": 11173625,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "rich digit error",
+          "passed": true,
+          "ratio_denominator_bits": 10,
+          "ratio_numerator_bits": 34,
+          "target": "857/1200000"
+        },
+        {
+          "A": "300",
+          "decay": "3/1000",
+          "floor_decay_t": 100663,
+          "integer_comparison_passed": true,
+          "log_degree": 3,
+          "monotone_for_all_larger_k": true,
+          "name": "affine full-label entropy",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 86,
+          "target": "1/4"
+        },
+        {
+          "A": "300",
+          "decay": "1/500",
+          "floor_decay_t": 67108,
+          "integer_comparison_passed": true,
+          "log_degree": 1,
+          "monotone_for_all_larger_k": true,
+          "name": "affine band entropy",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 36,
+          "target": "1/4"
+        }
+      ],
+      "constants": {
+        "B0": 25604,
+        "C1": 281,
+        "CL": 92,
+        "L_epsilon": 21
+      },
+      "doubling_rounds": 24,
+      "margins": {
+        "a": "333/1000",
+        "a_minus_b": "1/500",
+        "b": "331/1000",
+        "c": "1/16",
+        "delta": "1/200",
+        "delta_s": "1/2",
+        "eps": "1/200",
+        "eps_reg": "1/200",
+        "half_minus_eps": "99/200",
+        "m_minus_2a": "67/500",
+        "nonrich": "3/1000",
+        "one_minus_delta": "199/200",
+        "one_minus_delta_s": "1/2",
+        "one_minus_m": "1/5",
+        "outer_balance": "40499/8000000",
+        "rich_mu": "857/400000"
+      },
+      "parameters": {
+        "a": "333/1000",
+        "b": "331/1000",
+        "c": "1/16",
+        "delta": "1/200",
+        "delta_s": "1/2",
+        "eps": "1/200",
+        "eps_reg": "1/200",
+        "gamma": "97/200",
+        "m": "4/5"
+      },
+      "passed": true,
+      "route": "carry-affine",
+      "t": 33554432,
+      "valid_region": true
+    },
+    "literal_PR7": {
+      "K": "2^33554432",
+      "checks": [
+        {
+          "lhs": "4",
+          "name": "k>=16",
+          "passed": true,
+          "rhs": "33554432"
+        },
+        {
+          "lhs": "1",
+          "name": "logk>=1",
+          "passed": true,
+          "rhs": "16777216"
+        },
+        {
+          "lhs": "14720000",
+          "name": "anchor entropy",
+          "passed": true,
+          "rhs": "16777216"
+        },
+        {
+          "lhs": "5040000",
+          "name": "third incidence entropy",
+          "passed": true,
+          "rhs": "16777216"
+        },
+        {
+          "lhs": "1/140737488355328",
+          "name": "regular fraction",
+          "passed": true,
+          "rhs": "1/200"
+        },
+        {
+          "A": "128",
+          "decay": "51/100",
+          "floor_decay_t": 17112760,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "dimension",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 8,
+          "target": "1"
+        },
+        {
+          "A": "8",
+          "decay": "1/2",
+          "floor_decay_t": 16777216,
+          "integer_comparison_passed": true,
+          "log_degree": 2,
+          "monotone_for_all_larger_k": true,
+          "name": "short period cutoff",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 54,
+          "target": "1"
+        },
+        {
+          "A": "64",
+          "decay": "1/100",
+          "floor_decay_t": 335544,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "small blocks",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 7,
+          "target": "1"
+        },
+        {
+          "A": "128",
+          "decay": "38/25",
+          "floor_decay_t": 51002736,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "rotating drift",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 15,
+          "target": "1/200"
+        },
+        {
+          "A": "19701/10000",
+          "decay": "1/100",
+          "floor_decay_t": 335544,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "dichotomy remainder",
+          "passed": true,
+          "ratio_denominator_bits": 16,
+          "ratio_numerator_bits": 24,
+          "target": "40499/8000000"
+        },
+        {
+          "A": "1",
+          "decay": "97/200",
+          "floor_decay_t": 16273899,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "flip bias",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 2,
+          "target": "1/2"
+        },
+        {
+          "A": "160001",
+          "decay": "99/100",
+          "floor_decay_t": 33218887,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "first row size",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 25,
+          "target": "1/200"
+        },
+        {
+          "A": "320000",
+          "decay": "49/100",
+          "floor_decay_t": 16441671,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "second size",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 19,
+          "target": "1"
+        },
+        {
+          "A": "320000",
+          "decay": "49/100",
+          "floor_decay_t": 16441671,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "third size",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 19,
+          "target": "1"
+        },
+        {
+          "A": "281",
+          "decay": "1/100",
+          "floor_decay_t": 335544,
+          "integer_comparison_passed": true,
+          "log_degree": 3,
+          "monotone_for_all_larger_k": true,
+          "name": "first incidence",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 107,
+          "target": "1/8000000"
+        },
+        {
+          "A": "92",
+          "decay": "49/100",
+          "floor_decay_t": 16441671,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "second incidence",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 22,
+          "target": "1/40000"
+        },
+        {
+          "lhs": "625/1048576",
+          "name": "rich inverse log",
+          "passed": true,
+          "rhs": "4681/2160000"
+        },
+        {
+          "A": "10000",
+          "decay": "51/100",
+          "floor_decay_t": 17112760,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "rich dimension error",
+          "passed": true,
+          "ratio_denominator_bits": 13,
+          "ratio_numerator_bits": 35,
+          "target": "4681/2160000"
+        },
+        {
+          "A": "10000",
+          "decay": "49/100",
+          "floor_decay_t": 16441671,
+          "integer_comparison_passed": true,
+          "log_degree": 0,
+          "monotone_for_all_larger_k": true,
+          "name": "rich digit error",
+          "passed": true,
+          "ratio_denominator_bits": 13,
+          "ratio_numerator_bits": 35,
+          "target": "4681/2160000"
+        },
+        {
+          "A": "200",
+          "decay": "1/40",
+          "floor_decay_t": 838860,
+          "integer_comparison_passed": true,
+          "log_degree": 3,
+          "monotone_for_all_larger_k": true,
+          "name": "heavy run entropy",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 86,
+          "target": "1/8"
+        },
+        {
+          "A": "200",
+          "decay": "1/200",
+          "floor_decay_t": 167772,
+          "integer_comparison_passed": true,
+          "log_degree": 1,
+          "monotone_for_all_larger_k": true,
+          "name": "affine key entropy",
+          "passed": true,
+          "ratio_denominator_bits": 1,
+          "ratio_numerator_bits": 36,
+          "target": "1/8"
+        }
+      ],
+      "constants": {
+        "B0": 25604,
+        "C1": 281,
+        "CL": 92,
+        "L_epsilon": 21
+      },
+      "doubling_rounds": 24,
+      "margins": {
+        "a": "49/100",
+        "a_minus_b": "1/200",
+        "b": "97/200",
+        "c": "1/9",
+        "delta": "1/200",
+        "delta_s": "1/2",
+        "eps": "1/200",
+        "eps_reg": "1/200",
+        "half_minus_eps": "99/200",
+        "m_minus_2a": "1/100",
+        "nonrich": "1/40",
+        "one_minus_delta": "199/200",
+        "one_minus_delta_s": "1/2",
+        "one_minus_m": "1/100",
+        "outer_balance": "40499/8000000",
+        "rich_mu": "4681/720000"
+      },
+      "parameters": {
+        "a": "49/100",
+        "b": "97/200",
+        "c": "1/9",
+        "delta": "1/200",
+        "delta_s": "1/2",
+        "eps": "1/200",
+        "eps_reg": "1/200",
+        "gamma": "97/200",
+        "m": "99/100"
+      },
+      "passed": true,
+      "route": "digit-runs",
+      "t": 33554432,
+      "valid_region": true
+    }
+  },
+  "meaning": "Exact acceptance certificates for the two literal tuples only; all-larger-k conclusions use PROOF 12.1 monotonicity, not finite colorings. General coefficients use their separately computed tuple and K(c).",
+  "no_theorem_sized_coloring_generated": true,
+  "own_check_results_sha256": "d30728062a2e9ed25319971e892b6622df40614e1cfe34fe332a592785601aba",
+  "own_check_run_sha256": "71de959a5b524473874e24c4d20fcde96212b340c57bc1cd58d78ebeb32899ca",
+  "schema_version": 1
+}
