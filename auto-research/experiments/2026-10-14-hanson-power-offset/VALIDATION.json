@@ -1,0 +1,78 @@
+{
+  "python": "3.14.6",
+  "dependencies": {
+    "sympy": "1.14.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "dependency_note": "Harness environment; NumPy and SciPy versions differ from base requirements.txt. Existing expected artifacts reproduced byte-for-byte. Contribution verify.py uses only the standard library.",
+  "commands": [
+    {
+      "command": "python3 -B audit_math.py",
+      "exit_code": 0,
+      "stdout_sha256": "b68fc1e351316f3d8efeadcb178ee41acde4654aafe02798b2a00d261d7355d2",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -B check_complex.py experiments/complex-contractions/baseline.json --output experiments/baseline-independent-check.json",
+      "exit_code": 0,
+      "stdout_sha256": "0448de18c64b4900661c745ad5e5b83f116c0da6c3b1776b47c3ab7e3c10bbec",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -B auto-research/experiments/2026-10-14-hanson-power-offset/check_identities.py",
+      "exit_code": 0,
+      "stdout_sha256": "f3208b63826fb40bb562e1277be239a97b5111b6520336a9a232e1b4d82c9c91",
+      "stderr": ""
+    }
+  ],
+  "baseline_artifacts_match_base": true,
+  "formal_proof": false,
+  "independent_human_review": false,
+  "package_checks": [
+    {
+      "name": "copied_package_normal",
+      "exit_code": 0,
+      "expected": "exact saved report",
+      "observed": "saved report reproduced"
+    },
+    {
+      "name": "copied_package_optimized",
+      "exit_code": 0,
+      "expected": "exact saved report",
+      "observed": "saved report reproduced"
+    },
+    {
+      "name": "changed_proof_rejected",
+      "exit_code": 1,
+      "expected": "package hash mismatch: README.md",
+      "observed": "FAIL: package hash mismatch: README.md"
+    },
+    {
+      "name": "unlisted_nested_file_rejected",
+      "exit_code": 1,
+      "expected": "manifest file set differs",
+      "observed": "FAIL: manifest file set differs from contribution files"
+    },
+    {
+      "name": "false_result_with_rehashed_manifest_rejected",
+      "exit_code": 1,
+      "expected": "computed result differs",
+      "observed": "FAIL: computed result differs from saved RESULT.json"
+    },
+    {
+      "name": "changed_base_source_rejected",
+      "exit_code": 1,
+      "expected": "base source hash mismatch: parameters.json",
+      "observed": "FAIL: base source hash mismatch: parameters.json"
+    }
+  ],
+  "remote_observation": {
+    "head_commit": "ee7a7cd22cbb56294ff635f17078abed02a0bc6b",
+    "run_url": "https://github.com/rohanarun/van-der-waerden-refinement/actions/runs/38591677550",
+    "status": "completed",
+    "conclusion": "action_required",
+    "job_results": "none listed by gh run view",
+    "ci_pass_claimed": false
+  }
+}

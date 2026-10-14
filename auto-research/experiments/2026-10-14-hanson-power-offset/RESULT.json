@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "assignment_seed": 46,
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "result_type": "analytic family characterization and scoped no-gain result",
+  "mathematical_scope": "lambda,s >= 0; scalar profile constraints only",
+  "claim": "constraints hold iff 0<=lambda<=1/2 and s=(1-lambda)/(1+lambda)",
+  "minimum_diagonal_exponent": "4/3",
+  "finite_domain": {
+    "grid": "1<=a,b,h<=16; concavity centers b>=2",
+    "stencil_and_tripling_evaluations": "include b+1 and 3h+a-1 outside the center grid",
+    "parameters": [
+      {
+        "lambda": "0",
+        "s": "1",
+        "diagonal_exponent": "2"
+      },
+      {
+        "lambda": "1/23",
+        "s": "11/12",
+        "diagonal_exponent": "23/12"
+      },
+      {
+        "lambda": "3/46",
+        "s": "43/49",
+        "diagonal_exponent": "92/49"
+      },
+      {
+        "lambda": "1/6",
+        "s": "5/7",
+        "diagonal_exponent": "12/7"
+      },
+      {
+        "lambda": "5/23",
+        "s": "9/14",
+        "diagonal_exponent": "23/14"
+      },
+      {
+        "lambda": "1/4",
+        "s": "3/5",
+        "diagonal_exponent": "8/5"
+      },
+      {
+        "lambda": "1/3",
+        "s": "1/2",
+        "diagonal_exponent": "3/2"
+      },
+      {
+        "lambda": "17/46",
+        "s": "29/63",
+        "diagonal_exponent": "92/63"
+      },
+      {
+        "lambda": "1/2",
+        "s": "1/3",
+        "diagonal_exponent": "4/3"
+      }
+    ],
+    "seed_offsets": [
+      "1/23",
+      "3/46",
+      "5/23",
+      "17/46"
+    ],
+    "stopping_rule": "complete every listed case; fail on any unresolved sign"
+  },
+  "counts": {
+    "normalization": 144,
+    "symmetry": 2304,
+    "diagonal": 144,
+    "monotonicity": 2304,
+    "tripling": 2304,
+    "rank_envelope": 2304,
+    "concavity": 2160,
+    "concavity_affine": 1080,
+    "concavity_rational_equalities": 120,
+    "concavity_intervals": 960
+  },
+  "integer_root_controls": 60,
+  "base_profile_replay": {
+    "tripling_pairs": 10000,
+    "envelope_pairs": 10000,
+    "domain": "1<=a,h<=100"
+  },
+  "negative_controls": [
+    {
+      "name": "offset_above_half",
+      "lambda": "3/4",
+      "s": "1/7",
+      "a": 2,
+      "h": 2,
+      "inequality": "tripling",
+      "lhs_to_denominator_power": "302638755221/65536",
+      "rhs_to_denominator_power": "468802872747/65536"
+    },
+    {
+      "name": "power_below_curve",
+      "lambda": "1/2",
+      "s": "1/4",
+      "a": 2,
+      "b": 2,
+      "inequality": "separate_discrete_concavity",
+      "positive_second_difference": {
+        "sign": 1,
+        "method": "rational_interval",
+        "bits": 64,
+        "lower": "2100159146787155829/18446744073709551616",
+        "upper": "262519893348394479/2305843009213693952"
+      }
+    },
+    {
+      "name": "power_above_curve",
+      "lambda": "1/2",
+      "s": "1/2",
+      "a": 4,
+      "b": 3,
+      "inequality": "separate_discrete_concavity",
+      "positive_second_difference": {
+        "sign": 1,
+        "method": "rational_interval",
+        "bits": 64,
+        "lower": "253976153944090135/18446744073709551616",
+        "upper": "253976153944090137/18446744073709551616"
+      }
+    },
+    {
+      "name": "zero_power",
+      "lambda": "1/2",
+      "s": "0",
+      "a": 2,
+      "b": 2,
+      "inequality": "separate_discrete_concavity",
+      "positive_second_difference": {
+        "sign": 1,
+        "method": "rational_interval",
+        "bits": 64,
+        "lower": "1/2",
+        "upper": "1/2"
+      }
+    }
+  ],
+  "limitations": [
+    "Finite checks supplement the written all-input proof.",
+    "No human review or formal proof certificate.",
+    "No tensor realizability, new matrix algorithm, or vdW coefficient."
+  ]
+}

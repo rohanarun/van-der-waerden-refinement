@@ -1,0 +1,40 @@
+{
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "upstream_repository": "https://github.com/openai/math",
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "base_files": {
+    "README.md": "ac8b5876ce30fb8b9a8c38b0dbf5c780d7f7a7a14e0b7b569e912899db5df8c5",
+    "research-note.tex": "ebc6b43030ff138247f889a03f496e47cf5f6c9cafadadb35b2fcaa4fd480605",
+    "parameters.json": "c8dba118db2d9ead9bff3690c7d353c7c989c931a017146a6af8ddc5dbf97455",
+    "source-manifest.json": "e6dd98f5338eb7c981ed68afaca2b998c66f5c68397acccdb682c8d70a75e98c",
+    "audit_math.py": "303bf27acc87ede55ac5893709551a9eeeffd42b3d871524edd112410236b0e1",
+    "profile_lp.py": "ee699938375e8b2855bb4f4645b9cf99033a68c3008d0d91240d7d7337c83fa1",
+    "requirements.txt": "ac13350e2a66a0fd75d033a1f2e58e9b2d758d76e0b680c4702c8adaa2605336",
+    "experiments/matrix-profile.json": "a69414ca791a6fa0a8c865deed10120cfd1d2dc926e28de1544a8e1a1c19b5db",
+    "experiments/exact-audit.json": "a73f0660362f85d20d7a63c772bb7201155598576ab86c3f05f0c1de48cfb1d2",
+    "experiments/baseline-independent-check.json": "418d8d82c7860e1bf763ebff4e383d401139984957797c71d5fed823efd2cb5f",
+    "experiments/complex-contractions/summary.json": "e09f9dac68f823fc95fd1bfab3fb732f974bea0df6c9fa164437f6c09909cdbb",
+    "experiments/weighted-cuts/summary.json": "3cf68ef4a8baf6aa78a754bae4fdf43443f38f206fb9059ec082c9e933e1619c",
+    "barrier-note.md": "2adc5ae51ab57f6b0c7722ddf5c254a083206aa2555d211cdde47f70b8bd0e9f",
+    "digit-rank-proof.md": "34be273ca19eafaa7546754714d67d29d3a1bd00797321bac81ceb42ad2fe42b",
+    "rank-certificate-proof.md": "de3c52b38914cfafd37943626382583d55983737e1dd5c921d568154ece182d0",
+    "repeated-key-certificate-proof.md": "6d07b2642b45c59d18fdcb35f53c612267979c74981ee56c59b452ef80033826",
+    "sharpened-region-proof.md": "daf7302d0a5c1efc0334c6c908a57356863ccf8b18bd1ffcf92b1ac55c321640",
+    "short-period-runs-proof.md": "dce39359d0fb1957d25c555871218a1f43414b12db325563644d8e07e345bdff",
+    "auto-research.md": "fe2cbbad0fe2d1b97b0f6cb89952fd390fd4cd85a44ca403484e0712797e5647",
+    "auto-research/README.md": "23778d749af6b455179207eacfb44f847646fee9e959f46e14d60c8cf98bfb41",
+    ".github/workflows/verify.yml": "24825969396e5bd05c71e42f3664547996edc9a8c65bfdcf559ea7c57e2d391a"
+  },
+  "overlap_review": {
+    "checked_utc": "2026-10-14T15:33:31Z",
+    "open_prs": {
+      "9": "89660352f5dfcf1180a47b224610d444b2ce8701",
+      "10": "a46ef51768724334affb3af77e4b04d7f60ae322"
+    },
+    "review_document": "PR10 formal/CONDITIONAL-REVIEW.md read from its pinned Git object",
+    "issues_all_states": [],
+    "conclusion": "No overlap found in the listed PR files and review document. Neither PR is a mathematical dependency.",
+    "pre_submission_refresh": "Same two open PR heads; empty all-state issue list; upstream main still equals base.",
+    "refresh_recorded_utc": "2026-10-14T15:40:57Z"
+  }
+}
