@@ -1,0 +1,953 @@
+{
+  "accepted_pro_report_sha256": "a4cba82bd5d5f4f6a7fdee37cf15b09133b5779c433e8ac7e644fb21026e594f",
+  "contributor_program_execution": false,
+  "nodes": [
+    {
+      "attribution": "U;B;P6;P7",
+      "depends_on": [],
+      "id": "definitions",
+      "meaning": "literal half-open labels/keys, exact ceilings and prime-power rounding",
+      "proof_section": "3",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "completion",
+      "depends_on": [],
+      "id": "scale_certificate",
+      "meaning": "finite rational acceptance and monotonicity for all larger k",
+      "proof_section": "12.1",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;B",
+      "depends_on": [
+        "definitions",
+        "scale_certificate"
+      ],
+      "id": "prime_dilation",
+      "meaning": "integer small-primary dilation and allowed-prime existence",
+      "proof_section": "3",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;B",
+      "depends_on": [
+        "definitions",
+        "scale_certificate"
+      ],
+      "id": "mesh",
+      "meaning": "49-neighborhood endpoints and regular breakpoints",
+      "proof_section": "4.1",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U",
+      "depends_on": [],
+      "id": "arrangement_faces",
+      "meaning": "all realized sign vectors including equality faces",
+      "proof_section": "4.2",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;B;P7",
+      "depends_on": [
+        "mesh",
+        "arrangement_faces",
+        "scale_certificate"
+      ],
+      "id": "global_anchored_words",
+      "meaning": "global, long anchored and abstract short word counts",
+      "proof_section": "4.3",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U",
+      "depends_on": [
+        "prime_dilation",
+        "mesh"
+      ],
+      "id": "heavy_primitive_return",
+      "meaning": "closest heavy return, gcd, drift and residue separation",
+      "proof_section": "5.1",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U",
+      "depends_on": [
+        "heavy_primitive_return",
+        "mesh"
+      ],
+      "id": "short_real_path",
+      "meaning": "closed-cut contradiction gives actual globally affine centered samples",
+      "proof_section": "5.2",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;B",
+      "depends_on": [
+        "heavy_primitive_return",
+        "global_anchored_words"
+      ],
+      "id": "long_eligibility",
+      "meaning": "every heavy-containing full block is eligible including nonregular anchors",
+      "proof_section": "5.3",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "short_real_path",
+        "heavy_primitive_return"
+      ],
+      "id": "actual_single_run",
+      "meaning": "single run only for actual short closest-return progressions; not arbitrary abstract words",
+      "proof_section": "5.4",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;B;P7;completion",
+      "dependencies_by_route": {
+        "PR6": [
+          "global_anchored_words",
+          "long_eligibility",
+          "heavy_primitive_return"
+        ],
+        "PR7": [
+          "global_anchored_words",
+          "long_eligibility",
+          "heavy_primitive_return"
+        ]
+      },
+      "depends_on": [
+        "global_anchored_words",
+        "long_eligibility",
+        "heavy_primitive_return"
+      ],
+      "family_selection_by_route": {
+        "PR6": [
+          "F1",
+          "F2"
+        ],
+        "PR7": [
+          "F1",
+          "F2",
+          "F3"
+        ]
+      },
+      "id": "outer_event_families",
+      "meaning": "finite geometry-only supports; F1/F2 for PR6, F1/F2/F3 for PR7",
+      "proof_section": "6",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;B;P7;completion",
+      "depends_on": [
+        "outer_event_families",
+        "scale_certificate"
+      ],
+      "id": "combined_global_LLL",
+      "meaning": "tails, incident weights, full nonneighbor independence, all cross-family dependencies and finite induction",
+      "proof_section": "6.1-6.2",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;B",
+      "depends_on": [
+        "combined_global_LLL",
+        "heavy_primitive_return",
+        "short_real_path",
+        "long_eligibility"
+      ],
+      "id": "rich_short_dichotomy",
+      "meaning": "one global outer table and revised balance imply actual dichotomy",
+      "proof_section": "6.3",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "B;P4;P6",
+      "depends_on": [
+        "definitions",
+        "prime_dilation"
+      ],
+      "id": "key_multiplicity_two",
+      "meaning": "prime-power separation, collinearity and literal half-open norm band",
+      "proof_section": "7.1",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P4;P6;completion",
+      "depends_on": [
+        "key_multiplicity_two",
+        "mesh"
+      ],
+      "id": "common_collision_return",
+      "meaning": "gcd return and exact affine collision classes, with centered-cut proof",
+      "proof_section": "7.2",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P4;P6;completion",
+      "depends_on": [
+        "common_collision_return",
+        "arrangement_faces"
+      ],
+      "id": "discrete_pair_code",
+      "meaning": "finite box/carry data and deterministic repeated-pair/absence record for every class",
+      "proof_section": "7.3",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P4;P6",
+      "depends_on": [
+        "common_collision_return",
+        "discrete_pair_code"
+      ],
+      "id": "vertex_identities",
+      "meaning": "exact algebraic elimination of the start and bounded crossing data",
+      "proof_section": "7.4",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7",
+      "depends_on": [
+        "vertex_identities",
+        "return_digit_expansion"
+      ],
+      "id": "balanced_digits_rank",
+      "meaning": "matched rational rank R; no rank-over-prime assumption",
+      "proof_section": "8.1",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "balanced_digits_rank",
+        "discrete_pair_code"
+      ],
+      "id": "rank_C_star",
+      "meaning": "progression count (2D-R) log q and exact bounded integer data",
+      "proof_section": "8.2",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "balanced_digits_rank",
+        "vertex_identities",
+        "arrangement_faces",
+        "discrete_pair_code",
+        "crossing_order_count"
+      ],
+      "id": "literal_A_star",
+      "meaning": "literal key-set certificate costs R log q, including masks/faces and decoding",
+      "proof_section": "8.3",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "rank_C_star",
+        "literal_A_star",
+        "key_multiplicity_two",
+        "rich_short_dichotomy"
+      ],
+      "id": "rich_PR7_cover",
+      "meaning": "two event covers and shared-key consistency; no between-event independence assumption",
+      "proof_section": "9",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P4;P6",
+      "depends_on": [
+        "vertex_identities",
+        "discrete_pair_code",
+        "arrangement_faces",
+        "return_digit_expansion",
+        "crossing_order_count"
+      ],
+      "id": "carry_A_B_C",
+      "meaning": "carry-rank projection, anchored certificate and step-rank count",
+      "proof_section": "10",
+      "route": "PR6",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P6",
+      "depends_on": [
+        "carry_A_B_C",
+        "key_multiplicity_two",
+        "rich_short_dichotomy"
+      ],
+      "id": "rich_PR6_cover",
+      "meaning": "cost sum at most 5D/2 and independent rich margin",
+      "proof_section": "10",
+      "route": "PR6",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;P6",
+      "depends_on": [
+        "short_real_path",
+        "arrangement_faces",
+        "global_anchored_words",
+        "key_multiplicity_two",
+        "rich_short_dichotomy",
+        "heavy_primitive_return"
+      ],
+      "id": "affine_PR6_nonrich",
+      "meaning": "older affine full signature under 2a+b<1; no PR7 digit/run premise",
+      "proof_section": "10",
+      "route": "PR6",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "combined_global_LLL",
+        "global_anchored_words",
+        "key_multiplicity_two",
+        "short_real_path",
+        "heavy_primitive_return",
+        "rich_short_dichotomy"
+      ],
+      "id": "many_light_PR7",
+      "meaning": "balanced weighted light labels covered by key word only",
+      "proof_section": "11.1",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "actual_single_run",
+        "global_anchored_words",
+        "key_multiplicity_two",
+        "rich_short_dichotomy"
+      ],
+      "id": "few_light_PR7",
+      "meaning": "bounded heavy-run prescription entropy, shared-key consistency and no full-label-word cost",
+      "proof_section": "11.2",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "completion",
+      "dependencies_by_route": {
+        "PR6": [
+          "scale_certificate",
+          "rich_PR6_cover",
+          "affine_PR6_nonrich"
+        ],
+        "PR7": [
+          "scale_certificate",
+          "rich_PR7_cover",
+          "many_light_PR7",
+          "few_light_PR7"
+        ]
+      },
+      "depends_on": [
+        "scale_certificate",
+        "rich_PR7_cover",
+        "many_light_PR7",
+        "few_light_PR7",
+        "rich_PR6_cover",
+        "affine_PR6_nonrich"
+      ],
+      "id": "strict_probability",
+      "meaning": "PR7 total<=3/4; PR6 total<=1/2; each route selects only its own prerequisites",
+      "proof_section": "12",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "scale_certificate"
+      ],
+      "id": "general_c",
+      "meaning": "rational rule gives every fixed 0<c<1/8, positive gaps and coefficient-dependent computable K(c)",
+      "proof_section": "13",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "completion",
+      "depends_on": [
+        "definitions",
+        "arrangement_faces"
+      ],
+      "id": "exact_decisions",
+      "meaning": "integer ceilings, irrational-log separation, algebraic endpoint signs and strict Fourier-Motzkin feasibility",
+      "proof_section": "14",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "completion",
+      "depends_on": [
+        "combined_global_LLL",
+        "strict_probability",
+        "exact_decisions"
+      ],
+      "id": "finite_generator",
+      "meaning": "<=2^B outer and <=2^Z shared flips; direct <=2^N alternative; positive finite support proves termination",
+      "proof_section": "15;GENERATOR",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "U;completion",
+      "depends_on": [
+        "finite_generator"
+      ],
+      "id": "digit_product",
+      "meaning": "least nonzero N-adic digit gives exact integer interval N^floor(log2 r), for composite N too",
+      "proof_section": "13",
+      "route": "both",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "completion",
+      "depends_on": [
+        "exact_decisions",
+        "finite_generator",
+        "digit_product"
+      ],
+      "id": "resource_accounting",
+      "meaning": "Keep the DIRECT bit/Turing bound and storage/output accounting separate from supplementary (14.4), (14.6), (16.1)\u2013(16.8) estimates.",
+      "proof_section": "16;GENERATOR",
+      "route": "both",
+      "status": "Exact finite termination and DIRECT bound accepted; structured closed resource envelopes supplementary and not certified"
+    },
+    {
+      "attribution": "U;P4;P6;P7;completion",
+      "depends_on": [
+        "general_c",
+        "finite_generator",
+        "digit_product"
+      ],
+      "id": "theorem_general",
+      "meaning": "unconditional effective fixed-rational coefficient below 1/8, prime- and r-uniform threshold",
+      "proof_section": "1",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P7;completion",
+      "depends_on": [
+        "rich_PR7_cover",
+        "many_light_PR7",
+        "few_light_PR7",
+        "scale_certificate",
+        "finite_generator",
+        "digit_product"
+      ],
+      "id": "literal_PR7",
+      "meaning": "literal tuple c=1/9 has K=2^33554432; not the generic-rule threshold",
+      "proof_section": "1;12.2",
+      "route": "PR7",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "attribution": "P4;P6;completion",
+      "depends_on": [
+        "rich_PR6_cover",
+        "affine_PR6_nonrich",
+        "finite_generator",
+        "digit_product",
+        "scale_certificate"
+      ],
+      "id": "literal_PR6",
+      "meaning": "independent c=1/16 route with K=2^33554432; F3, matched rank and run method not needed",
+      "proof_section": "1;10;12.2",
+      "route": "PR6",
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review"
+    },
+    {
+      "id": "return_digit_expansion",
+      "route": "both",
+      "proof_section": "8.1, (8.3)\u2013(8.4)",
+      "attribution": "P6;P7",
+      "depends_on": [
+        "common_collision_return"
+      ],
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review",
+      "meaning": "Coherent integer return digits and bounded lower tails; does not import matched digit rank."
+    },
+    {
+      "id": "crossing_order_count",
+      "route": "both",
+      "proof_section": "8.3 stages 3\u20134",
+      "attribution": "P6;P7;completion",
+      "depends_on": [
+        "arrangement_faces",
+        "vertex_identities"
+      ],
+      "status": "proved analytically in proposed proof; exact final revision pending independent campaign review",
+      "meaning": "Finite crossing orders with equality faces and per-class choices, independent of the matched-rank premise."
+    }
+  ],
+  "novelty_boundary": "Coefficient range, literal coefficients and core PR6/PR7 methods are public prior proposals. Claimed contribution is this complete analytic dependency closure and specified exact effectiveness; no first-use or worldwide novelty assertion.",
+  "route_rules": {
+    "PR6": "uses F1/F2, carry/anchored split and older affine count; excludes F3/matched digit rank/run estimate",
+    "PR7": "uses F1/F2/F3 and matched rank plus actual runs",
+    "edge_selection": "For a shared node, dependencies_by_route replaces the union depends_on list. A literal tuple certificate does not depend on the general-rule parameter choice."
+  },
+  "schema_version": 1,
+  "scope": "Every mathematical ingredient is proved in PROOF.md. Public status, finite tests and earlier reviews are not theorem axioms. No endpoint, finite record, runtime improvement, formal certificate or priority claim.",
+  "source_inventory": [
+    {
+      "bytes": 12795,
+      "commit": "54ac9715fceab938ca77d5980c36ab691765a04d",
+      "git_blob": "fb05b554e8ff4cc7cd62995c7c6fef29e7ee55e2",
+      "path": "base/README.md",
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "sha256": "cd41154d35978d0d9f5a428750547f0919870e72e35086eb44d5680d825cde14",
+      "source_url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/54ac9715fceab938ca77d5980c36ab691765a04d/README.md"
+    },
+    {
+      "bytes": 5645,
+      "commit": "54ac9715fceab938ca77d5980c36ab691765a04d",
+      "git_blob": "f90c85cfd6c0216c25001a713ab32cec577f78c7",
+      "path": "base/audit_math.py",
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "sha256": "5cc95e010e54a75e92ae1715694a624436b413c70febbb8f08a1f4b7c3a21aeb",
+      "source_url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/54ac9715fceab938ca77d5980c36ab691765a04d/audit_math.py"
+    },
+    {
+      "bytes": 3434,
+      "commit": "54ac9715fceab938ca77d5980c36ab691765a04d",
+      "git_blob": "91e57965df8eedcc764856cb0503b892a73c2a59",
+      "path": "base/experiments/exact-audit.json",
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "sha256": "917ac588397e9ca1098c8fbccc18d01f16f2ca4ffab6a7a68dfbfdb7b9f9b075",
+      "source_url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/54ac9715fceab938ca77d5980c36ab691765a04d/experiments/exact-audit.json"
+    },
+    {
+      "bytes": 990,
+      "commit": "54ac9715fceab938ca77d5980c36ab691765a04d",
+      "git_blob": "67619d9092e0d0b620b588b09d6a87b12876eda3",
+      "path": "base/parameters.json",
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "sha256": "5d7cc3391820ed4d9ef7b608d0ab574197f2f35b5069b5eba68b645d97f449a2",
+      "source_url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/54ac9715fceab938ca77d5980c36ab691765a04d/parameters.json"
+    },
+    {
+      "bytes": 17623,
+      "commit": "54ac9715fceab938ca77d5980c36ab691765a04d",
+      "git_blob": "f6ac989e0318fa4d2608ffa724b3bb9df91b2951",
+      "path": "base/research-note.tex",
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "sha256": "700a23a04b9ac5845fd961366c02fcf781c57334bd1af28a99b41130d28172c2",
+      "source_url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/54ac9715fceab938ca77d5980c36ab691765a04d/research-note.tex"
+    },
+    {
+      "bytes": 680,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "32689475d88dc169e0a28c90532cbe84caa164da",
+      "path": "historical/README.md",
+      "repository": "openai/math",
+      "sha256": "d34c41dfe21e93e2ad5c5c802e2dd809e8d65eec849c9858c81a960258546620",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/README.md"
+    },
+    {
+      "bytes": 867,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "b9197f584551b7458ffc72fe00a610a2a8113569",
+      "path": "historical/build/paper.tex",
+      "repository": "openai/math",
+      "sha256": "da801dbc42e8f2812da79dd74674ec5a343848a8d65c3481dc1f9644650b7154",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/paper.tex"
+    },
+    {
+      "bytes": 3640,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "6bd53f90835bf2f79ecbb639758c4df75a6e4e8b",
+      "path": "historical/build/preamble.tex",
+      "repository": "openai/math",
+      "sha256": "10b77be7b67b3de4cb4f0576645082fd7c7b074026465339303f282c060bd3e9",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/preamble.tex"
+    },
+    {
+      "bytes": 8939,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "2f7931297905abfd0a56ba7df608349df100c12e",
+      "path": "historical/build/references.bib",
+      "repository": "openai/math",
+      "sha256": "54e3f84edfa2b73177731d818d6fa596a9b0143dae79bd6eb99e82563bbd8a98",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/references.bib"
+    },
+    {
+      "bytes": 9296,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "af53ecac8dfaf2fa0870f25010400f9ed8c22a91",
+      "path": "historical/build/sections/01-introduction.tex",
+      "repository": "openai/math",
+      "sha256": "d9df34764dab48d839cd4e8bdf612d167a9fd92e2a243e08c4e50016ffee1f80",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/01-introduction.tex"
+    },
+    {
+      "bytes": 10472,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "e70440abe7732dcd97e47c3fa4cadc1a5b936783",
+      "path": "historical/build/sections/02-setup.tex",
+      "repository": "openai/math",
+      "sha256": "9ba2817eda5b94221c4f05ba59835bef53760fbffe7eda896228b323b7cb3beb",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/02-setup.tex"
+    },
+    {
+      "bytes": 10130,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "45e527fa7f77423d0f3f64903009d204ff69ea3b",
+      "path": "historical/build/sections/03-counting.tex",
+      "repository": "openai/math",
+      "sha256": "ca84ac51bf6c8539f2458bdc462c98ef465ea70afaa15496d0e6fcaec453c243",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/03-counting.tex"
+    },
+    {
+      "bytes": 7803,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "8570fab8f40fb1c77dd06d3b4b83b00f711d3378",
+      "path": "historical/build/sections/04-outer.tex",
+      "repository": "openai/math",
+      "sha256": "e602972f1194c81ec780c4e17b8c5d3f94874db59f42dbfbc3008f9cec0d5ae8",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/04-outer.tex"
+    },
+    {
+      "bytes": 12609,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "a9617cbdf685aab18b3da5d08906bfd26b9c2e7f",
+      "path": "historical/build/sections/05-dichotomy.tex",
+      "repository": "openai/math",
+      "sha256": "ef0ff02ce80fe4351eb84b1f5db0ea2fce0085030f0ee30eea64f6dbec1f26ae",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/05-dichotomy.tex"
+    },
+    {
+      "bytes": 12112,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "9ca1771c317eef2f3e91b424da1c5052b6dc9a87",
+      "path": "historical/build/sections/06-perturbation.tex",
+      "repository": "openai/math",
+      "sha256": "863d06426a7f4b24386e39172c1b5b243ff7587179895befd68aa8ff11c38774",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/06-perturbation.tex"
+    },
+    {
+      "bytes": 7486,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "d6aa7b73f047b64a3ca53381801072a25627ae76",
+      "path": "historical/build/sections/07-transfers.tex",
+      "repository": "openai/math",
+      "sha256": "4d54ebb5b4605ad42c2111b5d4d723ac010cacd76da1bc04c581c5a04b04502d",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/07-transfers.tex"
+    },
+    {
+      "bytes": 5206,
+      "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "git_blob": "b162622f671a27eadaec38ef03bc03a107f1470f",
+      "path": "historical/build/sections/08-upper.tex",
+      "repository": "openai/math",
+      "sha256": "76d46da40c1d8cdef2b2f2b0efda291e8d9f2b73a401d3fb408828a40509cda3",
+      "source_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/08-upper.tex"
+    },
+    {
+      "bytes": 29762,
+      "commit": "4b4e80ea5e0ffec956577004905f22659af0bff5",
+      "git_blob": "a9f40fafc1093347ae13bd94ef287a2788de9798",
+      "path": "pr4/repeated-key-certificate-proof.md",
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "sha256": "6d07b2642b45c59d18fdcb35f53c612267979c74981ee56c59b452ef80033826",
+      "source_url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/4b4e80ea5e0ffec956577004905f22659af0bff5/repeated-key-certificate-proof.md"
+    },
+    {
+      "bytes": 15858,
+      "commit": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "git_blob": "f04506c661a1798fc07b238a3f0b109339165851",
+      "path": "pr6/README.md",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "01064b9f43a92d5af08198705380617aef8884bd79c7a778861e0455323df39d",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/fc5738bfda508566e7b4ce706c22bbb2b9194226/README.md"
+    },
+    {
+      "bytes": 10150,
+      "commit": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "git_blob": "caf908b886423379fb8a78b6dbbaa97e4aab3580",
+      "path": "pr6/audit_math.py",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "8689461e1002d39a9a76f5b1d4463c021bcde5f9f34c38734a9bad68a73ad421",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/fc5738bfda508566e7b4ce706c22bbb2b9194226/audit_math.py"
+    },
+    {
+      "bytes": 4477,
+      "commit": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "git_blob": "bb3359398724864a71bc2907674723aab1da0986",
+      "path": "pr6/experiments/exact-audit.json",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "875b8c2b59bddaa56845bac5e1fdb3e52605856ae52495293466ce2fa8fd4e44",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/fc5738bfda508566e7b4ce706c22bbb2b9194226/experiments/exact-audit.json"
+    },
+    {
+      "bytes": 1254,
+      "commit": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "git_blob": "38e5075e57bc9fce714965eadcd3c3f4acc01e1c",
+      "path": "pr6/parameters.json",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "991754e403f84a3218efc714d6365e61aed6e05bb243d74f94a7c78848b2ad18",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/fc5738bfda508566e7b4ce706c22bbb2b9194226/parameters.json"
+    },
+    {
+      "bytes": 21519,
+      "commit": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "git_blob": "16dd8a5811aa9151469c5aecd5b5ac4f3108c3be",
+      "path": "pr6/research-note.tex",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "dac64545bbf04dd19d3dd771c6e9ab2c88fdc8b3c900b616fba5e2a893101fbe",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/fc5738bfda508566e7b4ce706c22bbb2b9194226/research-note.tex"
+    },
+    {
+      "bytes": 20962,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "12509ef46f8ba63f0e375db7cef23caf6b947a6b",
+      "path": "pr7/README.md",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "96a3b42e1aa3e83d240fc4430a7fd8c4ee05d8404ef8074e130eff98dcf3b665",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/README.md"
+    },
+    {
+      "bytes": 16557,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "b30cad23f70933c1e9a1d663c1b574762fb083b6",
+      "path": "pr7/audit_math.py",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "11cb61afb8a5b5f1fd444f509d222edd2edc7ba230dcfc524f09d67cc3d9b1e6",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/audit_math.py"
+    },
+    {
+      "bytes": 11394,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "e490d7d160e05c5566d77ff3f1480e807046a449",
+      "path": "pr7/digit-rank-proof.md",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "34be273ca19eafaa7546754714d67d29d3a1bd00797321bac81ceb42ad2fe42b",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/digit-rank-proof.md"
+    },
+    {
+      "bytes": 6588,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "37391157915c91bd2ab3b5a52dd102b79e13cf57",
+      "path": "pr7/experiments/exact-audit.json",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "9189b31b83b26a4add0b8fafdb1694642a5fd133c621a61f428d6c9d0f8d7b99",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/experiments/exact-audit.json"
+    },
+    {
+      "bytes": 1960,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "6c332919516e6f3f7d1c1bf2fb6179322b25cd83",
+      "path": "pr7/fetch_sources.py",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "498491054e8219050d5ce6cfc65c32920c4dc92d9da7253ec21a9be9401a2353",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/fetch_sources.py"
+    },
+    {
+      "bytes": 1802,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "a24e441a8b40e24f2826b7a7689b4c76664630b4",
+      "path": "pr7/parameters.json",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "c8dba118db2d9ead9bff3690c7d353c7c989c931a017146a6af8ddc5dbf97455",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/parameters.json"
+    },
+    {
+      "bytes": 19154,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "33acb0fec1f3c64a27ec60eb60e1be24b7876f89",
+      "path": "pr7/rank-certificate-proof.md",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "de3c52b38914cfafd37943626382583d55983737e1dd5c921d568154ece182d0",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/rank-certificate-proof.md"
+    },
+    {
+      "bytes": 27327,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "376a64647da3b1c90e605f4f413ab3a1788bb474",
+      "path": "pr7/research-note.tex",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "611e53399c8d531bce63d6e4ec3841e3a6950193dcf3290712c4f45183a6f48c",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/research-note.tex"
+    },
+    {
+      "bytes": 9052,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "7bf21638c2d8ca50e3cd47a6289931f0d45bd80f",
+      "path": "pr7/sharpened-region-proof.md",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "daf7302d0a5c1efc0334c6c908a57356863ccf8b18bd1ffcf92b1ac55c321640",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/sharpened-region-proof.md"
+    },
+    {
+      "bytes": 12223,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "84bfedb474b0095dbdf7d79ac8b07de3c48274bd",
+      "path": "pr7/short-period-runs-proof.md",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "dce39359d0fb1957d25c555871218a1f43414b12db325563644d8e07e345bdff",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/short-period-runs-proof.md"
+    },
+    {
+      "bytes": 8074,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "git_blob": "c336140d2c3407d1a231ee1949684cf827f53130",
+      "path": "pr7/source-manifest.json",
+      "repository": "DaysSky/van-der-waerden-refinement",
+      "sha256": "e6dd98f5338eb7c981ed68afaca2b998c66f5c68397acccdb682c8d70a75e98c",
+      "source_url": "https://github.com/DaysSky/van-der-waerden-refinement/blob/987c96cfda59b65728ae4dcd5adc8a64ff95bab2/source-manifest.json"
+    },
+    {
+      "bytes": 680,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "32689475d88dc169e0a28c90532cbe84caa164da",
+      "path": "upstream/README.md",
+      "repository": "openai/math",
+      "sha256": "d34c41dfe21e93e2ad5c5c802e2dd809e8d65eec849c9858c81a960258546620",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/README.md"
+    },
+    {
+      "bytes": 867,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "b9197f584551b7458ffc72fe00a610a2a8113569",
+      "path": "upstream/build/paper.tex",
+      "repository": "openai/math",
+      "sha256": "da801dbc42e8f2812da79dd74674ec5a343848a8d65c3481dc1f9644650b7154",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/paper.tex"
+    },
+    {
+      "bytes": 3640,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "6bd53f90835bf2f79ecbb639758c4df75a6e4e8b",
+      "path": "upstream/build/preamble.tex",
+      "repository": "openai/math",
+      "sha256": "10b77be7b67b3de4cb4f0576645082fd7c7b074026465339303f282c060bd3e9",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/preamble.tex"
+    },
+    {
+      "bytes": 8939,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "2f7931297905abfd0a56ba7df608349df100c12e",
+      "path": "upstream/build/references.bib",
+      "repository": "openai/math",
+      "sha256": "54e3f84edfa2b73177731d818d6fa596a9b0143dae79bd6eb99e82563bbd8a98",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/references.bib"
+    },
+    {
+      "bytes": 9296,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "af53ecac8dfaf2fa0870f25010400f9ed8c22a91",
+      "path": "upstream/build/sections/01-introduction.tex",
+      "repository": "openai/math",
+      "sha256": "d9df34764dab48d839cd4e8bdf612d167a9fd92e2a243e08c4e50016ffee1f80",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/01-introduction.tex"
+    },
+    {
+      "bytes": 10472,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "e70440abe7732dcd97e47c3fa4cadc1a5b936783",
+      "path": "upstream/build/sections/02-setup.tex",
+      "repository": "openai/math",
+      "sha256": "9ba2817eda5b94221c4f05ba59835bef53760fbffe7eda896228b323b7cb3beb",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/02-setup.tex"
+    },
+    {
+      "bytes": 10130,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "45e527fa7f77423d0f3f64903009d204ff69ea3b",
+      "path": "upstream/build/sections/03-counting.tex",
+      "repository": "openai/math",
+      "sha256": "ca84ac51bf6c8539f2458bdc462c98ef465ea70afaa15496d0e6fcaec453c243",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/03-counting.tex"
+    },
+    {
+      "bytes": 7803,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "8570fab8f40fb1c77dd06d3b4b83b00f711d3378",
+      "path": "upstream/build/sections/04-outer.tex",
+      "repository": "openai/math",
+      "sha256": "e602972f1194c81ec780c4e17b8c5d3f94874db59f42dbfbc3008f9cec0d5ae8",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/04-outer.tex"
+    },
+    {
+      "bytes": 12609,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "a9617cbdf685aab18b3da5d08906bfd26b9c2e7f",
+      "path": "upstream/build/sections/05-dichotomy.tex",
+      "repository": "openai/math",
+      "sha256": "ef0ff02ce80fe4351eb84b1f5db0ea2fce0085030f0ee30eea64f6dbec1f26ae",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/05-dichotomy.tex"
+    },
+    {
+      "bytes": 12112,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "9ca1771c317eef2f3e91b424da1c5052b6dc9a87",
+      "path": "upstream/build/sections/06-perturbation.tex",
+      "repository": "openai/math",
+      "sha256": "863d06426a7f4b24386e39172c1b5b243ff7587179895befd68aa8ff11c38774",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/06-perturbation.tex"
+    },
+    {
+      "bytes": 7486,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "d6aa7b73f047b64a3ca53381801072a25627ae76",
+      "path": "upstream/build/sections/07-transfers.tex",
+      "repository": "openai/math",
+      "sha256": "4d54ebb5b4605ad42c2111b5d4d723ac010cacd76da1bc04c581c5a04b04502d",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/07-transfers.tex"
+    },
+    {
+      "bytes": 5206,
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "git_blob": "b162622f671a27eadaec38ef03bc03a107f1470f",
+      "path": "upstream/build/sections/08-upper.tex",
+      "repository": "openai/math",
+      "sha256": "76d46da40c1d8cdef2b2f2b0efda291e8d9f2b73a401d3fb408828a40509cda3",
+      "source_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/08-upper.tex"
+    },
+    {
+      "path": "base/sharpened-region-proof.md",
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "commit": "54ac9715fceab938ca77d5980c36ab691765a04d",
+      "git_blob": "7bf21638c2d8ca50e3cd47a6289931f0d45bd80f",
+      "sha256": "daf7302d0a5c1efc0334c6c908a57356863ccf8b18bd1ffcf92b1ac55c321640",
+      "bytes": 9052,
+      "source_url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/54ac9715fceab938ca77d5980c36ab691765a04d/sharpened-region-proof.md"
+    }
+  ],
+  "source_pins": {
+    "base_main": "54ac9715fceab938ca77d5980c36ab691765a04d",
+    "pr4_head": "4b4e80ea5e0ffec956577004905f22659af0bff5",
+    "pr6_head": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+    "pr7_head": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+    "upstream_current_main": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "upstream_historical_pin": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
+  },
+  "source_snapshot_sha256": "6c15b2d207144ecb8be4c52ec8c4d622b2c749657ae9d45f7ece50e47487cee1"
+}
