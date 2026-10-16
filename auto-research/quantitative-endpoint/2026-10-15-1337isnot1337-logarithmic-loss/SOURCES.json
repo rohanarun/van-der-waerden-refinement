@@ -1,0 +1,103 @@
+{
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "source_identity_scope": "GitHub immutable references and returned blob IDs; upstream source bytes are not bundled or locally rehashed",
+  "conditional_on": [
+    "Finite source geometry and mesh properties",
+    "Finite literal digit-rank encoding counts"
+  ],
+  "not_assumed": "The headline theorem or threshold-completion theorem of PR #9",
+  "records": [
+    {
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "revision": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+      "path": "short-period-runs-proof.md",
+      "role": "Existing c<1/8 range and actual-run argument",
+      "url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/63bef9ca996786a41169de4a0c3d6b3b47b0fe96/short-period-runs-proof.md",
+      "git_blob": "84bfedb474b0095dbdf7d79ac8b07de3c48274bd"
+    },
+    {
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "revision": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+      "path": "digit-rank-proof.md",
+      "role": "Matched rank and literal key-set counts",
+      "url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/63bef9ca996786a41169de4a0c3d6b3b47b0fe96/digit-rank-proof.md",
+      "git_blob": "e490d7d160e05c5566d77ff3f1480e807046a449"
+    },
+    {
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "revision": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+      "path": "rank-certificate-proof.md",
+      "role": "Repeated-key facts and rank encodings",
+      "url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/63bef9ca996786a41169de4a0c3d6b3b47b0fe96/rank-certificate-proof.md",
+      "git_blob": "33acb0fec1f3c64a27ec60eb60e1be24b7876f89"
+    },
+    {
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "revision": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+      "path": "repeated-key-certificate-proof.md",
+      "role": "Repeated-key precursor",
+      "url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/63bef9ca996786a41169de4a0c3d6b3b47b0fe96/repeated-key-certificate-proof.md",
+      "git_blob": "a9f40fafc1093347ae13bd94ef287a2788de9798"
+    },
+    {
+      "repository": "rohanarun/van-der-waerden-refinement",
+      "revision": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+      "path": "sharpened-region-proof.md",
+      "role": "Dilation, eligible blocks, and light-outside-heavy-blocks construction",
+      "url": "https://github.com/rohanarun/van-der-waerden-refinement/blob/63bef9ca996786a41169de4a0c3d6b3b47b0fe96/sharpened-region-proof.md",
+      "git_blob": "7bf21638c2d8ca50e3cd47a6289931f0d45bd80f"
+    },
+    {
+      "repository": "artuskg/van-der-waerden-refinement",
+      "revision": "89660352f5dfcf1180a47b224610d444b2ce8701",
+      "path": "effective-completion/PROOF.md",
+      "role": "Explicit finite factors, especially Sections 4.3, 8.2-8.3, and 11; comparison threshold",
+      "url": "https://github.com/artuskg/van-der-waerden-refinement/blob/89660352f5dfcf1180a47b224610d444b2ce8701/effective-completion/PROOF.md",
+      "git_blob": "5ca9462b04d0bb6fcd38ff4f6d16bc46aa7b23ab"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/02-setup.tex",
+      "role": "Coordinate and mesh definitions",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/02-setup.tex"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/03-counting.tex",
+      "role": "Equality-inclusive arrangement counts",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/03-counting.tex",
+      "git_blob": "45e527fa7f77423d0f3f64903009d204ff69ea3b"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/04-outer.tex",
+      "role": "Finite asymmetric local lemma",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/04-outer.tex",
+      "git_blob": "8570fab8f40fb1c77dd06d3b4b83b00f711d3378"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/05-dichotomy.tex",
+      "role": "Heavy-return drift, path separation, and centered affinity",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/05-dichotomy.tex"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/06-perturbation.tex",
+      "role": "Literal keys and perturbation construction",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/06-perturbation.tex"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "path": "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/07-transfers.tex",
+      "role": "Cyclic-to-interval digit product",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/07-transfers.tex"
+    }
+  ]
+}
