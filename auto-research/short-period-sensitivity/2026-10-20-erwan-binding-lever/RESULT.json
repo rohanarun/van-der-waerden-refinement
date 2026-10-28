@@ -1,0 +1,34 @@
+{
+  "current region (F,B,R)": {
+    "sup_b": "1/2",
+    "sup_c": "1/8"
+  },
+  "relax F only (a<m<1 kept)": {
+    "sup_b": "1/2",
+    "sup_c": "1/8"
+  },
+  "drop R only": {
+    "sup_b": "1/2",
+    "sup_c": "1/8"
+  },
+  "drop B only": {
+    "sup_b": "1",
+    "sup_c": "1/4"
+  },
+  "relax F and drop R": {
+    "sup_b": "1",
+    "sup_c": "1/4"
+  },
+  "relax F and drop B": {
+    "sup_b": "1",
+    "sup_c": "1/4"
+  },
+  "_theta_family_sup_c": {
+    "1": "1/8",
+    "3/2": "3/20",
+    "2": "1/6",
+    "3": "3/16",
+    "5": "5/24",
+    "10": "5/22"
+  }
+}

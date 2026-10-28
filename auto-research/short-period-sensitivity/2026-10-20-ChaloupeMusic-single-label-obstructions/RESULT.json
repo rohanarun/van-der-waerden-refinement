@@ -1,0 +1,47 @@
+{
+  "P2_periodic_flips": "flip depending on the full label and on band mod L, L <= q/(400 k^3 lambda): a monochromatic progression for every assignment",
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "finite_checks": {
+    "P2_moduli": [
+      "2^10",
+      "3^7*5",
+      "2^20"
+    ],
+    "P3_distinct_box_words": 36,
+    "algebra_instances": 300,
+    "disjoint_block_key_sets": 50,
+    "negative_controls_rejected": 3,
+    "single_label_blocks": "400/400"
+  },
+  "pr7_literal_tuple": {
+    "a": "49/100",
+    "b": "97/200",
+    "c": "1/9",
+    "certificate": "lambda <= q/(400 k^3) and ln K - k(p + p^2) >= 5 on every cell",
+    "certified_ln_k": [
+      "460.95",
+      "925.62"
+    ],
+    "certified_log10_k": [
+      "200.2",
+      "402.0"
+    ],
+    "m": "99/100"
+  },
+  "scope": "no single-label progression when lambda > q H/(k-1), which holds for every a > 1/2 once k is large",
+  "theorem": {
+    "K_lower_bound": "(k^2/2 - 4)^(D-1) * q/(20 k)",
+    "P_no_monochromatic_at_most": "exp(-K (1-p)^k)",
+    "exponent_scale": [
+      "b < a",
+      "a + b < 1"
+    ],
+    "hypotheses": [
+      "lambda <= q/(400 k^3)",
+      "alpha <= 1/8",
+      "p <= 1/2"
+    ],
+    "necessary_for_a_sub_prescription_union_bound_below_1": "p k (1+p) > (D-1) ln(k^2/2 - 4) + ln q - ln(20 k)",
+    "sub_prescription_union_bound_total_at_least": "K (1-p)^k"
+  }
+}

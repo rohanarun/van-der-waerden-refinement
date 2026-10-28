@@ -1,0 +1,75 @@
+{
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "injectivity": {
+    "q=11,D=3,k=3,lambda=1": {
+      "difference_set": 27,
+      "injective": false,
+      "largest_fibre": 8,
+      "qH_x": "11/9"
+    },
+    "q=11,D=3,k=3,lambda=2": {
+      "difference_set": 1,
+      "injective": true,
+      "largest_fibre": 1,
+      "qH_x": "11/18"
+    },
+    "q=13,D=3,k=3,lambda=1": {
+      "difference_set": 27,
+      "injective": false,
+      "largest_fibre": 8,
+      "qH_x": "13/9"
+    },
+    "q=13,D=3,k=3,lambda=2": {
+      "difference_set": 1,
+      "injective": true,
+      "largest_fibre": 1,
+      "qH_x": "13/18"
+    },
+    "q=29,D=2,k=3,lambda=1": {
+      "difference_set": 49,
+      "injective": false,
+      "largest_fibre": 16,
+      "qH_x": "29/9"
+    },
+    "q=7,D=4,k=3,lambda=1": {
+      "difference_set": 1,
+      "injective": true,
+      "largest_fibre": 1,
+      "qH_x": "7/9"
+    },
+    "words_through_0 (q=11,D=3,k=3,lambda=2)": {
+      "distinct": 3990,
+      "k(N-1)": 3990
+    }
+  },
+  "regime": {
+    "a=0.4": "q >= 400 k^3 lambda (single-label regime) for k = 10^50, 10^200, 10^1000, h_0 = D ceil(ln k)^2",
+    "a=0.45": "q >= 400 k^3 lambda (single-label regime) for k = 10^50, 10^200, 10^1000, h_0 = D ceil(ln k)^2",
+    "a=0.5 (boundary, k=10^200, sharpened h_0)": {
+      "injective": true,
+      "single_label": false
+    },
+    "a=0.55": "qH_x < 1 (x-label injective) for k = 10^50, 10^200, 10^1000, h_0 = D and D ceil(ln k)^2",
+    "a=0.6": "qH_x < 1 (x-label injective) for k = 10^50, 10^200, 10^1000, h_0 = D and D ceil(ln k)^2",
+    "a=0.75": "qH_x < 1 (x-label injective) for k = 10^50, 10^200, 10^1000, h_0 = D and D ceil(ln k)^2"
+  },
+  "short_periods": {
+    "(Z/2)^2": {
+      "affine_lines": 6,
+      "monochromatic_line_forced": true
+    },
+    "(Z/2)^3": {
+      "affine_lines": 28,
+      "monochromatic_line_forced": true
+    },
+    "(Z/3)^2": {
+      "affine_lines": 12,
+      "monochromatic_line_forced": true
+    },
+    "(Z/5)^2 control": {
+      "affine_lines": 30,
+      "certificate": "0101010101000110100000111",
+      "monochromatic_line_forced": false
+    }
+  }
+}

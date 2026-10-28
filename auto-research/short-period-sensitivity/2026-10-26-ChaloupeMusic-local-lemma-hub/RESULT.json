@@ -1,0 +1,37 @@
+{
+  "R": "implied by F and B; sup c = 1/8 with or without it",
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "finite_checks": {
+    "E": 24821426517,
+    "Z_bipartite_instances": 40,
+    "hub_m": 381257111311789,
+    "instance": "q = 2^61 - 1, D = 3, k = 12, lambda = 840",
+    "sampled_steps": 202,
+    "toy_L12_canonical_Z": "-403297601192488649367/2361183241434822606848",
+    "toy_exact_P_no_mono_L4_p1_4": "14457/65536"
+  },
+  "hub_lemma": {
+    "hypotheses": [
+      "lambda <= q/(400 k^3)",
+      "D >= 2"
+    ],
+    "star": "P_e = {n0 + q^(D-1) j e : j < k}, 1 <= e <= E = floor(q/(64 k^3 lambda)), one full label, k distinct keys each, all through kappa0 = kappa(n0)"
+  },
+  "lp_sup_c": {
+    "local lemma, F relaxed: B": "1/4",
+    "local lemma: F, B": "1/8",
+    "union bound: F, B, R": "1/8"
+  },
+  "not_closed": [
+    "refined families: a family passing the complete-graph test exists iff P_p(no mono) > 0",
+    "cover families: contain door 1 (any X_s with its union bound gives a local-lemma proof)",
+    "criteria reading both the variables and the conflict structure beyond Shearer"
+  ],
+  "theorem": {
+    "exponent_scale": "b < a",
+    "family": "canonical: one event per progression and color, on its own keys",
+    "graph_only_criteria_fail_if": "E (1-p)^k >= k ln(1/p) + ln 2",
+    "necessary_for_either": "k (p + p^2) > ln E - ln(k ln(1/p) + ln 2)",
+    "variable_only_criteria_fail_if": "E (1-p)^k >= 1"
+  }
+}
