@@ -1,0 +1,393 @@
+{
+  "status": "negative result about one method (Haar model, theta <~ 1/s_a) + measurements + open statement",
+  "base": "98e6d36",
+  "theorem_B": {
+    "statement": "B uniform on the torus; height split (union for det <= H, first moment in A for det > H), certificates (L, gamma, l0) of rank m <= D/(2s): bound >= (D^s s^(1-s)/(m delta k))^m -> infinity when (s-1)a > 1, any H",
+    "not_covered": [
+      "B in Lambda",
+      "moments p >= 2 in A",
+      "deterministic equidistribution",
+      "certificates other than relation lattices or of rank > D/(2s)"
+    ]
+  },
+  "open": [
+    "(E_theta) <=> d1(J) < theta D for |J| = floor(delta k), on the family of (G-flat)",
+    "(M_theta) mixed term, nonzero in measurements",
+    "(G-flat)(i) beyond sigma_4"
+  ],
+  "greedy_and_witness": [
+    {
+      "D": 8,
+      "k": 1000,
+      "graine": 1,
+      "mode": "periode",
+      "J": 200,
+      "deficit": 16,
+      "accord": true
+    },
+    {
+      "D": 8,
+      "k": 1000,
+      "graine": 1,
+      "mode": "hasard",
+      "J": 132,
+      "deficit": 6,
+      "accord": true
+    },
+    {
+      "D": 8,
+      "k": 1000,
+      "graine": 2,
+      "mode": "hasard",
+      "J": 126,
+      "deficit": 6,
+      "accord": true
+    },
+    {
+      "D": 8,
+      "k": 1000,
+      "graine": 3,
+      "mode": "hasard",
+      "J": 132,
+      "deficit": 6,
+      "accord": true
+    },
+    {
+      "D": 12,
+      "k": 1000,
+      "graine": 1,
+      "mode": "periode",
+      "J": 200,
+      "deficit": 24,
+      "accord": true
+    },
+    {
+      "D": 12,
+      "k": 1000,
+      "graine": 1,
+      "mode": "hasard",
+      "J": 114,
+      "deficit": 10,
+      "accord": true
+    },
+    {
+      "D": 12,
+      "k": 1000,
+      "graine": 2,
+      "mode": "hasard",
+      "J": 143,
+      "deficit": 8,
+      "accord": true
+    },
+    {
+      "D": 12,
+      "k": 1000,
+      "graine": 3,
+      "mode": "hasard",
+      "J": 113,
+      "deficit": 10,
+      "accord": true
+    },
+    {
+      "D": 16,
+      "k": 1000,
+      "graine": 1,
+      "mode": "periode",
+      "J": 200,
+      "deficit": 32,
+      "accord": true
+    },
+    {
+      "D": 16,
+      "k": 1000,
+      "graine": 1,
+      "mode": "hasard",
+      "J": 115,
+      "deficit": 12,
+      "accord": true
+    },
+    {
+      "D": 16,
+      "k": 1000,
+      "graine": 2,
+      "mode": "hasard",
+      "J": 101,
+      "deficit": 12,
+      "accord": true
+    },
+    {
+      "D": 16,
+      "k": 1000,
+      "graine": 3,
+      "mode": "hasard",
+      "J": 117,
+      "deficit": 12,
+      "accord": true
+    },
+    {
+      "D": 24,
+      "k": 1170,
+      "graine": 1,
+      "mode": "periode",
+      "J": 234,
+      "deficit": 48,
+      "accord": true
+    },
+    {
+      "D": 24,
+      "k": 1170,
+      "graine": 1,
+      "mode": "hasard",
+      "J": 132,
+      "deficit": 14,
+      "accord": true
+    },
+    {
+      "D": 24,
+      "k": 1170,
+      "graine": 2,
+      "mode": "hasard",
+      "J": 148,
+      "deficit": 12,
+      "accord": true
+    },
+    {
+      "D": 24,
+      "k": 1170,
+      "graine": 3,
+      "mode": "hasard",
+      "J": 123,
+      "deficit": 14,
+      "accord": true
+    },
+    {
+      "D": 32,
+      "k": 2200,
+      "graine": 1,
+      "mode": "periode",
+      "J": 440,
+      "deficit": 64,
+      "accord": true
+    },
+    {
+      "D": 32,
+      "k": 2200,
+      "graine": 1,
+      "mode": "hasard",
+      "J": 275,
+      "deficit": 14,
+      "accord": true
+    },
+    {
+      "D": 32,
+      "k": 2200,
+      "graine": 2,
+      "mode": "hasard",
+      "J": 261,
+      "deficit": 14,
+      "accord": true
+    },
+    {
+      "D": 32,
+      "k": 2200,
+      "graine": 3,
+      "mode": "hasard",
+      "J": 264,
+      "deficit": 14,
+      "accord": true
+    },
+    {
+      "D": 40,
+      "k": 3600,
+      "graine": 1,
+      "mode": "periode",
+      "J": 720,
+      "deficit": 80,
+      "accord": true
+    },
+    {
+      "D": 40,
+      "k": 3600,
+      "graine": 1,
+      "mode": "hasard",
+      "J": 475,
+      "deficit": 14,
+      "accord": true
+    },
+    {
+      "D": 40,
+      "k": 3600,
+      "graine": 2,
+      "mode": "hasard",
+      "J": 445,
+      "deficit": 14,
+      "accord": true
+    },
+    {
+      "D": 40,
+      "k": 3600,
+      "graine": 3,
+      "mode": "hasard",
+      "J": 373,
+      "deficit": 16,
+      "accord": true
+    }
+  ],
+  "exact_vs_greedy (family: intersections of level classes of support <= 3)": [
+    {
+      "D": 8,
+      "k": 500,
+      "delta": 0.1,
+      "smax": 3,
+      "graine": 1,
+      "ensembles": 398,
+      "noeuds": 4015,
+      "exhaustif": true,
+      "feuilles": 2067,
+      "exact_deficit": 8,
+      "exact_J_prof_accord": [
+        51,
+        4,
+        true
+      ],
+      "glouton_deficit": 6,
+      "glouton_J": 81
+    },
+    {
+      "D": 8,
+      "k": 500,
+      "delta": 0.1,
+      "smax": 3,
+      "graine": 2,
+      "ensembles": 390,
+      "noeuds": 3230,
+      "exhaustif": true,
+      "feuilles": 1734,
+      "exact_deficit": 8,
+      "exact_J_prof_accord": [
+        51,
+        4,
+        true
+      ],
+      "glouton_deficit": 6,
+      "glouton_J": 86
+    },
+    {
+      "D": 12,
+      "k": 1000,
+      "delta": 0.1,
+      "smax": 3,
+      "graine": 1,
+      "ensembles": 673,
+      "noeuds": 10608,
+      "exhaustif": true,
+      "feuilles": 6157,
+      "exact_deficit": 10,
+      "exact_J_prof_accord": [
+        104,
+        5,
+        true
+      ],
+      "glouton_deficit": 10,
+      "glouton_J": 114
+    }
+  ],
+  "boxes": [
+    {
+      "D": 12,
+      "k": 1000,
+      "delta": 0.1,
+      "graine": 1,
+      "smax": 4,
+      "candidats": 8269,
+      "glouton": {
+        "J": 144,
+        "deficit": 10,
+        "accord": true,
+        "relations": 5
+      },
+      "boites": {
+        "deficit": 2,
+        "J": 109,
+        "S": [
+          6
+        ]
+      }
+    },
+    {
+      "D": 12,
+      "k": 1000,
+      "delta": 0.1,
+      "graine": 2,
+      "smax": 4,
+      "candidats": 8332,
+      "glouton": {
+        "J": 139,
+        "deficit": 10,
+        "accord": true,
+        "relations": 5
+      },
+      "boites": {
+        "deficit": 2,
+        "J": 142,
+        "S": [
+          10,
+          11
+        ]
+      }
+    }
+  ],
+  "measured_family": "support <= 3, coefficients +-1, +-2, integer slope round(<g,B>), window |g|_1/(delta k); ranks mod 2^61-1 and 2^89-1 (upper bounds on the deficit)",
+  "widened": {
+    "by": "contradictor (radar-89's agent), replayed here",
+    "family": "window |g|_1/(ceil(delta k)-1), coefficients up to +-3, slopes p/q with q <= 10",
+    "D": 8,
+    "k": 500,
+    "seed": 1,
+    "relations": 50156,
+    "level_classes": 2299,
+    "leaves_looser_criterion": 8259,
+    "exhaustive": true,
+    "max_deficit": 8,
+    "J": 51
+  },
+  "verify": {
+    "A1_toy": {
+      "grid": 101,
+      "n": 5,
+      "frequency": "4921/10201",
+      "formula": "12/25"
+    },
+    "A2_det1_pairs": 120,
+    "witness": {
+      "D": 8,
+      "k": 1000,
+      "J": 200,
+      "deficit_Q": 16,
+      "d1_Q": 8
+    },
+    "replay_D8_k500_seed1": {
+      "relations": 357,
+      "level_classes": 398,
+      "nodes": 4015,
+      "maximal_intersections": 1852,
+      "max_deficit": 8,
+      "max_deficit_certified_over_Q": true,
+      "nonzero_mixed_term": 3,
+      "histogram deficit/d1/mixed": {
+        "2/1/0": 155,
+        "4/2/0": 1409,
+        "5/2/1": 2,
+        "6/3/0": 284,
+        "7/3/1": 1,
+        "8/4/0": 1
+      },
+      "greedy": {
+        "J": 81,
+        "deficit_Q": 6,
+        "d1_Q": 3,
+        "mixed_Q": 0
+      }
+    }
+  }
+}
