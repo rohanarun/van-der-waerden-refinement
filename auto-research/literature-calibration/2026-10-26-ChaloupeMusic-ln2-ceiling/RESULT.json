@@ -1,0 +1,75 @@
+{
+  "_scope": "checks of README.md; no new bound on W_r(k)",
+  "crossover": {
+    "1/16": {
+      "fraction_of_ln2": 0.0902,
+      "r_exponent": 2.1982
+    },
+    "1/8": {
+      "fraction_of_ln2": 0.1803,
+      "r_exponent": 2.44
+    },
+    "1/9": {
+      "fraction_of_ln2": 0.1603,
+      "r_exponent": 2.3818
+    }
+  },
+  "digit_product_cases": [
+    {
+      "N": 4,
+      "base": "0011",
+      "classes": 4,
+      "k": 3,
+      "largest_class": 4,
+      "length": 16,
+      "m": 2
+    },
+    {
+      "N": 4,
+      "base": "0011",
+      "classes": 8,
+      "k": 3,
+      "largest_class": 8,
+      "length": 64,
+      "m": 3
+    },
+    {
+      "N": 11,
+      "base": "00010010111",
+      "classes": 4,
+      "k": 4,
+      "largest_class": 36,
+      "length": 121,
+      "m": 2
+    },
+    {
+      "N": 7,
+      "base": "0001011",
+      "classes": 8,
+      "k": 4,
+      "largest_class": 64,
+      "length": 343,
+      "m": 3
+    },
+    {
+      "N": 19,
+      "base": "0000101011110010011",
+      "classes": 4,
+      "k": 5,
+      "largest_class": 100,
+      "length": 361,
+      "m": 2
+    },
+    {
+      "N": 20,
+      "base": "00010010001110110111",
+      "classes": 4,
+      "k": 5,
+      "largest_class": 100,
+      "length": 400,
+      "m": 2
+    }
+  ],
+  "ln2": 0.693147,
+  "normalization": "r^{a k ln k} = k^{a ln2 k log2 r}; FH Thm 2 <-> c = (1-eps) ln 2"
+}
