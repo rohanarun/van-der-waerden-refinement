@@ -1,0 +1,176 @@
+{
+  "part_a_thresholds": {
+    "general_1/100": {
+      "B0": 12804,
+      "C1": 279,
+      "CL": 88,
+      "K": "2^8388608",
+      "L_eps": 19,
+      "failing_at_half_t": [
+        "anchor entropy"
+      ],
+      "frak_b": "2303/40000",
+      "outer_balance": "10249/1000000",
+      "rich_mu": "2009/20000",
+      "rounds": 22,
+      "t": "8388608",
+      "tests_passed": 21
+    },
+    "general_1/9": {
+      "B0": 36868,
+      "C1": 282,
+      "CL": 96,
+      "K": "2^67108864",
+      "L_eps": 22,
+      "failing_at_half_t": [
+        "anchor entropy"
+      ],
+      "frak_b": "161/18432",
+      "outer_balance": "83663/23887872",
+      "rich_mu": "161/18432",
+      "rounds": 25,
+      "t": "67108864",
+      "tests_passed": 21
+    },
+    "general_1249/10000": {
+      "B0": 5120004,
+      "C1": 297,
+      "CL": 124,
+      "K": "2^2199023255552",
+      "L_eps": 37,
+      "failing_at_half_t": [
+        "anchor entropy"
+      ],
+      "frak_b": "200009/3200000000",
+      "outer_balance": "1600099999/64000000000000",
+      "rich_mu": "200009/3200000000",
+      "rounds": 40,
+      "t": "2199023255552",
+      "tests_passed": 21
+    },
+    "general_near_endpoint": {
+      "B0": 512000000000004,
+      "C1": 350,
+      "CL": 228,
+      "K": "2^39614081257132168796771975168",
+      "L_eps": 90,
+      "failing_at_half_t": [
+        "anchor entropy"
+      ],
+      "frak_b": "20000000000009/32000000000000000000000000",
+      "outer_balance": "16000000000009999999999999/64000000000000000000000000000000000000",
+      "rich_mu": "20000000000009/32000000000000000000000000",
+      "rounds": 94,
+      "t": "39614081257132168796771975168",
+      "tests_passed": 21
+    },
+    "literal_PR6": {
+      "B0": 25604,
+      "C1": 281,
+      "CL": 92,
+      "K": "2^33554432",
+      "L_eps": 21,
+      "failing_at_half_t": [
+        "anchor entropy",
+        "rich inverse log"
+      ],
+      "frak_b": "857/400000",
+      "outer_balance": "40499/8000000",
+      "rich_mu": "857/400000",
+      "rounds": 24,
+      "t": "33554432",
+      "tests_passed": 21
+    },
+    "literal_PR7": {
+      "B0": 25604,
+      "C1": 281,
+      "CL": 92,
+      "K": "2^33554432",
+      "L_eps": 21,
+      "failing_at_half_t": [
+        "anchor entropy"
+      ],
+      "frak_b": "4681/720000",
+      "outer_balance": "40499/8000000",
+      "rich_mu": "4681/720000",
+      "rounds": 24,
+      "t": "33554432",
+      "tests_passed": 21
+    }
+  },
+  "part_b_identities": {
+    "digit_expansion_dimension": 5,
+    "rich_split_cases": 2580,
+    "rule_13_1_identities": 2,
+    "vertex_identities": [
+      "7.10",
+      "7.11",
+      "7.8",
+      "7.9",
+      "8.9"
+    ]
+  },
+  "part_c_sections_7_8_chain": {
+    "D": 3,
+    "P": 1031,
+    "decoded": 87,
+    "exact_mesh_decisions": 3,
+    "k": 192,
+    "lam": 30030,
+    "m_V": 2020659,
+    "multi_class_progressions": 7,
+    "no_box_return": 0,
+    "nonzero_carry_difference": 10,
+    "progressions": 157,
+    "q": 1062961,
+    "rank_hist": {
+      "0": 80,
+      "1": 1,
+      "2": 4,
+      "3": 2
+    },
+    "return_without_collision": 70,
+    "seed": 20261020,
+    "with_collision": 87,
+    "with_return": 157
+  },
+  "part_c_small_groups": {
+    "base_coloring_Z7_k4": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "equality_cases_in_7_1": 12,
+    "nonzero_elements_checked": 1418,
+    "ordinary_4APs_checked_s_1_to_3": 19818
+  },
+  "part_d_mutations": {
+    "(13.3) lowest digit only": true,
+    "(13.3) top digit only": true,
+    "(7.11) factor (sigma_a - sigma_0) without 1/2": true,
+    "(7.2) band of width 4 instead of 1": true,
+    "(7.9) Lambda with -c*sigma": true,
+    "(8.2) S_2 shifted by three": true,
+    "(8.5) window [-4,4] shrunk to [0,0]": true,
+    "K halved (PR6): t = 2^24": true,
+    "K halved (PR7): t = 2^24": true,
+    "PR6 (12.1) constant 10000 -> 20000": true,
+    "PR6 c = 1/15": true,
+    "PR7 B0 with 64/eps_reg": true,
+    "PR7 C_1 = 280": true,
+    "PR7 C_L = 88": true,
+    "PR7 L_eps = 20": true,
+    "PR7 anchored entropy C_L doubled": true,
+    "PR7 c = 1/8": true,
+    "PR7 gamma = A0(1-delta)": true
+  },
+  "pins": {
+    "base": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+    "pr9_head": "89660352f5dfcf1180a47b224610d444b2ce8701",
+    "thresholds_sha256": "a1820e5e6655746248171fc3cd23b2e1e24b99be52a75da80625581e7c900093"
+  }
+}
