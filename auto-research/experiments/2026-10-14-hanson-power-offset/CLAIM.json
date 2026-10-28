@@ -1,0 +1,32 @@
+{
+  "assignment_seed": 46,
+  "random_source": "Python secrets.randbelow(100), backed by operating-system randomness",
+  "track": "structural research",
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "object": "P_{lambda,s}(a,b)=((1+lambda)min(a,b)-lambda)^s (max(a,b)+lambda(min(a,b)-1)), lambda,s >= 0",
+  "method": "Characterize compatibility with separate discrete concavity and shifted tripling; verify exact finite instances without importing audit_math.py.",
+  "expected_deliverable": "Analytic family characterization and scoped no-gain result, exact verifier, source pins, handoff and patch.",
+  "expected_finish_utc": "2026-10-14T16:00:00Z",
+  "candidate_tasks": [
+    {
+      "task": "Signed norm bands to split repeated keys",
+      "reason_not_selected": "barrier-note.md already discusses reflection-splitting costs; would require a new full entropy account."
+    },
+    {
+      "task": "Alternative dilation cutoff",
+      "reason_not_selected": "barrier-note.md already gives primary-factor cost bounds; no distinct mechanism identified."
+    },
+    {
+      "task": "Power-and-offset matrix-profile family",
+      "reason_selected": "Base contains one explicit profile and finite LP experiments, but no characterization of this two-parameter deformation."
+    }
+  ],
+  "seed_diversification": "Seed 46 selects the matrix-family object among structural candidates and determines the additional rational sample offsets in verify.py.",
+  "coordination_status": "Local claim: no issues exist in the live all-state issue list. Open PRs #9 and #10 and PR10 conditional-review ledger were read after network access was restored; no overlap found in their listed files.",
+  "instructions": "Exact requested auto-research.md read. No applicable on-disk AGENTS.md or contribution guide was found in checkout/ancestor paths. Existing auto-research track: experiments, whose README.md is absent at this base; its recorded outputs and auto-research/README.md were inspected.",
+  "scope_status": "Completed contribution submitted as research note/scoped no-gain result; all local checks passed; independent human review and formal verification remain unestablished.",
+  "environment_history": "Initial fetch/GitHub requests and SymPy audit were blocked. User migrated preserved work to /Volumes/Auto Research Workspace/Runtime and supplied /Volumes/Auto Research Workspace/venv/bin/python; fetch and baseline checks now work. Process listing remains denied.",
+  "packaging": "Continue the existing experiments track, which contains the predecessor matrix-profile evidence. Its missing README index is added; all historical experiment files are preserved.",
+  "result_url": "https://github.com/rohanarun/van-der-waerden-refinement/pull/11",
+  "result": "Full admissible curve characterized within lambda,s>=0; unique minimum diagonal exponent 4/3 at the predecessor profile."
+}
