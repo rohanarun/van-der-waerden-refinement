@@ -1,0 +1,122 @@
+{
+  "negative_controls": {
+    "part_a": 4,
+    "part_b_scale_4096_needed": 1,
+    "part_c_6logq_needed": 1
+  },
+  "part_a_short_period_ledger": {
+    "conditions": [
+      {
+        "condition": "a<m",
+        "margin_at_1_9": "1/2",
+        "origin": "source Sec. 2 and sharpened Change 1: h_0 = D L^2 < 2M",
+        "rhs": "0",
+        "sup_over_region": "0"
+      },
+      {
+        "condition": "2a<m",
+        "margin_at_1_9": "1/100",
+        "origin": "first local-lemma family: log T_glob = O(k^{2a} log^3 k) = o(M)",
+        "rhs": "0",
+        "sup_over_region": "0"
+      },
+      {
+        "condition": "m<1",
+        "margin_at_1_9": "1/100",
+        "origin": "drift lemma m_*-1 >= k/(2M); 2M/k <= 1/16; coverage k-h-delta k",
+        "rhs": "1",
+        "sup_over_region": "1"
+      },
+      {
+        "condition": "m<2",
+        "margin_at_1_9": "101/100",
+        "origin": "path lemma (1-2MH)/(2M) > H; heavy-width 2H+4MH/h < 1; 4MH/h < 1/2; Lemma 1 2MH_x < 1/2",
+        "rhs": "2",
+        "sup_over_region": "1"
+      },
+      {
+        "condition": "m<3",
+        "margin_at_1_9": "201/100",
+        "origin": "drift lemma |v - lambda u| <= 6MH/k < 1",
+        "rhs": "3",
+        "sup_over_region": "1"
+      },
+      {
+        "condition": "a+m<3",
+        "margin_at_1_9": "38/25",
+        "origin": "long periods: rotating drift 4MH/k < eta = eps_reg/(8D)",
+        "rhs": "3",
+        "sup_over_region": "3/2"
+      },
+      {
+        "condition": "a<1",
+        "margin_at_1_9": "51/100",
+        "origin": "Lemma C/C*: 4D(k+2)q/k^2 < q/8 and 3|v|_1/k^2 < 1; errors O(D log k) = o(k log k)",
+        "rhs": "1",
+        "sup_over_region": "1/2"
+      },
+      {
+        "condition": "-a<0",
+        "margin_at_1_9": "49/100",
+        "origin": "errors O(log q) = O(c k^{1-a} log k) = o(k log k); case (i) key words",
+        "rhs": "0",
+        "sup_over_region": "0"
+      },
+      {
+        "condition": "b<a",
+        "margin_at_1_9": "1/200",
+        "origin": "short period, case (ii): 6 log q = O(k^{1-a} log k) = o(pk)",
+        "rhs": "0",
+        "sup_over_region": "0"
+      },
+      {
+        "condition": "a+b<1",
+        "margin_at_1_9": "1/40",
+        "origin": "short period, case (ii): V-box word O(D log k) and run code O(D log^3 k) = o(pk)",
+        "rhs": "1",
+        "sup_over_region": "1"
+      },
+      {
+        "condition": "-b<0",
+        "margin_at_1_9": "97/200",
+        "origin": "p = k^{-b} <= 1/2 eventually",
+        "rhs": "0",
+        "sup_over_region": "0"
+      }
+    ],
+    "negative_controls_rejected": 4,
+    "region_vertices": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1/2",
+        "1",
+        "0"
+      ],
+      [
+        "1/2",
+        "1",
+        "1/2"
+      ]
+    ]
+  },
+  "part_b_pr12_inequalities": {
+    "checks": 120524,
+    "failures": 0,
+    "t_range": "every integer in [512,4096] and 5000, 1e4, 3e4, 1e5, 1e6",
+    "t_values": 3590
+  },
+  "part_c_pr12_appendix_a_vs_pr9": {
+    "checks": 28720,
+    "failures": 0,
+    "t_values": 3590
+  }
+}
