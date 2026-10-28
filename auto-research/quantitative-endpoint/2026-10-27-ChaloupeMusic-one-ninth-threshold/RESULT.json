@@ -1,0 +1,121 @@
+{
+  "base": {
+    "retuned_endpoint_head": "8916c20",
+    "template_limit": "2026-10-26-ChaloupeMusic-template-limit"
+  },
+  "conclusion": "W_r(k) > k^((k/9) floor(log2 r)) for every k >= 2^940 (D''; 2^1000 under D', 2^1038 under D), conditional on the interfaces of PR #12, Section 2, and PR #9's factors, as the retuned endpoint; under (T1)-(T6) of template-limit no proof in this chain gives it for e^256 <= k <= 2^934",
+  "decimal_replay": {
+    "checks": 1040,
+    "failures": 0,
+    "rich_at_2^(N0-1)_negative": true,
+    "t_values": 65
+  },
+  "floor_delta": {
+    "delta": "1/50000000",
+    "m0_upper": "1.108316e-08"
+  },
+  "integrity_files": [
+    "NOTICE.md",
+    "PROOF.md",
+    "README.md",
+    "logs.py",
+    "plancher.py",
+    "verify.py"
+  ],
+  "negative_controls": {
+    "AD_18.03_h0_constraint": true,
+    "AP_25.66_case_ii": true,
+    "BH_4.505_second_family": true,
+    "G_2.1": true,
+    "N0_minus_1_rich": true,
+    "case_ii_with_F_at_most_kt_over_8": true,
+    "class_D1_at_N0": true,
+    "floor_at_935": true,
+    "kept_terms_dropped_at_N0": true
+  },
+  "parameters": {
+    "F": "kt/9",
+    "h0": "ceil(451/100 D t^3)",
+    "lemma_A": "Rosser-Schoenfeld 1.01624",
+    "p": "642/25 t^(7/2)/sqrt(k)",
+    "u": "sqrt(k)/(361/20 t^(5/2))",
+    "unchanged": "M, Ms, eps_reg, eta, B0, delta_s, gamma, q as in the retuned endpoint"
+  },
+  "tiers": {
+    "D0": {
+      "class_product": "N1a's Lemma D: 37^k",
+      "floor": {
+        "gap_proved_minus_floor": 6,
+        "intervals": 90,
+        "margin_at_2^(floor+1)": "0.00141",
+        "margin_at_2^floor_upper": "-0.00733",
+        "no_template_proof_for_k_in": "[e^256, 2^1032]"
+      },
+      "threshold": {
+        "N0_minus_1_fails": true,
+        "budgets": {
+          "T0": 719,
+          "caseII_ratio_upper": "0.999654",
+          "caseI_margin_lower": "1.8802",
+          "first_family_total_upper": "0.96136",
+          "monomials": 26,
+          "second_family_margin_at_T0_lower": "2.426"
+        },
+        "one_ninth_from": "2^1038",
+        "retuned_endpoint": "2^1048",
+        "rich_intervals": 9,
+        "rich_margin_lower": "0.0028201"
+      }
+    },
+    "D1": {
+      "class_product": "Lemma D': 19^k",
+      "floor": {
+        "gap_proved_minus_floor": 6,
+        "intervals": 94,
+        "margin_at_2^(floor+1)": "0.00316",
+        "margin_at_2^floor_upper": "-0.00555",
+        "no_template_proof_for_k_in": "[e^256, 2^994]"
+      },
+      "threshold": {
+        "N0_minus_1_fails": true,
+        "budgets": {
+          "T0": 693,
+          "caseII_ratio_upper": "0.999654",
+          "caseI_margin_lower": "1.7796",
+          "first_family_total_upper": "0.96136",
+          "monomials": 26,
+          "second_family_margin_at_T0_lower": "2.038"
+        },
+        "one_ninth_from": "2^1000",
+        "retuned_endpoint": "2^1009",
+        "rich_intervals": 9,
+        "rich_margin_lower": "0.0040448"
+      }
+    },
+    "D2": {
+      "class_product": "Lemma D'': 45^(k/2)",
+      "floor": {
+        "gap_proved_minus_floor": 6,
+        "intervals": 96,
+        "margin_at_2^(floor+1)": "0.00319",
+        "margin_at_2^floor_upper": "-0.00546",
+        "no_template_proof_for_k_in": "[e^256, 2^934]"
+      },
+      "threshold": {
+        "N0_minus_1_fails": true,
+        "budgets": {
+          "T0": 651,
+          "caseII_ratio_upper": "0.999654",
+          "caseI_margin_lower": "1.6173",
+          "first_family_total_upper": "0.96136",
+          "monomials": 26,
+          "second_family_margin_at_T0_lower": "1.399"
+        },
+        "one_ninth_from": "2^940",
+        "retuned_endpoint": "2^950",
+        "rich_intervals": 9,
+        "rich_margin_lower": "0.0031548"
+      }
+    }
+  }
+}
