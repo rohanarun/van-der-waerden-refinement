@@ -1,0 +1,48 @@
+{
+  "axioms": {
+    "axioms_used": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "constants": 54,
+    "statements": [
+      "weight_sum",
+      "probGood_pos_iff",
+      "fixed_iff",
+      "method_iff_class",
+      "mono_iff",
+      "method_iff_class_kAPs",
+      "rich_alone",
+      "mono_iff_presc",
+      "presc_union",
+      "card_prescribed_le",
+      "card_bad_le",
+      "slow_alone",
+      "card_kAPs_6_3",
+      "card_kAPs_7_3",
+      "kAPs_eq_empty_of_lt",
+      "kAPs_zero"
+    ]
+  },
+  "proposition_2": {
+    "bound_cases": 200,
+    "empty_family": 10,
+    "rich_hypothesis_holds": 53,
+    "slow_alone_applies": 57,
+    "tight": 33,
+    "toys": 200,
+    "with_empty_set": 29,
+    "with_one_point_set": 29
+  },
+  "toys": {
+    "class_bad": 27,
+    "class_good": 33,
+    "empty_family": 6,
+    "fixed_cases": 3840,
+    "mono_cases": 28992,
+    "toys": 60,
+    "with_empty_set": 6,
+    "with_one_point_set": 6
+  }
+}

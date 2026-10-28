@@ -1,0 +1,346 @@
+{
+ "berlekamp_witness": {
+  "control_t=3_has_mono_3AP": true,
+  "t=3_S1": [
+   0,
+   1,
+   4,
+   6,
+   7,
+   8,
+   11,
+   13,
+   14,
+   15,
+   18,
+   20
+  ],
+  "t=3_table_equals_paper": true,
+  "t=5": {
+   "interval": [
+    -2,
+    157
+   ],
+   "length": 160,
+   "mono_(t+1)_AP": null
+  },
+  "t=7": {
+   "interval": [
+    -3,
+    892
+   ],
+   "length": 896,
+   "mono_(t+1)_AP": null
+  }
+ },
+ "double_certificate": {
+  "2^3": {
+   "affine_subspaces": 50,
+   "all_hyperplane_and_complement": true,
+   "covering_pairs": 7,
+   "expected": 7
+  },
+  "2^4": {
+   "affine_subspaces": 306,
+   "all_hyperplane_and_complement": true,
+   "covering_pairs": 15,
+   "expected": 15
+  },
+  "3^2": {
+   "affine_subspaces": 21,
+   "all_hyperplane_and_complement": true,
+   "covering_pairs": 0,
+   "expected": 0
+  },
+  "3^3": {
+   "affine_subspaces": 183,
+   "all_hyperplane_and_complement": true,
+   "covering_pairs": 0,
+   "expected": 0
+  },
+  "density_phi=0": {
+   "3": "3/7",
+   "5": "15/31",
+   "7": "63/127"
+  }
+ },
+ "fails": 0,
+ "figures_read_back": 8,
+ "frozen_sections": [
+  "## 1. The sources",
+  "## 2. Setting and translation",
+  "## 3. The certificate",
+  "## 4. Theorem 1 (the scale)",
+  "## 5. Carrying it to N",
+  "## 6. Answers",
+  "## What is not claimed",
+  "PREAMBLE"
+ ],
+ "lemma_L": {
+  "2^4": {
+   "aff,w=1,d=2": [
+    2,
+    2
+   ],
+   "aff,w=1,d=4": [
+    2,
+    2
+   ],
+   "aff,w=2,d=2": [
+    2,
+    2
+   ],
+   "aff,w=2,d=4": [
+    3,
+    3
+   ],
+   "aff,w=3,d=2": [
+    2,
+    2
+   ],
+   "aff,w=3,d=4": [
+    4,
+    4
+   ],
+   "lin,w=1,d=2": [
+    1,
+    1
+   ],
+   "lin,w=1,d=4": [
+    1,
+    1
+   ],
+   "lin,w=2,d=4": [
+    2,
+    2
+   ],
+   "lin,w=3,d=4": [
+    3,
+    3
+   ]
+  },
+  "2^5": {
+   "aff,w=1,d=5": [
+    2,
+    2
+   ],
+   "aff,w=2,d=5": [
+    3,
+    3
+   ],
+   "aff,w=3,d=5": [
+    4,
+    4
+   ],
+   "aff,w=4,d=5": [
+    5,
+    5
+   ],
+   "lin,w=1,d=5": [
+    1,
+    1
+   ],
+   "lin,w=2,d=5": [
+    2,
+    2
+   ],
+   "lin,w=3,d=5": [
+    3,
+    3
+   ],
+   "lin,w=4,d=5": [
+    4,
+    4
+   ]
+  },
+  "2^6": {
+   "aff,w=1,d=2": [
+    1,
+    2
+   ],
+   "aff,w=1,d=3": [
+    1,
+    2
+   ],
+   "aff,w=1,d=6": [
+    2,
+    2
+   ],
+   "aff,w=2,d=2": [
+    2,
+    2
+   ],
+   "aff,w=2,d=3": [
+    2,
+    3
+   ],
+   "aff,w=2,d=6": [
+    3,
+    3
+   ],
+   "aff,w=3,d=2": [
+    2,
+    2
+   ],
+   "aff,w=3,d=3": [
+    2,
+    3
+   ],
+   "aff,w=3,d=6": [
+    4,
+    4
+   ],
+   "aff,w=4,d=2": [
+    2,
+    2
+   ],
+   "aff,w=4,d=3": [
+    3,
+    3
+   ],
+   "aff,w=4,d=6": [
+    5,
+    5
+   ],
+   "lin,w=5,d=6": [
+    5,
+    5
+   ]
+  },
+  "3^3": {
+   "aff,w=1,d=1": [
+    1,
+    1
+   ],
+   "aff,w=1,d=3": [
+    2,
+    2
+   ],
+   "aff,w=2,d=1": [
+    1,
+    1
+   ],
+   "aff,w=2,d=3": [
+    3,
+    3
+   ],
+   "lin,w=1,d=3": [
+    1,
+    1
+   ],
+   "lin,w=2,d=3": [
+    2,
+    2
+   ]
+  },
+  "control_subfield_run": 15
+ },
+ "lemma_S": {
+  "affine": 539,
+  "instances": 20000
+ },
+ "polychromatic_blocks": {
+  "M=11": {
+   "P": 2047,
+   "P_prime": false,
+   "longest_cyclic_run_nonzero_step": 11
+  },
+  "M=3": {
+   "P": 7,
+   "P_prime": true,
+   "longest_cyclic_run_nonzero_step": 3
+  },
+  "M=5": {
+   "P": 31,
+   "P_prime": true,
+   "longest_cyclic_run_nonzero_step": 5
+  },
+  "M=7": {
+   "P": 127,
+   "P_prime": true,
+   "longest_cyclic_run_nonzero_step": 7
+  },
+  "control_random_Z127_longest_run": 16
+ },
+ "quadratic_windows_evidence": {
+  "M=13_sampled": {
+   "P": 8191,
+   "chance": 36.6,
+   "k": 14,
+   "mono_linear": 0,
+   "mono_quadratic": 39,
+   "samples": 300000
+  },
+  "M=5": {
+   "P": 31,
+   "chance": 29.1,
+   "k": 6,
+   "mono_linear": 0,
+   "mono_quadratic": 42,
+   "mono_squares_mu1": 1,
+   "windows": 930
+  },
+  "M=7": {
+   "P": 127,
+   "chance": 125.0,
+   "k": 8,
+   "mono_linear": 0,
+   "mono_quadratic": 294,
+   "mono_squares_mu1": 0,
+   "windows": 16002
+  }
+ },
+ "scale": {
+  "threshold_all_r": 573,
+  "threshold_r=2_berlekamp": 299,
+  "threshold_r=3": 338,
+  "worst_r": 511
+ },
+ "square_root_rule": {
+  "P1_M=5_k=12": {
+   "blocks": 19344,
+   "constant": 0,
+   "control_P_divides_mu_constant": true
+  },
+  "P1_M=7_k=16": {
+   "blocks": 19840,
+   "constant": 0,
+   "control_P_divides_mu_constant": true
+  },
+  "aligned_blocks": 16000,
+  "negative_side_blocks": 5000,
+  "negative_side_example": {
+   "condition_read_with_frac_s": true,
+   "condition_read_with_frac_t": false,
+   "word": [
+    11,
+    70,
+    130,
+    190
+   ]
+  },
+  "not_aligned_blocks": 4000,
+  "not_aligned_not_arithmetic": 3447
+ },
+ "theorem1_tuples": [
+  "2^10",
+  "2^2",
+  "2^3",
+  "2^4",
+  "2^5",
+  "2^6",
+  "2^7",
+  "2^8",
+  "2^9",
+  "3^2",
+  "3^3",
+  "3^4",
+  "3^5",
+  "5^2",
+  "5^3"
+ ],
+ "vertex_blocks": {
+  "control_small_a_distinct_values": 3,
+  "instances": 3000
+ }
+}

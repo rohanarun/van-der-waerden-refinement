@@ -1,0 +1,17 @@
+{
+  "NOTICE.md": "1166789e3bddffb52148fc1b7366a7a09df609652893dcce99653bb7146559e9",
+  "README.md": "caa5445504fecb4c15769308cc4b041352162f52af163096203739fd147c1cdf",
+  "RESULT.json": "815e2e5d311f047c90b70fff9ad3d124f89e53cec8bd90d0e0a98d41811a703b",
+  "verify.py": "0cb37eaa3a1840ea1ccf5e7b5b042b3173f171ae91d696915866ecc3d7b6de3f",
+  "lean/KeyMeasurable.lean": "08716d1c8d45dfbb55aaefd53ad4fe992a7bdb86852ded7b389aea676599b61b",
+  "lean/KeyMeasurable/Basic.lean": "79b6d55fd9c9b9ac8ea4b6a480f6c607954a201805cf8282b0df0eb2107148ee",
+  "lean/Axioms.lean": "4cc6de2a754158bb7bc785448b9934f59ecbdd2128a19504935cf2ce4af4fd42",
+  "lean/lakefile.toml": "de24a74322b354f597d0f251d9859f54593dc0673923f0c42025e24efaffcdab",
+  "lean/lean-toolchain": "d24fed434d3b13adfaab57724a0a7f270ea8bf1c818b5ae5cf25cbce24dd685c",
+  "lean/lake-manifest.json": "b7ed5bd88fd13ab3c5a433fd2065fbc76ab7e8ed1c183a19abbf916958e3ffa8",
+  "lean/record-evidence.sh": "47a36d6aaa6570fd94c5866898f4da914ac594c1ed3962ed2de79061fc718ca8",
+  "lean/evidence/axioms.txt": "79e0e6ff9123b46f8d60e28537f8a1eaae459fd9fa78e6355a4881b050e20551",
+  "lean/evidence/build.txt": "13e8c6196fa6c68ac8f78ed447558179331ec2583630bd491d215dbb700dc3c5",
+  "lean/evidence/lean-version.txt": "0bc582398c343669dbdc064b55811439fc00ec74913c38579127256cfbfb4ad0",
+  "lean/evidence/sources.sha256": "804eb9d698e4463b828ca71355ca1c3bc123ce07219df58f6070c3976e088085"
+}

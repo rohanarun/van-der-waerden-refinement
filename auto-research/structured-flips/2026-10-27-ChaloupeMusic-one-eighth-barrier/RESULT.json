@@ -1,0 +1,239 @@
+{
+  "anchors_in_tree": 92,
+  "anchors_pinned_checked_only_with_git": 29,
+  "control_A2_block_exponent": 0.9878,
+  "frozen_sections": [
+    "## 2. The statement",
+    "## 4. The ledger of closed routes",
+    "## What is not claimed"
+  ],
+  "hub_cases": 26334,
+  "ledger_notes": [
+    "algebraic-band-rules",
+    "ap-free-frozen-sets",
+    "binding-lever",
+    "colour-correlated-rules",
+    "dangerous-traces-scope",
+    "digit-transversals-saturate",
+    "exact-door-one-condition",
+    "first-family-circularity",
+    "key-measurable-colorings",
+    "keyed-local-lemma-and-large-moduli",
+    "line-witnesses",
+    "local-lemma-hub",
+    "moment-certificates",
+    "more-keys",
+    "non-polynomial-bands",
+    "off-diagonal-window",
+    "rich-cover-barrier",
+    "single-label-lenses",
+    "single-label-obstructions",
+    "slow-word-transversal-density",
+    "supersaturation-is-global"
+  ],
+  "notes_cited": 24,
+  "out_of_tree_pins": {
+    "auto-research/short-period-sensitivity/2026-10-20-ChaloupeMusic-first-family-circularity": {
+      "commit": "cd1de3807cd1813cf640cda037869f2c30ff5541",
+      "pr": "#14"
+    },
+    "auto-research/short-period-sensitivity/2026-10-20-ChaloupeMusic-rich-cover-barrier": {
+      "commit": "98e6d36fb2de2d646dbc0ce17f818412b58f32e8",
+      "pr": "#21"
+    },
+    "auto-research/short-period-sensitivity/2026-10-20-ChaloupeMusic-single-label-obstructions": {
+      "commit": "cd1de3807cd1813cf640cda037869f2c30ff5541",
+      "pr": "#14"
+    },
+    "auto-research/short-period-sensitivity/2026-10-20-erwan-binding-lever": {
+      "commit": "cd1de3807cd1813cf640cda037869f2c30ff5541",
+      "pr": "#14"
+    },
+    "auto-research/short-period-sensitivity/2026-10-26-ChaloupeMusic-local-lemma-hub": {
+      "commit": "cd1de3807cd1813cf640cda037869f2c30ff5541",
+      "pr": "#14"
+    },
+    "auto-research/trust-reduction/2026-10-26-ChaloupeMusic-source-only-1-16": {
+      "commit": "84ed864cc8c25113a80e33644992878c740fc332",
+      "pr": "#19"
+    },
+    "auto-research/trust-reduction/2026-10-26-ChaloupeMusic-source-only-1-8": {
+      "commit": "84ed864cc8c25113a80e33644992878c740fc332",
+      "pr": "#19"
+    }
+  },
+  "out_of_tree_readme_sha256": {
+    "auto-research/short-period-sensitivity/2026-10-20-ChaloupeMusic-first-family-circularity": "bf6bfda5be21db2e1fff29658e280224f0dcb8d64c7ecd2043eceb66696479a8",
+    "auto-research/short-period-sensitivity/2026-10-20-ChaloupeMusic-rich-cover-barrier": "1cff7437399e80c60471c3ec4711b3bdcddf3fd8feeb6197f0593e0ed81c8752",
+    "auto-research/short-period-sensitivity/2026-10-20-ChaloupeMusic-single-label-obstructions": "173b414d6a458ca38f2e7611d37478bae2451039571546b152886f67ea20808b",
+    "auto-research/short-period-sensitivity/2026-10-20-erwan-binding-lever": "bb7b9da942e40bedb73bf276566a97066e8e4590e2f7bb07a17f14adb151d028",
+    "auto-research/short-period-sensitivity/2026-10-26-ChaloupeMusic-local-lemma-hub": "6149aca0a8c6acf2af65fe0073189cde5ba221e42edb5546351a60d858edfd35",
+    "auto-research/trust-reduction/2026-10-26-ChaloupeMusic-source-only-1-16": "4d049caaeb9640fddaed46cfe2d28a03de76d847fe94ea1ec74b0036ef9281f5",
+    "auto-research/trust-reduction/2026-10-26-ChaloupeMusic-source-only-1-8": "fb34b82a8d65a3847aa88a102408e7dbe2fffb743492b1d5036f28c6efdc2a53"
+  },
+  "propositions_at_template_points": {
+    "k=2^1024,a=0.3,c=1/4": {
+      "bX_max": 0.2927,
+      "b_max_prop1": 0.2927,
+      "ceiling_prop1_b_over_4": 0.0732,
+      "ceiling_prop2_theta_0.01": 0.0717,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0518,
+      "scope_log2": 724.2712
+    },
+    "k=2^1024,a=0.3,c=1/9": {
+      "bX_max": 0.2938,
+      "b_max_prop1": 0.2938,
+      "ceiling_prop1_b_over_4": 0.0735,
+      "ceiling_prop2_theta_0.01": 0.072,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0515,
+      "scope_log2": 723.1013
+    },
+    "k=2^1024,a=0.45,c=1/4": {
+      "bX_max": 0.4427,
+      "b_max_prop1": 0.4427,
+      "ceiling_prop1_b_over_4": 0.1107,
+      "ceiling_prop2_theta_0.01": 0.1085,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0143,
+      "scope_log2": 570.6712
+    },
+    "k=2^1024,a=0.45,c=1/9": {
+      "bX_max": 0.4438,
+      "b_max_prop1": 0.4438,
+      "ceiling_prop1_b_over_4": 0.111,
+      "ceiling_prop2_theta_0.01": 0.1087,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.014,
+      "scope_log2": 569.5013
+    },
+    "k=2^1024,a=0.49,c=1/4": {
+      "bX_max": 0.4827,
+      "b_max_prop1": 0.4827,
+      "ceiling_prop1_b_over_4": 0.1207,
+      "ceiling_prop2_theta_0.01": 0.1183,
+      "lnE_over_lnq": 0.9952,
+      "margin_below_1_8": 0.0043,
+      "scope_log2": 529.7043
+    },
+    "k=2^1024,a=0.49,c=1/9": {
+      "bX_max": 0.4839,
+      "b_max_prop1": 0.4839,
+      "ceiling_prop1_b_over_4": 0.121,
+      "ceiling_prop2_theta_0.01": 0.1185,
+      "lnE_over_lnq": 0.9892,
+      "margin_below_1_8": 0.004,
+      "scope_log2": 528.5257
+    },
+    "k=2^4096,a=0.3,c=1/4": {
+      "bX_max": 0.2977,
+      "b_max_prop1": 0.2977,
+      "ceiling_prop1_b_over_4": 0.0744,
+      "ceiling_prop2_theta_0.01": 0.0729,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0506,
+      "scope_log2": 2876.6712
+    },
+    "k=2^4096,a=0.3,c=1/9": {
+      "bX_max": 0.298,
+      "b_max_prop1": 0.298,
+      "ceiling_prop1_b_over_4": 0.0745,
+      "ceiling_prop2_theta_0.01": 0.073,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0505,
+      "scope_log2": 2875.5013
+    },
+    "k=2^4096,a=0.45,c=1/4": {
+      "bX_max": 0.4477,
+      "b_max_prop1": 0.4477,
+      "ceiling_prop1_b_over_4": 0.1119,
+      "ceiling_prop2_theta_0.01": 0.1097,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0131,
+      "scope_log2": 2262.2712
+    },
+    "k=2^4096,a=0.45,c=1/9": {
+      "bX_max": 0.448,
+      "b_max_prop1": 0.448,
+      "ceiling_prop1_b_over_4": 0.112,
+      "ceiling_prop2_theta_0.01": 0.1098,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.013,
+      "scope_log2": 2261.1013
+    },
+    "k=2^4096,a=0.49,c=1/4": {
+      "bX_max": 0.4877,
+      "b_max_prop1": 0.4877,
+      "ceiling_prop1_b_over_4": 0.1219,
+      "ceiling_prop2_theta_0.01": 0.1195,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0031,
+      "scope_log2": 2098.4312
+    },
+    "k=2^4096,a=0.49,c=1/9": {
+      "bX_max": 0.488,
+      "b_max_prop1": 0.488,
+      "ceiling_prop1_b_over_4": 0.122,
+      "ceiling_prop2_theta_0.01": 0.1196,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.003,
+      "scope_log2": 2097.2613
+    },
+    "k=2^739,a=0.3,c=1/4": {
+      "bX_max": 0.2905,
+      "b_max_prop1": 0.2905,
+      "ceiling_prop1_b_over_4": 0.0726,
+      "ceiling_prop2_theta_0.01": 0.0712,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0524,
+      "scope_log2": 524.3007
+    },
+    "k=2^739,a=0.3,c=1/9": {
+      "bX_max": 0.2921,
+      "b_max_prop1": 0.2921,
+      "ceiling_prop1_b_over_4": 0.073,
+      "ceiling_prop2_theta_0.01": 0.0716,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.052,
+      "scope_log2": 523.1307
+    },
+    "k=2^739,a=0.45,c=1/4": {
+      "bX_max": 0.4405,
+      "b_max_prop1": 0.4405,
+      "ceiling_prop1_b_over_4": 0.1101,
+      "ceiling_prop2_theta_0.01": 0.1079,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0149,
+      "scope_log2": 413.4507
+    },
+    "k=2^739,a=0.45,c=1/9": {
+      "bX_max": 0.4421,
+      "b_max_prop1": 0.4421,
+      "ceiling_prop1_b_over_4": 0.1105,
+      "ceiling_prop2_theta_0.01": 0.1083,
+      "lnE_over_lnq": 1.0,
+      "margin_below_1_8": 0.0145,
+      "scope_log2": 412.2807
+    },
+    "k=2^739,a=0.49,c=1/4": {
+      "bX_max": 0.4809,
+      "b_max_prop1": 0.4809,
+      "ceiling_prop1_b_over_4": 0.1202,
+      "ceiling_prop2_theta_0.01": 0.1178,
+      "lnE_over_lnq": 0.8218,
+      "margin_below_1_8": 0.0048,
+      "scope_log2": 383.6075
+    },
+    "k=2^739,a=0.49,c=1/9": {
+      "bX_max": 0.4831,
+      "b_max_prop1": 0.4831,
+      "ceiling_prop1_b_over_4": 0.1208,
+      "ceiling_prop2_theta_0.01": 0.1184,
+      "lnE_over_lnq": 0.599,
+      "margin_below_1_8": 0.0042,
+      "scope_log2": 381.9813
+    }
+  },
+  "statement_sentences": 11
+}
