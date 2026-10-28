@@ -1,0 +1,77 @@
+{
+  "C_star": {
+    "D0": {
+      "C_star_lower": "4.26598783",
+      "C_star_upper": "4.26598784",
+      "assumption": "N1a's Lemma D: 37^k",
+      "delivered_C": "35/8",
+      "gap_lower": "0.1090"
+    },
+    "D1": {
+      "C_star_lower": "3.93274837",
+      "C_star_upper": "3.93274838",
+      "assumption": "Lemma D': 19^k",
+      "delivered_C": "403/100",
+      "gap_lower": "0.0972"
+    },
+    "D2": {
+      "C_star_lower": "3.41219450",
+      "C_star_upper": "3.41219451",
+      "assumption": "Lemma D'': 45^(k/2)",
+      "delivered_C": "71/20",
+      "gap_lower": "0.1378"
+    }
+  },
+  "base": {
+    "composed_head": "ebfae63",
+    "pr12_head": "029431bb29f2bc64bf3f6dd150ddd15bbdf7c7d5"
+  },
+  "conclusion": "Within the template (T1)-(T6) of PR #12, N1b and the composed endpoint, F/k <= t/8 - (7/8) log t - C* + o(1): no theta < 7/8, and C >= C* = (1/2)(log 10 + l_cls) + 1/2 + (1/4) log(18 sqrt 2), that is 3.41219 under Lemma D''",
+  "finite_t_evidence": {
+    "C_star": "3.412195",
+    "rows": {
+      "1000": {
+        "best_C_at_t": "3.36307",
+        "eps1_times_t": "1.1",
+        "eps2_times_t": "1.1"
+      },
+      "10000": {
+        "best_C_at_t": "3.40609",
+        "eps1_times_t": "1",
+        "eps2_times_t": "1"
+      },
+      "1000000": {
+        "best_C_at_t": "3.41211",
+        "eps1_times_t": "1",
+        "eps2_times_t": "1"
+      },
+      "256": {
+        "best_C_at_t": "3.23827",
+        "eps1_times_t": "1.2",
+        "eps2_times_t": "1.2"
+      },
+      "512": {
+        "best_C_at_t": "3.32078",
+        "eps1_times_t": "1.1",
+        "eps2_times_t": "1.1"
+      }
+    },
+    "tier": "D2"
+  },
+  "identities": {
+    "expansion_points": 48,
+    "minimum_grid_points": 2403
+  },
+  "integrity_files": [
+    "NOTICE.md",
+    "PROOF.md",
+    "README.md",
+    "verify.py"
+  ],
+  "negative_controls_rejected": {
+    "C*_with_12sqrt2": true,
+    "C*_with_18": true,
+    "entropy_2_lines": true,
+    "tolerances_2/t": true
+  }
+}

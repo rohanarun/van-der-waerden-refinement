@@ -1,0 +1,173 @@
+{
+  "all_larger_t_certificates": [
+    {
+      "name": "u_at_least_one",
+      "target": "1",
+      "terms": 1,
+      "upper_sum_at_T0": "3.8849e-98"
+    },
+    {
+      "name": "flip_probability",
+      "target": "0.5",
+      "terms": 1,
+      "upper_sum_at_T0": "5.50879e-95"
+    },
+    {
+      "name": "h0_below_2M",
+      "target": "1",
+      "terms": 3,
+      "upper_sum_at_T0": "2.41511e-104"
+    },
+    {
+      "name": "dimension_below_k_over_64",
+      "target": "1",
+      "terms": 1,
+      "upper_sum_at_T0": "8.7203e-106"
+    },
+    {
+      "name": "Ms_below_k",
+      "target": "1",
+      "terms": 2,
+      "upper_sum_at_T0": "5.58372e-104"
+    },
+    {
+      "name": "rotating_drift",
+      "target": "1",
+      "terms": 1,
+      "upper_sum_at_T0": "1.29516e-318"
+    },
+    {
+      "name": "mesh_D_log_q",
+      "target": "0.5",
+      "terms": 1,
+      "upper_sum_at_T0": "2.72509e-107"
+    },
+    {
+      "name": "mesh_count",
+      "target": "1",
+      "terms": 2,
+      "upper_sum_at_T0": "0"
+    },
+    {
+      "name": "first_family",
+      "target": "2",
+      "terms": 11,
+      "upper_sum_at_T0": "1.80657"
+    },
+    {
+      "name": "second_family_log_ratio",
+      "target": "0.01",
+      "terms": 4,
+      "upper_sum_at_T0": "1.37738e-05"
+    },
+    {
+      "name": "second_family_margin",
+      "target": "328.666",
+      "terms": 2,
+      "upper_sum_at_T0": "6.9093e-95"
+    },
+    {
+      "exponent_per_Dt": "32",
+      "margin_at_T0": "7785.31",
+      "name": "third_family"
+    },
+    {
+      "name": "rich_side",
+      "target": "0.242138",
+      "terms": 6,
+      "upper_sum_at_T0": "1.7215e-95"
+    },
+    {
+      "name": "rich_cut",
+      "target": "1.04686",
+      "terms": 6,
+      "upper_sum_at_T0": "3.443e-96"
+    },
+    {
+      "name": "case_i",
+      "target": "0.691618",
+      "terms": 6,
+      "upper_sum_at_T0": "2.0658e-95"
+    },
+    {
+      "name": "case_ii",
+      "target": "0.75",
+      "terms": 4,
+      "upper_sum_at_T0": "4.57256e-11"
+    },
+    {
+      "a1": "0",
+      "a2": "5/2",
+      "a3": "-1/2",
+      "name": "dichotomy"
+    }
+  ],
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "builds_on": "PR #12 head 029431bb29f2bc64bf3f6dd150ddd15bbdf7c7d5",
+  "coefficient_1_9_minimum_k": "2^1163",
+  "constants": {
+    "C": "9/2",
+    "Ms_scale": 4096,
+    "T0": 709,
+    "delta_s": "1/16",
+    "eps_reg_scale": "1/4",
+    "flip_scale": 8,
+    "gamma_slack": "25/8",
+    "h0_scale": 5,
+    "u_scale": 4
+  },
+  "endpoint_bound": "(k^(1/8)/(exp(9/2)*log(k)))^(k*floor(log2(r)))",
+  "endpoint_minimum_k": "2^1024",
+  "exact_checks": {
+    "kappa_lower": "0.242138",
+    "pr12_rich_k_coefficient": "10 (E <= 11k against Gamma >= 14k)",
+    "rich_k_coefficient_upper": "2.956752"
+  },
+  "negative_controls_rejected": [
+    "C_21_5_breaks_rich_side: rich constant is not positive",
+    "u_scale_3_breaks_first_family: first_family: sum 3.178926076242178 exceeds target 2.0",
+    "flip_scale_6_breaks_case_ii: case (ii): flips do not pay for the band words",
+    "h0_scale_9_2_breaks_second_family: second family: BH must exceed 9/2",
+    "gamma_slack_3_breaks_dichotomy: dichotomy fails: gamma too large",
+    "delta_s_1_64_breaks_case_i: case (i): distinct flips do not pay for subsets",
+    "Ms_scale_1024_breaks_third_family: third family exponent too small for monotonicity",
+    "T0_300_breaks_case_i: case (i): distinct flips do not pay for subsets",
+    "pr12_class_arithmetic_cannot_carry_C_9_2",
+    "nonmonotone_term_refused",
+    "invalid_coefficient_0",
+    "invalid_coefficient_1/8",
+    "invalid_coefficient_1/7"
+  ],
+  "replay": {
+    "inequalities_per_t": 10,
+    "replayed_t": [
+      709,
+      710,
+      750,
+      810,
+      1000,
+      2000,
+      5000,
+      20000
+    ]
+  },
+  "scope": "Exact finite inequalities and controls; conditional proof is not formally verified",
+  "status": "PASS",
+  "theta_and_dilation": {
+    "dilation_identity_cases": 32,
+    "theta_checked_up_to": 20000
+  },
+  "thresholds": {
+    "coefficient_for_all_k_at_least_2^1024": "1093/10000",
+    "generic_coefficients_checked": 768,
+    "generic_log2_K_at_1_9": 3600,
+    "one_ninth_margin_at_t_806": "0.002361",
+    "one_ninth_minimum_k": "2^1163"
+  },
+  "without_lemma_D": {
+    "C": "6",
+    "k_coefficient_of_Ebar": "13/2 log 2",
+    "kappa_lower": "0.193433",
+    "other_certificates": "unchanged"
+  }
+}

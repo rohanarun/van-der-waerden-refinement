@@ -1,0 +1,11 @@
+{
+  "algorithm": "sha256",
+  "manifest_excludes_itself": true,
+  "sha256": {
+    "NOTICE.md": "2ae0239934812c15a7a871e01131919c2e035dda261d90ecfbd08f2a281714fc",
+    "PROOF.md": "221a4b81f939091afeecb2f53063630d539c09e57739131da326e7551799e5a1",
+    "README.md": "d9cc8450fee85c595ff1271932e0dd36fdbb2d1e2769752b5f78f8f0071e16ad",
+    "RESULT.json": "21dfda4a2c0c1c6c2ccbd101374d2dc68589b12dc687ad3b7f90c68785676c33",
+    "verify.py": "f2854f2c8ef2f6d1e53eee79a8c0e593b47a8d8b7c6aca3779a2b368d6c1bb5e"
+  }
+}
