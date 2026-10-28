@@ -98,10 +98,15 @@ coincide.
 >
 > **Fixed `a`.** Like the template's region (#19, `source-only-1-16` § 2,
 > "Fix rational exponents"), (B) is stated for a fixed `a < 1/2`. Sequences
-> `a_k → 1/2⁻` with `ln E = o(ln q)` are **not covered**. Take for instance
-> `a = 1/2 − O(ln ln k/ln k)`, so that `ln λ ≍ ln q` while
-> `q ≥ 400k³λ` still holds. There, the hub may have `E = O(1)` and gives only
-> `b ≤ 1`, hence only `c ≤ 1/4` through K1.
+> `a_k → 1/2⁻` with `ln E = o(ln q)` are **not covered by the proofs of this
+> note**. Take for instance `a = 1/2 − O(ln ln k/ln k)`, so that
+> `ln λ ≍ ln q` while `q ≥ 400k³λ` still holds. There, the hub may have
+> `E = O(1)` and gives only `b ≤ 1`, hence only `c ≤ 1/4` through K1.
+> **For K1 and K3, indexed by `(P, β)`, this regime is empty.** The
+> template's own first family forces `ln λ = O(ln q/ln k)` for every choice
+> of the parameters, and K1 and K3 then have no fixed `c > 1/8`, whatever
+> `a_k` (`first-family-caps-dilation`, Corollary 3 and Theorem 4). That note
+> does not cover the merged forms of K1 and K3, nor K2.
 >
 > **(B) The certificates.** Fix `a < 1/2`. Suppose a certificate of one of the
 > following kinds concludes at `(a, c)` for all large `k`. Then `c ≤ a/4`,
@@ -413,18 +418,21 @@ plus a supersaturation step (S). This is not a necessity (§ (D)/(S) of
 * **Conditional closures.** On the rich side, (G♭)(ii), and (G♭)(i) beyond
   `σ₄` for K2 (Remark 3 needs (ii) only). Also flat
   fibre weights for band-side AP-free sets, and the window `4 ≤ ℓ < p₀(k)`.
-* **Sequences `a_k → 1/2⁻` with `ln E = o(ln q)`.** In this regime `ln λ`
-  is of the order of `ln q`, and the hub gives only `b ≤ 1` (§ 2, Fixed `a`).
-  It is not covered by (B). Whether the template's other families exclude
-  it is not examined here.
+* **Sequences `a_k → 1/2⁻` with `ln E = o(ln q)`.** For K1 and K3, indexed
+  by `(P, β)`, the regime is empty: the template's first family excludes it
+  (`first-family-caps-dilation`, Corollary 3), and the barrier holds whatever
+  `a_k` (Theorem 4 there). For the merged forms of K1 and K3, and for K2, it
+  is not covered.
 * **Outside this method.** The asymmetric-flip exception of
   `outside-template-ceilings` (an AP-sparse generic hitting set), and the
   regime of growing `r` (Fox–Hunter).
 
 ## What is not claimed
 
-* Anything about sequences `a_k → 1/2⁻` with `ln E = o(ln q)`. (B) is stated
-  for a fixed `a < 1/2`, as is the template's region.
+* Anything, in this note, about sequences `a_k → 1/2⁻` with
+  `ln E = o(ln q)`. (B) is stated for a fixed `a < 1/2`, as is the template's
+  region. For K1 and K3 indexed by `(P, β)`, `first-family-caps-dilation`
+  covers them. The merged forms and K2 stay uncovered.
 * No bound on `W_r(k)`, and no ceiling for `W_r(k)`: the statement concerns
   the two-colour coefficient of one method (§ 1, Scope).
 * (B) covers the certificate kinds K1 to K3, as defined. A criterion that

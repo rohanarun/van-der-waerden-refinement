@@ -1,5 +1,5 @@
 {
-  "anchors_in_tree": 92,
+  "anchors_in_tree": 95,
   "anchors_pinned_checked_only_with_git": 29,
   "control_A2_block_exponent": 0.9878,
   "frozen_sections": [
@@ -31,7 +31,7 @@
     "slow-word-transversal-density",
     "supersaturation-is-global"
   ],
-  "notes_cited": 24,
+  "notes_cited": 25,
   "out_of_tree_pins": {
     "auto-research/short-period-sensitivity/2026-10-20-ChaloupeMusic-first-family-circularity": {
       "commit": "cd1de3807cd1813cf640cda037869f2c30ff5541",
@@ -235,5 +235,5 @@
       "scope_log2": 381.9813
     }
   },
-  "statement_sentences": 11
+  "statement_sentences": 13
 }

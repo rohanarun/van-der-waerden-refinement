@@ -123,6 +123,9 @@ IN_TREE = {
         '**Theorem A (no line witnesses).**', '**Corollary A2 (scope of arguments).**',
         'The P1a route with witnesses off the lines stays open.',
         'Such an argument is excluded, unconditionally for an upper bound on `𝒞`, and under'],
+    SF + '2026-10-27-ChaloupeMusic-first-family-caps-dilation': [
+        '**Corollary 3.**', '**Theorem 4.**',
+        'So the method has **no fixed `c > 1/8`** through K1 or K3, indexed by'],
     'auto-research/template-ceilings/2026-10-20-ChaloupeMusic-outside-template-ceilings': [
         '## The one exception, stated exactly', '**No-go for one named class.**',
         '## The torus uncertainty principle'],
@@ -184,7 +187,9 @@ STATEMENT = [
     'The template\'s asymmetric local-lemma criterion for `c₀` fails, whatever its weights, '
     'whenever `λ > q/(400k³)`: for every fixed `a > 1/2`, and in the window of the Remark of '
     '`first-family-circularity`.',
-    'Sequences `a_k → 1/2⁻` with `ln E = o(ln q)` are **not covered**.',
+    'Sequences `a_k → 1/2⁻` with `ln E = o(ln q)` are **not covered by the proofs of this note**.',
+    '**For K1 and K3, indexed by `(P, β)`, this regime is empty.**',
+    'That note does not cover the merged forms of K1 and K3, nor K2.',
     'Fix `a < 1/2`. Suppose a certificate of one of the following kinds concludes at `(a, c)` '
     'for all large `k`. Then `c ≤ a/4`, so `c < 1/8`.',
     'the canonical events indexed by `(P, β)`: *unconditional*. With coinciding events merged: '
@@ -211,9 +216,9 @@ OUT['statement_sentences'] = len(STATEMENT)
 
 # frozen sections: header line up to the next '## ' header, whitespace-normalised
 FROZEN = {
-    '## 2. The statement': '4e19d6e92c07516e7ef631eeae64cb088521dc2078b27398b0c977ad4faa4523',
+    '## 2. The statement': '3ffd40e92238eb0a66be15cecfd13e95ef0b1139513dcd05aab6adb88906d805',
     '## 4. The ledger of closed routes': 'a3bc2225927bc857e144cd4fa56b50f1cac0fed9f18f5e127b379b09bbd2129f',
-    '## What is not claimed': '30e69851afbc93820815262e0964e6702fedf335115a8e851054455f535c5f5e',
+    '## What is not claimed': '65cf1f0c7a883b05bf90832db3359ddd7ff747873387c1817770b1e61f20d1f7',
 }
 _text = (HERE / 'README.md').read_text()
 
