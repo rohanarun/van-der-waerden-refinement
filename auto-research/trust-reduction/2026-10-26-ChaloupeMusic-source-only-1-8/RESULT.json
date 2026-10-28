@@ -1,0 +1,19 @@
+{
+  "status": "research note: complete proof relative to the pinned source",
+  "claim": "W_r(k) > k^{c k floor(log2 r)} for every fixed c < 1/8, k >= K_0(c), every r >= 2",
+  "explicit_c": "1/9",
+  "supremum": "1/8 (not attained)",
+  "imports": ["OpenAI source Sections 02-07, lemmas as stated, with the parameter transfer of the companion note section 2"],
+  "proved_here": ["R1 common return", "R2 affine collision classes", "R3 carries and augmented word count", "R4 vertex constraint", "digit expansions (2), (3)", "Lemma A* certificate count", "Lemma C* progression count", "Theorem 9 rich estimate 2c < gamma*b"],
+  "proved_in_companion": ["multiplicity two", "sharpened outer coloring with three families", "dichotomy", "non-rich estimate (runs)"],
+  "repairs": {
+    "K1": "Lemma A* step 1 counts floor(K_j + G_j): K_j is rational, not integral",
+    "K2": "Lemma C* needs the 9-value window only for basis vectors: 9^R, not 9^|Sigma|"
+  },
+  "region": "0<b<a, a+b<1, 2a<m<1, 0<eps<1/2, 0<eps_r<=1/2, 0<delta,delta_s<1, 0<gamma<(1/2-eps)(1-eps_r)(1-delta), 0<c<gamma*b/2",
+  "explicit_tuple": {"a": "49/100", "m": "99/100", "b": "97/200", "eps": "1/200", "eps_r": "1/200", "delta": "1/200", "delta_s": "1/2", "gamma": "97/200", "c": "1/9"},
+  "margins": {"b<a": "1/200", "a+b<1": "1/40", "2a<m": "1/100", "m<1": "1/100", "gamma<cap": "40499/8000000", "c<gamma*b/2": "4681/720000"},
+  "negative_controls_rejected": 8,
+  "base": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "reproduce": "python3 auto-research/trust-reduction/2026-10-26-ChaloupeMusic-source-only-1-8/verify.py"
+}

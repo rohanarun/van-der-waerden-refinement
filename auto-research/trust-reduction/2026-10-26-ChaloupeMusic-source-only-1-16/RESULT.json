@@ -1,0 +1,21 @@
+{
+  "status": "research note: complete proof relative to the pinned source",
+  "claim": "W_r(k) > k^{c k floor(log2 r)} for every fixed c < 1/16, k >= K_0(c), every r >= 2",
+  "explicit_c": "1/17",
+  "supremum": "1/16 (not attained)",
+  "ratio_over_source": "100000/17",
+  "imports": ["OpenAI source Sections 02-07, lemmas as stated, with the parameter transfer of README section 2"],
+  "not_imported": [
+    "sharpened outer input (proved in sections 4-5)",
+    "short-period runs: Lemmas 1-2, third family, non-rich estimate (proved in sections 4.2, 7)",
+    "two-point multiplicity (proved in section 3)",
+    "rich-event chain of PRs #4, #6, #7 (not used)"
+  ],
+  "region": "0<b<a, a+b<1, 2a<m<1, 0<eps<1/2, 0<eps_r<=1/2, 0<delta,delta_s<1, 0<gamma<(1/2-eps)(1-eps_r)(1-delta), 0<c<gamma*b/4",
+  "explicit_tuple": {"a": "497/1000", "m": "999/1000", "b": "99/200", "eps": "1/1000", "eps_r": "1/1000", "delta": "1/1000", "delta_s": "1/2", "gamma": "497/1000", "c": "1/17"},
+  "margins": {"b<a": "1/500", "a+b<1": "1/125", "2a<m": "1/200", "m<1": "1/1000", "gamma<cap": "1002499/1000000000", "c<gamma*b/4": "36451/13600000"},
+  "negative_controls_rejected": 7,
+  "finding_on_conditionality": "No refinement depends on a named conjecture; 'conditional' means conditional on correctness of the source and of unreviewed added arguments. Links: (S) source, (P2), (O), (R), (K). This note removes (P2), (O), (R) as imports; c < 1/16 needs (S) only; 1/16 <= c < 1/8 still needs (K).",
+  "base": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "reproduce": "python3 auto-research/trust-reduction/2026-10-26-ChaloupeMusic-source-only-1-16/verify.py"
+}
