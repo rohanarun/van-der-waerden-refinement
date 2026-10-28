@@ -1,0 +1,1 @@
+Lean (version 4.21.0, arm64-apple-darwin23.6.0, commit 6741444a63ee, Release)

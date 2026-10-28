@@ -1,0 +1,243 @@
+{
+  "repository": "https://github.com/rohanarun/van-der-waerden-refinement",
+  "pull_requests": [
+    {
+      "author": {
+        "id": "MDQ6VXNlcjExOTY2MTU3",
+        "is_bot": false,
+        "login": "artuskg",
+        "name": "Artus Krohn-Grimberghe"
+      },
+      "headRefOid": "89660352f5dfcf1180a47b224610d444b2ce8701",
+      "number": 9,
+      "state": "OPEN",
+      "title": "Effective completion and exact thresholds for the attributed vdW construction"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjExNjU5ODM5",
+        "is_bot": false,
+        "login": "rohanarun",
+        "name": ""
+      },
+      "headRefOid": "428ebc15c38f5d1183efad6c0d081b5e14373075",
+      "number": 8,
+      "state": "MERGED",
+      "title": "Add auto-research.md agent prompt and auto-research/ submission folder"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg4MjYxNTE2",
+        "is_bot": false,
+        "login": "DaysSky",
+        "name": ""
+      },
+      "headRefOid": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "number": 7,
+      "state": "OPEN",
+      "title": "Count by digit rank and short-period runs: conditional coefficient 1/9 (~11111x the source, every c < 1/8)"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg4MjYxNTE2",
+        "is_bot": false,
+        "login": "DaysSky",
+        "name": ""
+      },
+      "headRefOid": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "number": 6,
+      "state": "OPEN",
+      "title": "Split rich events by carry rank: conditional coefficient 1/16 (6250x the source, every c < 1/15)"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg4MjYxNTE2",
+        "is_bot": false,
+        "login": "DaysSky",
+        "name": ""
+      },
+      "headRefOid": "e3191497c499913f70ca43df50338646ac7d378b",
+      "number": 5,
+      "state": "CLOSED",
+      "title": "Split rich events by carry rank to certify a coefficient of 1/16"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjExOTY2MTU3",
+        "is_bot": false,
+        "login": "artuskg",
+        "name": "Artus Krohn-Grimberghe"
+      },
+      "headRefOid": "4b4e80ea5e0ffec956577004905f22659af0bff5",
+      "number": 4,
+      "state": "OPEN",
+      "title": "Add a conditional repeated-key certificate cover with coefficient 1/19"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjExNjU5ODM5",
+        "is_bot": false,
+        "login": "rohanarun",
+        "name": ""
+      },
+      "headRefOid": "6caa55cb9d6ed24e6f50ad54d0760b9853faca4e",
+      "number": 3,
+      "state": "OPEN",
+      "title": "Record the 1/24 ceiling of the key-flip architecture (barrier note)"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjExNjU5ODM5",
+        "is_bot": false,
+        "login": "rohanarun",
+        "name": ""
+      },
+      "headRefOid": "9a1de8d6e0e47d2de3d31eb93bd8b0f551a41be4",
+      "number": 2,
+      "state": "MERGED",
+      "title": "Sharpen the balance and dilation: conditional coefficient 1/25 (4000x the source, every c < 1/24)"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjExNjU5ODM5",
+        "is_bot": false,
+        "login": "rohanarun",
+        "name": ""
+      },
+      "headRefOid": "22fa19eec6c296aca2bbddb687e4653bafa0af86",
+      "number": 1,
+      "state": "MERGED",
+      "title": "Refine the conditional van der Waerden coefficient to 1/193"
+    }
+  ],
+  "files": [
+    {
+      "pr": 9,
+      "commit": "89660352f5dfcf1180a47b224610d444b2ce8701",
+      "path": "effective-completion/PROOF.md",
+      "snapshot": "sources/pr9/effective-completion/PROOF.md",
+      "sha256": "c0ee75592be34fdd59a4d9caccf30e50420e5d48da4493bad884868a6747f76e",
+      "git_blob": "5ca9462b04d0bb6fcd38ff4f6d16bc46aa7b23ab"
+    },
+    {
+      "pr": 9,
+      "commit": "89660352f5dfcf1180a47b224610d444b2ce8701",
+      "path": "effective-completion/THRESHOLDS.json",
+      "snapshot": "sources/pr9/effective-completion/THRESHOLDS.json",
+      "sha256": "a1820e5e6655746248171fc3cd23b2e1e24b99be52a75da80625581e7c900093",
+      "git_blob": "6e1d7feb168749c680a3994d974a52ac2a2849ba"
+    },
+    {
+      "pr": 9,
+      "commit": "89660352f5dfcf1180a47b224610d444b2ce8701",
+      "path": "effective-completion/DEPENDENCIES.json",
+      "snapshot": "sources/pr9/effective-completion/DEPENDENCIES.json",
+      "sha256": "2f0276d991964d229335d0e776155ab7dfd4f8200e9ae7ddc16ac8a9940a7a4d",
+      "git_blob": "e6c445e1de04487b22584c511ab806b5ecd6b20c"
+    },
+    {
+      "pr": 9,
+      "commit": "89660352f5dfcf1180a47b224610d444b2ce8701",
+      "path": "effective-completion/GENERATOR.md",
+      "snapshot": "sources/pr9/effective-completion/GENERATOR.md",
+      "sha256": "d37a28ea544a16b1dfa0a8d343fbccf97fff4c58bca66c8a05b4729d697006a3",
+      "git_blob": "c090afe97126d2f308909876494b30165c7db7ba"
+    },
+    {
+      "pr": 7,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "path": "parameters.json",
+      "snapshot": "sources/pr7/parameters.json",
+      "sha256": "c8dba118db2d9ead9bff3690c7d353c7c989c931a017146a6af8ddc5dbf97455",
+      "git_blob": "a24e441a8b40e24f2826b7a7689b4c76664630b4"
+    },
+    {
+      "pr": 7,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "path": "rank-certificate-proof.md",
+      "snapshot": "sources/pr7/rank-certificate-proof.md",
+      "sha256": "de3c52b38914cfafd37943626382583d55983737e1dd5c921d568154ece182d0",
+      "git_blob": "33acb0fec1f3c64a27ec60eb60e1be24b7876f89"
+    },
+    {
+      "pr": 7,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "path": "digit-rank-proof.md",
+      "snapshot": "sources/pr7/digit-rank-proof.md",
+      "sha256": "34be273ca19eafaa7546754714d67d29d3a1bd00797321bac81ceb42ad2fe42b",
+      "git_blob": "e490d7d160e05c5566d77ff3f1480e807046a449"
+    },
+    {
+      "pr": 7,
+      "commit": "987c96cfda59b65728ae4dcd5adc8a64ff95bab2",
+      "path": "short-period-runs-proof.md",
+      "snapshot": "sources/pr7/short-period-runs-proof.md",
+      "sha256": "dce39359d0fb1957d25c555871218a1f43414b12db325563644d8e07e345bdff",
+      "git_blob": "84bfedb474b0095dbdf7d79ac8b07de3c48274bd"
+    },
+    {
+      "pr": 6,
+      "commit": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "path": "parameters.json",
+      "snapshot": "sources/pr6/parameters.json",
+      "sha256": "991754e403f84a3218efc714d6365e61aed6e05bb243d74f94a7c78848b2ad18",
+      "git_blob": "38e5075e57bc9fce714965eadcd3c3f4acc01e1c"
+    },
+    {
+      "pr": 6,
+      "commit": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+      "path": "rank-certificate-proof.md",
+      "snapshot": "sources/pr6/rank-certificate-proof.md",
+      "sha256": "de3c52b38914cfafd37943626382583d55983737e1dd5c921d568154ece182d0",
+      "git_blob": "33acb0fec1f3c64a27ec60eb60e1be24b7876f89"
+    },
+    {
+      "pr": 4,
+      "commit": "4b4e80ea5e0ffec956577004905f22659af0bff5",
+      "path": "repeated-key-certificate-proof.md",
+      "snapshot": "sources/pr4/repeated-key-certificate-proof.md",
+      "sha256": "6d07b2642b45c59d18fdcb35f53c612267979c74981ee56c59b452ef80033826",
+      "git_blob": "a9f40fafc1093347ae13bd94ef287a2788de9798"
+    },
+    {
+      "pr": 3,
+      "commit": "6caa55cb9d6ed24e6f50ad54d0760b9853faca4e",
+      "path": "barrier-note.md",
+      "snapshot": "sources/pr3/barrier-note.md",
+      "sha256": "2adc5ae51ab57f6b0c7722ddf5c254a083206aa2555d211cdde47f70b8bd0e9f",
+      "git_blob": "2cbd01334fa8c5bf5d722311f1874e007ce04fe3"
+    },
+    {
+      "pr": 2,
+      "commit": "9a1de8d6e0e47d2de3d31eb93bd8b0f551a41be4",
+      "path": "parameters.json",
+      "snapshot": "sources/pr2/parameters.json",
+      "sha256": "5d7cc3391820ed4d9ef7b608d0ab574197f2f35b5069b5eba68b645d97f449a2",
+      "git_blob": "67619d9092e0d0b620b588b09d6a87b12876eda3"
+    },
+    {
+      "pr": 2,
+      "commit": "9a1de8d6e0e47d2de3d31eb93bd8b0f551a41be4",
+      "path": "sharpened-region-proof.md",
+      "snapshot": "sources/pr2/sharpened-region-proof.md",
+      "sha256": "daf7302d0a5c1efc0334c6c908a57356863ccf8b18bd1ffcf92b1ac55c321640",
+      "git_blob": "7bf21638c2d8ca50e3cd47a6289931f0d45bd80f"
+    },
+    {
+      "pr": 1,
+      "commit": "22fa19eec6c296aca2bbddb687e4653bafa0af86",
+      "path": "parameters.json",
+      "snapshot": "sources/pr1/parameters.json",
+      "sha256": "9a37583948cbfdd219d5ee2396fff023d2e81c9708db9b0b6c36167b149463fd",
+      "git_blob": "5f753c926844fb51f7dff2b8b1ef9b88a46df5fd"
+    },
+    {
+      "pr": 1,
+      "commit": "22fa19eec6c296aca2bbddb687e4653bafa0af86",
+      "path": "near-limit-proof.md",
+      "snapshot": "sources/pr1/near-limit-proof.md",
+      "sha256": "9590be8b5abebb4e5182ddd92f665d2e98e9b160547b2d8b984aac74275a9fbe",
+      "git_blob": "190675de4898bc8c73ad9298310160bafa19c005"
+    }
+  ]
+}

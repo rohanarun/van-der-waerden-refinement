@@ -1,0 +1,40 @@
+name: Lean proof obligations
+on:
+  push:
+    paths: ['formal/**', '.github/workflows/formal.yml']
+  pull_request:
+    paths: ['formal/**', '.github/workflows/formal.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  formal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch the recorded source revisions
+        working-directory: formal
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          manifest = json.load(open('SOURCES.json'))
+          commits = sorted({row['commit'] for row in manifest['files']})
+          subprocess.run(['git', 'fetch', '--no-tags', 'origin', *commits], check=True)
+          PY
+      - uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: formal
+          auto-config: false
+          build: true
+          use-mathlib-cache: true
+      - name: Verify source binding, theorem dependencies, and rejection controls
+        working-directory: formal
+        run: python -B verify.py --git-sources
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lean-verification-receipts
+          path: formal/receipts/

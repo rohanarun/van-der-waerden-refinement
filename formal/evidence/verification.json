@@ -1,0 +1,433 @@
+{
+  "scope": "Partial formal verification of explicitly listed obligations; not the complete van der Waerden theorems",
+  "lean_version": "Lean (version 4.21.0, arm64-apple-darwin23.6.0, commit 6741444a63ee, Release)",
+  "theorems": 84,
+  "axiom_dependencies": {
+    "weak_entropy_ceiling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "key_flip_ceiling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "floor_half_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "repeated_cover_split": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "repeated_cover_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "carry_rank_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "matched_digit_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "run_ceiling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "effective_parameter_family": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "inconsistent_event_empty": [],
+    "assigned_union_covered": [],
+    "balanced_cover_margins": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "dilation_sum_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "coord_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "two_digit_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "balanced_coord": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "return_digit_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "forms_determine_span": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "no_three_in_unit_band": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pair_difference": [
+      "propext",
+      "Quot.sound"
+    ],
+    "half_open_convex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr1_parameters_0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr1_parameters_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr1_parameters_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr1_parameters_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr2_parameters_0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr4_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr4_tau": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr6_rank_certificate_proposals_0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr7_digit_rank_proposals_0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr7_run_parameters_0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "translated_intervals_separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "short_path_uses_one_lift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "affine_interval_run": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "dyadic_from_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_4": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_5": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_6": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_7": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_8": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_9": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_10": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_11": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_12": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_13": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_14": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_15": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_16": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_17": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_18": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_19": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR6_check_20": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_4": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_5": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_6": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_7": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_8": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_9": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_10": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_11": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_12": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_13": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_14": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_15": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_16": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_17": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_18": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_19": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "pr9_literal_PR7_check_20": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "progression_digit": [
+      "propext"
+    ],
+    "nonzero_digit_place": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "digit_product_witness": [
+      "propext"
+    ],
+    "digit_product_avoids": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exists_outside_bad": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_files": 16,
+  "git_sources_checked": true,
+  "source_manifest_sha256": "fb6c6d74445e6757dcf6da3de42867d86c5a63e36d299e0d7ffac1b723b34ad3",
+  "proof_sha256": {
+    "Vdw/Bounds.lean": "8dbcecd518feba73448511088ffc45b892678d55014f918e046bac2ecb8c0868",
+    "Vdw/Covers.lean": "f354e637ee3360128307b06415baa546b59b39f7c69172d53c7695fa7535c7ae",
+    "Vdw/Digits.lean": "582fbaff3eac2cef4fff9ddb337a5680e8160e4dc7f62958d520ad469df4f5c7",
+    "Vdw/Geometry.lean": "0ddee7a2e280ea5b33a629b39c44315cff9d78a57692d37eeb643467c3a0732a",
+    "Vdw/Parameters.lean": "dfe6ab47a7353966b7299c7ca80a2777f89d38d5becb21df0ee4dc14b7829d46",
+    "Vdw/Runs.lean": "21f59741c521a9146272fc122e37cecec1e7c9f95832045a60c1ab298d2d67eb",
+    "Vdw/Thresholds.lean": "600987f418e2b6255b1fae4263fc4fd3cc9db3c15136607ef206cf19331423b0",
+    "Vdw/Transfer.lean": "da308d31b46ff1c8d62aba306e442d119508bee1216eb8d5b1aba9fb58029ac9"
+  },
+  "negative_controls_rejected": [
+    "invalid_strict_boundary",
+    "invalid_dilation_direction",
+    "invalid_endpoint_coefficient",
+    "altered_source"
+  ],
+  "all_passed": true
+}

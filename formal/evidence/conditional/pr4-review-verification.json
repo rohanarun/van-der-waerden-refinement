@@ -1,0 +1,72 @@
+{
+  "pull_request": "https://github.com/rohanarun/van-der-waerden-refinement/pull/4",
+  "reviewed_head": "4b4e80ea5e0ffec956577004905f22659af0bff5",
+  "base": "54ac9715fceab938ca77d5980c36ab691765a04d",
+  "verdict": "No blocking error found in the new conditional mathematical argument. All executed checks passed.",
+  "automated_validation": {
+    "existing_audit": "passed; covers earlier regions only",
+    "check_complex": "passed",
+    "saved_outputs_unchanged": true,
+    "desktop_latex_compiler": "success",
+    "independent_checks": {
+      "scope": "Exact finite checks and one symbolic identity; not a formal proof or a finite coloring construction.",
+      "margins": {
+        "m_minus_2a": "67/500",
+        "1_minus_m": "1/5",
+        "a_minus_b": "1/500",
+        "1_minus_2a_minus_b": "3/1000",
+        "outer_balance": "40499/8000000",
+        "full_event_gap": "10033/5700000",
+        "certificate_gap": "10033/11400000",
+        "tau_positive": "97/600",
+        "tau_below_gamma": "97/300"
+      },
+      "negative_controls_rejected": 7,
+      "coefficient_ratio": "100000/19",
+      "pair_identity": "passed",
+      "quadratic_cases": 3000,
+      "cases_with_repeated_pairs": 568,
+      "nested_pairs_checked": 2570,
+      "consistent_rich_event_cases": 72892,
+      "certificate_branch_cases": 9330,
+      "prime_power_separation_cases": 6498,
+      "digit_transfer_cases": 2000,
+      "all_passed": true
+    }
+  },
+  "source_verification": {
+    "pinned_upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "hash_verified_sections": [
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/01-introduction.tex",
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/02-setup.tex",
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/03-counting.tex",
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/04-outer.tex",
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/05-dichotomy.tex",
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/06-perturbation.tex",
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/07-transfers.tex",
+      "preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/build/sections/08-upper.tex"
+    ],
+    "companion_note_identical_to_PR6_dependency": true
+  },
+  "reviewed_arguments": [
+    "Common box returns have a common small direction and gcd period.",
+    "Adaptive mesh prevents wraparound in collision-bearing residue classes.",
+    "Two-point multiplicity and nesting determine pair matching.",
+    "Augmented literal word and bounded band errors yield the stated certificate count.",
+    "Full-event versus repeated-key certificate cover respects consistency and does not assume independent events.",
+    "Exact 1/19 parameters satisfy both rich inequalities and unchanged affine/outer inequalities.",
+    "Asymptotic entropy, strict 1/18 upper endpoint, global-coloring quantifiers, and digit transfer are consistent with the stated conditional input."
+  ],
+  "findings": [],
+  "recommended_followup": "Add the new parameter and certificate checks to the repository CI; currently audit_math.py intentionally covers only the earlier region.",
+  "limits": [
+    "Conditional on the explicitly imported sharpened global outer-color dichotomy and pinned upstream inputs.",
+    "Source review and finite exact checks are not a formal proof certificate.",
+    "No concrete finite coloring, practical threshold, literature priority, or unconditional theorem verified."
+  ],
+  "github_ci": {
+    "conclusion": "action_required",
+    "url": "https://github.com/rohanarun/van-der-waerden-refinement/actions/runs/38111808809"
+  },
+  "remote_mutations": "None: no comment, review approval, or merge submitted."
+}

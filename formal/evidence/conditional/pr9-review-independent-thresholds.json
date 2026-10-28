@@ -1,0 +1,131 @@
+{
+  "literal_threshold_reconstruction": {
+    "literal_PR6": {
+      "first_passing_t": 33554432,
+      "all_21_tests_match": true,
+      "preceding_doubling_failures": [
+        "anchor entropy",
+        "rich inverse log"
+      ]
+    },
+    "literal_PR7": {
+      "first_passing_t": 33554432,
+      "all_21_tests_match": true,
+      "preceding_doubling_failures": [
+        "anchor entropy"
+      ]
+    }
+  },
+  "general_parameter_checks": [
+    {
+      "c": "1/100000",
+      "first_passing_t": 8388608
+    },
+    {
+      "c": "1/19",
+      "first_passing_t": 8388608
+    },
+    {
+      "c": "1/9",
+      "first_passing_t": 67108864
+    },
+    {
+      "c": "124999/1000000",
+      "first_passing_t": 36028797018963968
+    },
+    {
+      "c": "124999999999/1000000000000",
+      "first_passing_t": 39614081257132168796771975168
+    }
+  ],
+  "dependency_closures": {
+    "PR6": [
+      "affine_PR6_nonrich",
+      "arrangement_faces",
+      "carry_A_B_C",
+      "combined_global_LLL",
+      "common_collision_return",
+      "crossing_order_count",
+      "definitions",
+      "digit_product",
+      "discrete_pair_code",
+      "exact_decisions",
+      "finite_generator",
+      "global_anchored_words",
+      "heavy_primitive_return",
+      "key_multiplicity_two",
+      "literal_PR6",
+      "long_eligibility",
+      "mesh",
+      "outer_event_families",
+      "prime_dilation",
+      "return_digit_expansion",
+      "rich_PR6_cover",
+      "rich_short_dichotomy",
+      "scale_certificate",
+      "short_real_path",
+      "strict_probability",
+      "vertex_identities"
+    ],
+    "PR7": [
+      "actual_single_run",
+      "arrangement_faces",
+      "balanced_digits_rank",
+      "combined_global_LLL",
+      "common_collision_return",
+      "crossing_order_count",
+      "definitions",
+      "digit_product",
+      "discrete_pair_code",
+      "exact_decisions",
+      "few_light_PR7",
+      "finite_generator",
+      "global_anchored_words",
+      "heavy_primitive_return",
+      "key_multiplicity_two",
+      "literal_A_star",
+      "literal_PR7",
+      "long_eligibility",
+      "many_light_PR7",
+      "mesh",
+      "outer_event_families",
+      "prime_dilation",
+      "rank_C_star",
+      "return_digit_expansion",
+      "rich_PR7_cover",
+      "rich_short_dichotomy",
+      "scale_certificate",
+      "short_real_path",
+      "strict_probability",
+      "vertex_identities"
+    ]
+  },
+  "toy_cyclic_table": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "toy_candidates_tried": 12,
+  "toy_digit_products": [
+    {
+      "length": 7,
+      "colors": 2,
+      "all_4_APs_checked": 5
+    },
+    {
+      "length": 49,
+      "colors": 4,
+      "all_4_APs_checked": 376
+    },
+    {
+      "length": 343,
+      "colors": 8,
+      "all_4_APs_checked": 19437
+    }
+  ],
+  "scope": "Toy runs are below admission threshold and do not validate theorem-sized execution. Threshold tests validate section 12 arithmetic; analytic sufficiency requires the proof review."
+}

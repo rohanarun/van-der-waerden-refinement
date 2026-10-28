@@ -1,0 +1,121 @@
+{
+  "pull_request": "https://github.com/rohanarun/van-der-waerden-refinement/pull/6",
+  "reviewed_head": "fc5738bfda508566e7b4ce706c22bbb2b9194226",
+  "base": "54ac9715fceab938ca77d5980c36ab691765a04d",
+  "verdict": "No blocking mathematical error found in the new conditional argument during source review. One reproducible audit coverage defect should be repaired.",
+  "validation": {
+    "audit_math": "passed",
+    "check_complex": "passed",
+    "saved_outputs_byte_identical": true,
+    "desktop_latex_compiler": "success",
+    "tracked_files_unchanged": true,
+    "upstream_sections_sha256_verified": 8,
+    "independent_digit_checks": {
+      "scope": "Exact finite checks of digit extraction and linear recovery; not a proof of geometric realizability or counting lemmas.",
+      "dimensions": {
+        "2": 40,
+        "3": 40,
+        "4": 40,
+        "6": 40,
+        "8": 40,
+        "16": 40,
+        "32": 40
+      },
+      "nonzero_remainder_checks": 1278,
+      "rank_recoveries": 280,
+      "ranks_tested": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "all_passed": true,
+      "sympy_version": "1.14.0"
+    }
+  },
+  "finding": {
+    "priority": "P2",
+    "path": "audit_math.py",
+    "lines": [
+      146,
+      147
+    ],
+    "title": "Sample dimensions that survive the admissibility filter",
+    "evidence": {
+      "accepted_dimensions": {
+        "2": 2000
+      },
+      "digit_vectors": {
+        "zero": 721,
+        "nonzero": 1279
+      },
+      "eligible_k_by_dimension": {
+        "2": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": []
+      }
+    },
+    "impact": "Every accepted case has D=2, where the lower-digit remainder R is identically zero. Higher-dimensional digit tails and multi-form rank recovery receive no coverage in the submitted test.",
+    "recommendation": "Choose k conditional on D, include nonzero digit vectors, assert dimensional and nonzero-remainder coverage, and exercise independent forms and pivot recovery."
+  },
+  "proof_review": [
+    "Common-return geometry and affine collision classes checked against pinned PR4 and mesh source.",
+    "Projection certificate affine identities and equality-inclusive two-stage arrangement count inspected.",
+    "Anchored certificate extension to single keys inspected.",
+    "Rank count integer expansion, approximation error, nearest-integer recovery, and independent pivot encoding inspected.",
+    "Rank split has maximum cost 5/2 and positive exact group margin 857/400000.",
+    "Explicit coefficient margin 2 gamma b/5 - 1/16 = 857/500000; supremum 1/15 remains excluded."
+  ],
+  "limitations": [
+    "Conditional on the upstream geometric/counting inputs and sharpened global outer-color dichotomy.",
+    "This is source review and exact finite verification, not a formal proof certificate or unconditional validation of the entire upstream construction.",
+    "No finite coloring, finite record, runtime improvement, or literature priority verified.",
+    "No GitHub comment, approval, merge, or branch change performed."
+  ]
+}
