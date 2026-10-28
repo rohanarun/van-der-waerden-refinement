@@ -1,0 +1,81 @@
+{
+ "counting_bound_primes": 665,
+ "fails": 0,
+ "killer": {
+  "band_residue_mod_13": 11,
+  "e": 13,
+  "m_start": 1274508726187530632,
+  "u": 1,
+  "x0": 676173722371738455,
+  "x0_mod_13": 7
+ },
+ "lens_identity_positions": 534,
+ "measured_k_equals_2l": {
+  "13": {
+   "R": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "k": 26,
+   "min_pattern_size": 7,
+   "words": 1786
+  },
+  "17": {
+   "R": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "k": 34,
+   "min_pattern_size": 9,
+   "words": 3994
+  },
+  "19": {
+   "R": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "k": 38,
+   "min_pattern_size": 10,
+   "words": 5566
+  }
+ },
+ "real_blocks": {
+  "P1_13_divides_e_missed": 6,
+  "P1_13_divides_e_saturated": 3,
+  "P1_13_not_dividing_e_met": 15,
+  "P3_max_keys_in_X": 88,
+  "P3_met": 30
+ },
+ "rich_typical": {
+  "binomial_mean": 78.077,
+  "binomial_variance": 36.036,
+  "density": "7/13",
+  "max": 100,
+  "mean": 78.235,
+  "samples": 2000,
+  "variance": 35.15
+ },
+ "shifted_squares_positions": 979,
+ "theoremA_R": [
+  0,
+  1,
+  2,
+  6,
+  7,
+  8,
+  12
+ ],
+ "theoremA_lenses": 1500,
+ "theoremA_tight_lens": {
+  "theta": "13/2",
+  "v": "37/12",
+  "witness_index": 144
+ }
+}

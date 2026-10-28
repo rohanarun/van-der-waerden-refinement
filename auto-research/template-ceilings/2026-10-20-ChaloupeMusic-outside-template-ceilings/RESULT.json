@@ -1,0 +1,59 @@
+{
+  "_scope": "optimistic first-order exponents (units of k log k) of the oblivious versions; not bounds on W_2(k)",
+  "asymmetric_if_no_structured_ones_theta=1/20": "19/80",
+  "asymmetric_with_structured_ones": {
+    "1/10": "1/40",
+    "1/2": "1/8",
+    "1/4": "1/16",
+    "3/4": "1/16"
+  },
+  "cell_lemma_cyclic_small_instances": [
+    {
+      "D": 3,
+      "boxes_above_threshold": 12,
+      "k": 4,
+      "lambda": 1,
+      "max_points_seen": 366,
+      "min_points_above_threshold": 28,
+      "q": 13,
+      "steps_d_not_1": 4,
+      "threshold_(k-1)^D": 27,
+      "tight_box_has_k_AP": false,
+      "tight_box_points": 27
+    },
+    {
+      "D": 3,
+      "boxes_above_threshold": 12,
+      "k": 4,
+      "lambda": 5,
+      "max_points_seen": 218,
+      "min_points_above_threshold": 32,
+      "q": 13,
+      "steps_d_not_1": 12,
+      "threshold_(k-1)^D": 27,
+      "tight_box_has_k_AP": false,
+      "tight_box_points": 27
+    },
+    {
+      "D": 2,
+      "boxes_above_threshold": 12,
+      "k": 5,
+      "lambda": 7,
+      "max_points_seen": 97,
+      "min_points_above_threshold": 18,
+      "q": 31,
+      "steps_d_not_1": 12,
+      "threshold_(k-1)^D": 16,
+      "tight_box_has_k_AP": false,
+      "tight_box_points": 16
+    }
+  ],
+  "control_drop_B": "1/4",
+  "control_drop_F_R": "1/4",
+  "current": "1/8",
+  "dense_radii_c_at_k=2^1024": "4.883e-04",
+  "fine_coarse": "1/8",
+  "group_design_feasible_at_a=1/2": true,
+  "group_design_feasible_at_a=49/100": false,
+  "uncertainty_min_exponent_of_H": "1/2"
+}
