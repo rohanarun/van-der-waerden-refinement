@@ -1,0 +1,233 @@
+{
+  "W_small": {
+    "3,3": 9,
+    "3,4": 18,
+    "3,5": 22,
+    "4,4": 35
+  },
+  "prop2_instance": {
+    "N": 200,
+    "expected_bad": "0.000033",
+    "k": 120,
+    "l": 9
+  },
+  "summary": {
+    "kappa_needed_range": [
+      1.1129,
+      1.9535
+    ],
+    "min_gap_log2_lnN0_over_lnW_known": 367.55
+  },
+  "template": {
+    "k=2^1024,a=0.3,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 15.25,
+      "gap_log2": 709.02,
+      "kappa_needed": 1.4152,
+      "l_rand_log2": 717.58,
+      "ln_2k_log2": 9.47,
+      "ln_N0_log2": 724.27,
+      "obryant_exponent_log2": 109.27,
+      "p0": 113
+    },
+    "k=2^1024,a=0.3,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 15.25,
+      "gap_log2": 707.85,
+      "kappa_needed": 1.4175,
+      "l_rand_log2": 716.4,
+      "ln_2k_log2": 9.47,
+      "ln_N0_log2": 723.1,
+      "obryant_exponent_log2": 109.11,
+      "p0": 113
+    },
+    "k=2^1024,a=0.45,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 15.25,
+      "gap_log2": 555.42,
+      "kappa_needed": 1.7961,
+      "l_rand_log2": 563.38,
+      "ln_2k_log2": 9.47,
+      "ln_N0_log2": 570.67,
+      "obryant_exponent_log2": 87.33,
+      "p0": 113
+    },
+    "k=2^1024,a=0.45,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 15.25,
+      "gap_log2": 554.25,
+      "kappa_needed": 1.7998,
+      "l_rand_log2": 562.21,
+      "ln_2k_log2": 9.47,
+      "ln_N0_log2": 569.5,
+      "obryant_exponent_log2": 87.16,
+      "p0": 113
+    },
+    "k=2^1024,a=0.49,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 15.25,
+      "gap_log2": 514.45,
+      "kappa_needed": 1.935,
+      "l_rand_log2": 522.29,
+      "ln_2k_log2": 9.47,
+      "ln_N0_log2": 529.7,
+      "obryant_exponent_log2": 81.48,
+      "p0": 113
+    },
+    "k=2^1024,a=0.49,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 15.25,
+      "gap_log2": 513.27,
+      "kappa_needed": 1.9394,
+      "l_rand_log2": 521.11,
+      "ln_2k_log2": 9.47,
+      "ln_N0_log2": 528.53,
+      "obryant_exponent_log2": 81.31,
+      "p0": 113
+    },
+    "k=2^1024,source": {
+      "first_moment_lnW_at_p0_minus_1_log2": 15.25,
+      "gap_log2": 899.21,
+      "kappa_needed": 1.1209,
+      "l_rand_log2": 909.24,
+      "ln_2k_log2": 9.47,
+      "ln_N0_log2": 914.46,
+      "obryant_exponent_log2": 136.44,
+      "p0": 113
+    },
+    "k=2^4096,a=0.3,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 18.92,
+      "gap_log2": 2857.75,
+      "kappa_needed": 1.4242,
+      "l_rand_log2": 2867.95,
+      "ln_2k_log2": 11.47,
+      "ln_N0_log2": 2876.67,
+      "obryant_exponent_log2": 326.8,
+      "p0": 353
+    },
+    "k=2^4096,a=0.3,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 18.92,
+      "gap_log2": 2856.58,
+      "kappa_needed": 1.4248,
+      "l_rand_log2": 2866.78,
+      "ln_2k_log2": 11.47,
+      "ln_N0_log2": 2875.5,
+      "obryant_exponent_log2": 326.67,
+      "p0": 353
+    },
+    "k=2^4096,a=0.45,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 18.92,
+      "gap_log2": 2243.35,
+      "kappa_needed": 1.811,
+      "l_rand_log2": 2252.96,
+      "ln_2k_log2": 11.47,
+      "ln_N0_log2": 2262.27,
+      "obryant_exponent_log2": 258.53,
+      "p0": 353
+    },
+    "k=2^4096,a=0.45,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 18.92,
+      "gap_log2": 2242.18,
+      "kappa_needed": 1.8119,
+      "l_rand_log2": 2251.79,
+      "ln_2k_log2": 11.47,
+      "ln_N0_log2": 2261.1,
+      "obryant_exponent_log2": 258.4,
+      "p0": 353
+    },
+    "k=2^4096,a=0.49,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 18.92,
+      "gap_log2": 2079.51,
+      "kappa_needed": 1.9524,
+      "l_rand_log2": 2089.0,
+      "ln_2k_log2": 11.47,
+      "ln_N0_log2": 2098.43,
+      "obryant_exponent_log2": 240.33,
+      "p0": 353
+    },
+    "k=2^4096,a=0.49,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 18.92,
+      "gap_log2": 2078.34,
+      "kappa_needed": 1.9535,
+      "l_rand_log2": 2087.83,
+      "ln_2k_log2": 11.47,
+      "ln_N0_log2": 2097.26,
+      "obryant_exponent_log2": 240.2,
+      "p0": 353
+    },
+    "k=2^4096,source": {
+      "first_moment_lnW_at_p0_minus_1_log2": 18.92,
+      "gap_log2": 3662.34,
+      "kappa_needed": 1.1129,
+      "l_rand_log2": 3674.1,
+      "ln_2k_log2": 11.47,
+      "ln_N0_log2": 3681.26,
+      "obryant_exponent_log2": 416.2,
+      "p0": 353
+    },
+    "k=2^739,a=0.3,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 14.43,
+      "gap_log2": 509.87,
+      "kappa_needed": 1.4114,
+      "l_rand_log2": 518.09,
+      "ln_2k_log2": 9.0,
+      "ln_N0_log2": 524.3,
+      "obryant_exponent_log2": 80.71,
+      "p0": 89
+    },
+    "k=2^739,a=0.3,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 14.43,
+      "gap_log2": 508.7,
+      "kappa_needed": 1.4146,
+      "l_rand_log2": 516.92,
+      "ln_2k_log2": 9.0,
+      "ln_N0_log2": 523.13,
+      "obryant_exponent_log2": 80.54,
+      "p0": 89
+    },
+    "k=2^739,a=0.45,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 14.43,
+      "gap_log2": 399.02,
+      "kappa_needed": 1.7898,
+      "l_rand_log2": 406.64,
+      "ln_2k_log2": 9.0,
+      "ln_N0_log2": 413.45,
+      "obryant_exponent_log2": 64.87,
+      "p0": 89
+    },
+    "k=2^739,a=0.45,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 14.43,
+      "gap_log2": 397.85,
+      "kappa_needed": 1.7949,
+      "l_rand_log2": 405.46,
+      "ln_2k_log2": 9.0,
+      "ln_N0_log2": 412.28,
+      "obryant_exponent_log2": 64.7,
+      "p0": 89
+    },
+    "k=2^739,a=0.49,c=1/4": {
+      "first_moment_lnW_at_p0_minus_1_log2": 14.43,
+      "gap_log2": 369.18,
+      "kappa_needed": 1.9291,
+      "l_rand_log2": 376.67,
+      "ln_2k_log2": 9.0,
+      "ln_N0_log2": 383.61,
+      "obryant_exponent_log2": 60.61,
+      "p0": 89
+    },
+    "k=2^739,a=0.49,c=1/9": {
+      "first_moment_lnW_at_p0_minus_1_log2": 14.43,
+      "gap_log2": 367.55,
+      "kappa_needed": 1.9373,
+      "l_rand_log2": 375.04,
+      "ln_2k_log2": 9.0,
+      "ln_N0_log2": 381.98,
+      "obryant_exponent_log2": 60.38,
+      "p0": 89
+    },
+    "k=2^739,source": {
+      "first_moment_lnW_at_p0_minus_1_log2": 14.43,
+      "gap_log2": 643.06,
+      "kappa_needed": 1.1255,
+      "l_rand_log2": 652.7,
+      "ln_2k_log2": 9.0,
+      "ln_N0_log2": 657.49,
+      "obryant_exponent_log2": 99.73,
+      "p0": 89
+    }
+  }
+}

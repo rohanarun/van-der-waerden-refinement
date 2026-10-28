@@ -1,0 +1,249 @@
+{
+  "A1_instances": 300,
+  "A2_points_with_clique_sum_ge_1": 275,
+  "A2_shearer_points_inside": 189,
+  "A3_cover_instances": 200,
+  "A5_exponent_table": [
+    {
+      "a": 0.2,
+      "c": 0.111,
+      "log2_k": 64,
+      "ratio_logK_logN": 0.00028
+    },
+    {
+      "a": 0.2,
+      "c": 0.111,
+      "log2_k": 1024,
+      "ratio_logK_logN": 4.47e-62
+    },
+    {
+      "a": 0.2,
+      "c": 0.111,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.2,
+      "c": 0.125,
+      "log2_k": 64,
+      "ratio_logK_logN": 0.00028
+    },
+    {
+      "a": 0.2,
+      "c": 0.125,
+      "log2_k": 1024,
+      "ratio_logK_logN": 4.47e-62
+    },
+    {
+      "a": 0.2,
+      "c": 0.125,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.2,
+      "c": 0.2,
+      "log2_k": 64,
+      "ratio_logK_logN": 0.00028
+    },
+    {
+      "a": 0.2,
+      "c": 0.2,
+      "log2_k": 1024,
+      "ratio_logK_logN": 4.47e-62
+    },
+    {
+      "a": 0.2,
+      "c": 0.2,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.3,
+      "c": 0.111,
+      "log2_k": 64,
+      "ratio_logK_logN": 3.32e-06
+    },
+    {
+      "a": 0.3,
+      "c": 0.111,
+      "log2_k": 1024,
+      "ratio_logK_logN": 6.68e-93
+    },
+    {
+      "a": 0.3,
+      "c": 0.111,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.3,
+      "c": 0.125,
+      "log2_k": 64,
+      "ratio_logK_logN": 3.32e-06
+    },
+    {
+      "a": 0.3,
+      "c": 0.125,
+      "log2_k": 1024,
+      "ratio_logK_logN": 6.68e-93
+    },
+    {
+      "a": 0.3,
+      "c": 0.125,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.3,
+      "c": 0.2,
+      "log2_k": 64,
+      "ratio_logK_logN": 3.32e-06
+    },
+    {
+      "a": 0.3,
+      "c": 0.2,
+      "log2_k": 1024,
+      "ratio_logK_logN": 6.68e-93
+    },
+    {
+      "a": 0.3,
+      "c": 0.2,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.45,
+      "c": 0.111,
+      "log2_k": 64,
+      "ratio_logK_logN": 4.99e-09
+    },
+    {
+      "a": 0.45,
+      "c": 0.111,
+      "log2_k": 1024,
+      "ratio_logK_logN": 3.86e-139
+    },
+    {
+      "a": 0.45,
+      "c": 0.111,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.45,
+      "c": 0.125,
+      "log2_k": 64,
+      "ratio_logK_logN": 4.91e-09
+    },
+    {
+      "a": 0.45,
+      "c": 0.125,
+      "log2_k": 1024,
+      "ratio_logK_logN": 3.86e-139
+    },
+    {
+      "a": 0.45,
+      "c": 0.125,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    },
+    {
+      "a": 0.45,
+      "c": 0.2,
+      "log2_k": 64,
+      "ratio_logK_logN": 4.67e-09
+    },
+    {
+      "a": 0.45,
+      "c": 0.2,
+      "log2_k": 1024,
+      "ratio_logK_logN": 3.86e-139
+    },
+    {
+      "a": 0.45,
+      "c": 0.2,
+      "log2_k": 16384,
+      "ratio_logK_logN": 0.0
+    }
+  ],
+  "B": {
+    "A4_max_key_load": "658.1664",
+    "eta": "1177/5766",
+    "max_key_multiplicity": 1,
+    "repeated_label_bound": "1131097/12",
+    "repeated_label_pairs": 0,
+    "rules": {
+      "chi_101(t-0)=-1": {
+        "delta_X": "0.4183",
+        "lemma_lower_bound": "0.321",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_101(t-17)=-1": {
+        "delta_X": "0.4620",
+        "lemma_lower_bound": "0.387",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_101(t-5)=-1": {
+        "delta_X": "0.5286",
+        "lemma_lower_bound": "0.487",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_211(t-0)=-1": {
+        "delta_X": "0.4495",
+        "lemma_lower_bound": "0.368",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_211(t-17)=-1": {
+        "delta_X": "0.5078",
+        "lemma_lower_bound": "0.456",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_211(t-5)=-1": {
+        "delta_X": "0.4922",
+        "lemma_lower_bound": "0.432",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_37(t-0)=-1": {
+        "delta_X": "0.4412",
+        "lemma_lower_bound": "0.356",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_37(t-17)=-1": {
+        "delta_X": "0.4464",
+        "lemma_lower_bound": "0.363",
+        "max_distinct_X_keys_on_all_light_P": 6
+      },
+      "chi_37(t-5)=-1": {
+        "delta_X": "0.4735",
+        "lemma_lower_bound": "0.404",
+        "max_distinct_X_keys_on_all_light_P": 6
+      }
+    },
+    "shift_average": {
+      "101": "50/101",
+      "37": "18/37"
+    },
+    "toy": {
+      "D": 2,
+      "N": 961,
+      "V_intervals": 692,
+      "k": 6,
+      "keys": 961,
+      "lam": 12,
+      "progressions": 922560,
+      "q": 31
+    }
+  },
+  "B6_squares_family_progressions": 95,
+  "B6_squares_family_progressions_lam40": 95,
+  "base_commit": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "claims": {
+    "corollary_A1": "sum over rich P of mu(B_P) < 4|K|/k when every key is random; log|K| = o(log N): LLL = first moment on the exponent scale",
+    "lemma_B1": "(II) forces position density delta_X <= 4 eps + 2/lam + k^2/N",
+    "lemma_B2": "every rule has exactly the random first and second moments of Y along uniform progressions",
+    "new_bound": null,
+    "proposition_B3": "n_j = lam^-1 (a + j): all labels distinct, bands exactly (a + j)^2",
+    "theorem_A": "any criterion sound for every variable-generated system with the same event-variable incidence and marginals (asymmetric LLL, Shearer, cluster expansion, Moser-Tardos, variable-version LLL) certifies only if, for every random key, the bad events through it have total probability < 1"
+  }
+}

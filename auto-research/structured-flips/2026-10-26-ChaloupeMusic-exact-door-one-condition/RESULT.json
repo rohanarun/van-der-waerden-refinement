@@ -1,0 +1,31 @@
+{
+ "cor31": {
+  "control_remaining": 0,
+  "instances": 1684
+ },
+ "exponents": {
+  "random_like_at_bX_a_b1": "49/596",
+  "sup_over_b": "49/400",
+  "theta_b_over_2_at_b1": "49/200"
+ },
+ "fails": 0,
+ "majority_case": {
+  "minority_only_flags_it": false,
+  "probability_mono_in_minority": "64/125"
+ },
+ "negative_controls": {
+  "formula_without_b": true,
+  "gamma_minus_eps": true,
+  "minority_only": true,
+  "positions_as_keys": true
+ },
+ "prop1": {
+  "instances": 400,
+  "nonzero_events": 177,
+  "p": "1/5",
+  "split_instances": 154
+ },
+ "prop5": {
+  "cases": 300
+ }
+}
