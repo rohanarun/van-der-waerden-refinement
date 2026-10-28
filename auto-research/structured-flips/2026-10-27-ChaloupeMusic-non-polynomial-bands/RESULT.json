@@ -1,0 +1,105 @@
+{
+ "beatty": {
+  "cases": 462480,
+  "control_k_le_2d_minus_1_found": true,
+  "violations": 0
+ },
+ "fails": 0,
+ "noise": {
+  "q=1009,D=2,k=12,d=1,ell=31": {
+   "W_not_integer": 0,
+   "W_varies_in_arc": 0,
+   "arcs": 72,
+   "noise_too_wide": 0,
+   "points": 12108,
+   "slope_wrong": 0,
+   "window_bound": 1189.355,
+   "window_violations": 0,
+   "window_zero_mod_ell": 160
+  },
+  "q=211,D=2,k=10,d=2,ell=13": {
+   "W_not_integer": 0,
+   "W_varies_in_arc": 0,
+   "arcs": 233,
+   "noise_too_wide": 0,
+   "points": 6330,
+   "slope_wrong": 0,
+   "window_bound": 5984.308,
+   "window_violations": 0,
+   "window_zero_mod_ell": 323
+  },
+  "q=211,D=3,k=10,d=1,ell=7": {
+   "W_not_integer": 0,
+   "W_varies_in_arc": 0,
+   "arcs": 72,
+   "noise_too_wide": 0,
+   "points": 2532,
+   "slope_wrong": 0,
+   "window_bound": 941.429,
+   "window_violations": 0,
+   "window_zero_mod_ell": 139
+  }
+ },
+ "orbit": {
+  "q=1009,D=2,k=12,d=1,ell=31": {
+   "excluded": 12,
+   "max_bad": 0,
+   "max_ratio": 0.0,
+   "orbits": 48,
+   "violations": 0
+  },
+  "q=1009,D=2,k=12,d=2,ell=101": {
+   "excluded": 12,
+   "max_bad": 0,
+   "max_ratio": 0.0,
+   "orbits": 48,
+   "violations": 0
+  },
+  "q=1009,D=2,k=12,d=3,ell=2003": {
+   "excluded": 13,
+   "max_bad": 0,
+   "max_ratio": 0.0,
+   "orbits": 47,
+   "violations": 0
+  },
+  "q=211,D=3,k=10,d=2,ell=13": {
+   "excluded": 12,
+   "max_bad": 0,
+   "max_ratio": 0.0,
+   "orbits": 48,
+   "violations": 0
+  },
+  "q=211,D=3,k=16,d=3,ell=7": {
+   "excluded": 10,
+   "max_bad": 0,
+   "max_ratio": 0.0,
+   "orbits": 30,
+   "violations": 0
+  }
+ },
+ "squares_family": {
+  "excluded": 80,
+  "polynomial": 80,
+  "progressions": 80
+ },
+ "window": {
+  "q=1009,D=2,s=1,m=4,ell=11": {
+   "bad_total": 101,
+   "max_ratio": 0.0579,
+   "orbits": 14,
+   "violations": 0
+  },
+  "q=1009,D=2,s=2,m=4,ell=29": {
+   "bad_total": 374,
+   "max_ratio": 0.1424,
+   "orbits": 11,
+   "violations": 0
+  },
+  "q=211,D=3,s=2,m=4,ell=29": {
+   "bad_total": 97,
+   "max_ratio": 0.0996,
+   "orbits": 14,
+   "violations": 0
+  }
+ }
+}

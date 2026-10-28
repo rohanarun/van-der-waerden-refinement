@@ -1,0 +1,46 @@
+{
+ "case_ii_threshold": {
+  "1": {
+   "w_coarse_over_k": "6.819e-197",
+   "w_two_layer_over_k": "7.601e-04"
+  },
+  "97/200": {
+   "w_coarse_over_k": "1.406e-196",
+   "w_two_layer_over_k": "1.567e-03"
+  }
+ },
+ "exponents": {
+  "beta_star_II_fails_whp": "9/20",
+  "beta_trivial_barrier_at_b_1_3": "3/4",
+  "sup_iid_flips": "99/800",
+  "sup_random_X_first_moment": "24750/200099"
+ },
+ "fails": 0,
+ "lemma_F": {
+  "control_unseparated": 401,
+  "instances": 60,
+  "max_multiplicity": 2
+ },
+ "lemma_G": {
+  "instances": 200
+ },
+ "negative_controls": {
+  "fine_count_in_prop1": true,
+  "greedy_without_k": true,
+  "one_colour_only": true,
+  "two_layers_not_iid": true,
+  "unseparated_points": true
+ },
+ "prop1_two_layer": {
+  "control_fine_count_fails": true,
+  "instances": 500,
+  "nonzero_events": 210,
+  "p": "1/5"
+ },
+ "theorem_A": {
+  "per_block_grid": "12 x 21",
+  "pi": "3/7",
+  "random_X_same_keys_is_iid": true,
+  "two_layers_differ": true
+ }
+}

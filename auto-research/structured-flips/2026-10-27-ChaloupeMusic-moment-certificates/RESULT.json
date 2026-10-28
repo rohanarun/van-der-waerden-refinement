@@ -1,0 +1,21 @@
+{
+  "blocks_cases": 800,
+  "corollary4_suprema": {
+    "a=1/3,gamma=2/5": "1/30",
+    "a=49/100,gamma=49/100": "2401/40000"
+  },
+  "hash_independence_cases": 88,
+  "integrity_files": [
+    "NOTICE.md",
+    "PROOF.md",
+    "README.md",
+    "verify.py"
+  ],
+  "negative_controls_rejected": {
+    "ineq1_too_small_bound": true,
+    "thm2_wrong_sign": true
+  },
+  "theorem1_toy_systems": 25,
+  "theorem2_laws_built": 775,
+  "theorem3_laws_tested": 6837
+}

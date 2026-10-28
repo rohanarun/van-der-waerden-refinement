@@ -1,0 +1,183 @@
+{
+ "digit_quadratic_missed_APs": {
+  "5,4": 447,
+  "7,3": 344
+ },
+ "digit_sets": {
+  "3,4": "65/81",
+  "5,3": "61/125"
+ },
+ "exponents": {
+  "0.3": {
+   "digit_set_exponent": "0.3043",
+   "lower_bound_exponent": "0.3185"
+  },
+  "0.45": {
+   "digit_set_exponent": "0.4543",
+   "lower_bound_exponent": "0.4685"
+  },
+  "0.49": {
+   "digit_set_exponent": "0.4943",
+   "lower_bound_exponent": "0.5085"
+  }
+ },
+ "fails": 0,
+ "lemma2": {
+  "lines_checked": 348,
+  "wrapped_line_is_not_AP": true
+ },
+ "lemma8_min_margin": "1",
+ "prop10": {
+  "11": {
+   "degenerate_control_missed": true,
+   "missed": 0
+  },
+  "13": {
+   "degenerate_control_missed": true,
+   "missed": 0
+  },
+  "7": {
+   "degenerate_control_missed": true,
+   "missed": 0
+  }
+ },
+ "prop5": {
+  "7,4": {
+   "density": "127/343",
+   "lines": 4160,
+   "r": 3
+  },
+  "7,6": {
+   "density": "1105/2401",
+   "lines": 413792,
+   "r": 4
+  }
+ },
+ "prop6": {
+  "11,3": {
+   "R": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "density": "43/121",
+   "linear_lower_bound": 0.0306
+  },
+  "11,4": {
+   "R": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "density": "491/1331",
+   "linear_lower_bound": 0.0408
+  },
+  "11,5": {
+   "R": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "density": "485/1331",
+   "linear_lower_bound": 0.051
+  },
+  "13,3": {
+   "R": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "density": "53/169",
+   "linear_lower_bound": 0.0245
+  },
+  "13,4": {
+   "R": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "density": "685/2197",
+   "linear_lower_bound": 0.0327
+  },
+  "7,2": {
+   "R": [
+    0,
+    1,
+    2
+   ],
+   "density": "17/49",
+   "linear_lower_bound": 0.0375
+  },
+  "7,3": {
+   "R": [
+    0,
+    1,
+    2
+   ],
+   "density": "19/49",
+   "linear_lower_bound": 0.0563
+  },
+  "7,4": {
+   "R": [
+    0,
+    1,
+    2
+   ],
+   "density": "151/343",
+   "linear_lower_bound": 0.075
+  },
+  "7,5": {
+   "R": [
+    0,
+    1,
+    2
+   ],
+   "density": "149/343",
+   "linear_lower_bound": 0.0938
+  },
+  "7,6": {
+   "R": [
+    0,
+    1,
+    2
+   ],
+   "density": "1025/2401",
+   "linear_lower_bound": 0.1126
+  }
+ },
+ "theorem1": {
+  "12,3": {
+   "fractional_upper": "4",
+   "integral_minimum": 6,
+   "windows_lower": 4
+  },
+  "14,4": {
+   "fractional_upper": "7/2",
+   "integral_minimum": 5,
+   "windows_lower": 3
+  },
+  "15,3": {
+   "fractional_upper": "5",
+   "integral_minimum": 7,
+   "windows_lower": 5
+  },
+  "16,4": {
+   "fractional_upper": "4",
+   "integral_minimum": 6,
+   "windows_lower": 4
+  }
+ },
+ "theorem3_single_hyperplane_transversals": {
+  "3,2": 2,
+  "3,3": 0,
+  "3,4": 0,
+  "5,2": 12,
+  "5,4": 0
+ },
+ "union_bound_cases": 300
+}

@@ -1,0 +1,51 @@
+{
+ "fails": 0,
+ "lemma_W": {
+  "instances": 3000
+ },
+ "random_proper": {
+  "2^1024,a=0.45": {
+   "log_hit_union": "-6.838e+172",
+   "log_inside_union": "-inf"
+  },
+  "2^739,a=0.3": {
+   "log_hit_union": "-7.516e+158",
+   "log_inside_union": "-4.232e+224"
+  },
+  "2^739,a=0.49": {
+   "log_hit_union": "-4.058e+116",
+   "log_inside_union": "-7.046e+224"
+  }
+ },
+ "s6_63_saturation": {
+  "3": {
+   "aps_with_p_dividing_step": 3780,
+   "from_digit_0_alone": 1260,
+   "saturated": 2230
+  },
+  "5": {
+   "aps_with_p_dividing_step": 24500,
+   "from_digit_0_alone": 4900,
+   "saturated": 6271
+  },
+  "7": {
+   "aps_with_p_dividing_step": 88270,
+   "from_digit_0_alone": 12610,
+   "saturated": 15682
+  }
+ },
+ "theorem1": {
+  "cases": {
+   "A": 146,
+   "Bi": 149,
+   "Bii": 105
+  },
+  "control_step_p_u0": true,
+  "full_searches": 25,
+  "instances": 400
+ },
+ "theorem2": {
+  "control_psi_n_no_kernel": true,
+  "instances": 60
+ }
+}
