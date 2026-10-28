@@ -1,0 +1,11 @@
+name = "least_admissible_profile"
+version = "0.1.0"
+defaultTargets = ["Profile"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.21.0"
+
+[[lean_lib]]
+name = "Profile"

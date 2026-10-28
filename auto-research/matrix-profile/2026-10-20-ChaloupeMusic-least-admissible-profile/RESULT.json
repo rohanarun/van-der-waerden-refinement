@@ -1,0 +1,163 @@
+{
+  "A_admissibility_grid": {
+    "P_o_above_P_star": 0,
+    "envelope_violations_t_3_4": 0,
+    "grid": {
+      "columns_b": 240,
+      "envelope_grid": 120,
+      "multiplier_range_u": 400,
+      "rows_a": 60
+    },
+    "listed_constraint_violations": 0,
+    "monotonicity_violations": 0
+  },
+  "B_certificates": {
+    "B10_not_in_pr11_family": true,
+    "B11_rows_1_2_inside_envelope_under_K4prime": true,
+    "B1_interior_second_difference": true,
+    "B2_seam_second_difference_zero": true,
+    "B3_tripling_ratio_step": true,
+    "B4_cube_step": true,
+    "B5_kappa_step_coefficients_at_n_eq_1_plus_k": [
+      4544,
+      17936,
+      27324,
+      20007,
+      7074,
+      972
+    ],
+    "B6_kappa2_squared_exceeds_three_halves_power": true,
+    "B7_growth_recursion_equality_up_to": 400,
+    "B8_tripling_tight_for_h_ge_a": true,
+    "B9_lower_sequence_step": true
+  },
+  "C_least_element_evidence": {
+    "L_a_exact": {
+      "1": "1",
+      "10": "55155100/1594323",
+      "2": "10/3",
+      "3": "56/9",
+      "4": "770/81",
+      "5": "3185/243",
+      "6": "12376/729",
+      "7": "138320/6561",
+      "8": "499928/19683",
+      "9": "1766050/59049"
+    },
+    "lowering_any_single_value_breaks_a_constraint": {
+      "broken": 78,
+      "points": 78
+    },
+    "repository_lp_minima": [
+      {
+        "L_a": 25.398973733678808,
+        "grid_N": 100,
+        "lp_diagonal": 25.39897373367881,
+        "relative_gap_below_1e-12": true,
+        "target": 8
+      },
+      {
+        "L_a": 65.85272213584928,
+        "grid_N": 100,
+        "lp_diagonal": 65.85272213584943,
+        "relative_gap_below_1e-12": true,
+        "target": 16
+      },
+      {
+        "L_a": 114.14111905310916,
+        "grid_N": 100,
+        "lp_diagonal": 114.14111905310945,
+        "relative_gap_below_1e-12": true,
+        "target": 24
+      }
+    ]
+  },
+  "D_additional_families_for_P_o": {
+    "K1_kronecker": {
+      "checks": 2401,
+      "equalities": 169,
+      "min_slack_nonnegative": true,
+      "violations": 0
+    },
+    "K2_stride": {
+      "checks": 1728,
+      "equalities": 155,
+      "min_slack_nonnegative": true,
+      "violations": 0
+    },
+    "K3_multiple": {
+      "checks": 9000,
+      "equalities": 1170,
+      "min_slack_nonnegative": true,
+      "violations": 0
+    },
+    "K4_clebsch_gordan": {
+      "checks": 7600,
+      "equalities": 1710,
+      "min_slack_nonnegative": true,
+      "violations": 0
+    },
+    "K5_sector_chains": {
+      "checks": 39050,
+      "equalities": 8600,
+      "min_slack_nonnegative": true,
+      "violations": 0
+    }
+  },
+  "E_envelope_and_constant": {
+    "kappa_bracket_N_10000": [
+      "1679751/1000000",
+      "167977/100000"
+    ],
+    "kappa_reference_inside_unrounded_bracket": true,
+    "referee_example_c_81_56": {
+      "exceeds_envelope_at_3_3": true,
+      "listed_constraint_violations_rows_40_columns_200": 0,
+      "value_at_3_3": "9"
+    },
+    "smallest_envelope_gap_min_ge_3_is_at_3_3_on_grid_120": true,
+    "t_4_5_first_violation_a": 63,
+    "t_7_9_violation_a": 2494
+  },
+  "F_negative_controls": {
+    "F1_lowered_H2": true,
+    "F2_slower_growth": true,
+    "F3_offset_too_large": true,
+    "F4_offset_too_small": true,
+    "F5_lowered_diagonal_value": true,
+    "F6_corrupted_identity_detected": true,
+    "F7_K1_detects_2P": true,
+    "F7_K2_detects_half_P": true,
+    "F8_envelope_3_4_diagonal_holds_to_400": true,
+    "F9_upper_sequence_at_3N_misses_kappa": true,
+    "F9_wendel_exponent_1_misses_kappa": true
+  },
+  "base": "63bef9ca996786a41169de4a0c3d6b3b47b0fe96",
+  "failures": [],
+  "manifest_files": [
+    "NOTICE.md",
+    "README.md",
+    "RESULT.json",
+    "lean/.gitignore",
+    "lean/Axioms.lean",
+    "lean/Profile.lean",
+    "lean/Profile/Admissible.lean",
+    "lean/Profile/Constant.lean",
+    "lean/Profile/Defs.lean",
+    "lean/Profile/Families.lean",
+    "lean/Profile/Least.lean",
+    "lean/Profile/Witnesses.lean",
+    "lean/README.md",
+    "lean/lake-manifest.json",
+    "lean/lakefile.toml",
+    "lean/lean-toolchain",
+    "verify.py"
+  ],
+  "package": "2026-10-20-ChaloupeMusic-least-admissible-profile",
+  "pinned_base_files_ok": {
+    "experiments/matrix-profile.json": true,
+    "profile_lp.py": true,
+    "research-note.tex": true
+  },
+  "status": "passed"
+}

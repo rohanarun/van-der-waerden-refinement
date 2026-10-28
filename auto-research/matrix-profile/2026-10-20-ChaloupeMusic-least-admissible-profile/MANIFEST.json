@@ -1,0 +1,19 @@
+{
+  "NOTICE.md": "24781fa5360628ad775512e4262253181b5437b88032116fde722f5a4e62fd10",
+  "README.md": "348b28c3f6d5b6f15cdc61b0980649e6c71f942af0b80a15acadbc22f214cbd7",
+  "RESULT.json": "185427f50541cae9873bf96af6d12fabccb0edbcc5a35a2cb037d9a3bc08f89e",
+  "lean/.gitignore": "fde850d24186b6e99c8c0debd641fb3ab85198b109eb66f71a1fea02bd6ea1b3",
+  "lean/Axioms.lean": "39ce2b2743f4d56686735b94f72bf2589d086eda5538e1e43c4be04d18837230",
+  "lean/Profile.lean": "666c1867b6c7a47738131c8e57ee170b80105f0d23fb462b261a62085aa2d966",
+  "lean/Profile/Admissible.lean": "17eed185bac0c055f691948831860b8a0a4460f96a9c9d4e781c6b7193efdb0c",
+  "lean/Profile/Constant.lean": "0879ddbd2fd0b5e123deb03f68e88282057c56d0715aadb7c4815194d0add4d1",
+  "lean/Profile/Defs.lean": "b6f26a2836fbccdd5ff932a7c8653ada52c2c91a0d3e66f3a3f37937451b7e14",
+  "lean/Profile/Families.lean": "933c8dd87b7b203439a9bbcec61aae3c05977e4426d2ca8de1c9388d37fb92de",
+  "lean/Profile/Least.lean": "d55627594bbaedaba4073e5d6d557a420cd366123456eef841f154b3ae2602a6",
+  "lean/Profile/Witnesses.lean": "b403cdcd7588ebcb22398a51f72139828998c6cb276530c8f13fb3448a638b55",
+  "lean/README.md": "7e3b5b7b8ad263be4e135b7228889ccf01e6df1bd8ccb58e51e13e3227b927d2",
+  "lean/lake-manifest.json": "66ed6f252b60524f9271cb29e7807b556360e7995e01f604e861186149c88023",
+  "lean/lakefile.toml": "6d91fe3255c980de4ec0240d78faf2fb172a26b31cfa56608843abe1aedf2c1a",
+  "lean/lean-toolchain": "d24fed434d3b13adfaab57724a0a7f270ea8bf1c818b5ae5cf25cbce24dd685c",
+  "verify.py": "231989e4a026c8b82afb633eff88279f4a59bcc9a82a2f9653a4720bde5a2907"
+}
