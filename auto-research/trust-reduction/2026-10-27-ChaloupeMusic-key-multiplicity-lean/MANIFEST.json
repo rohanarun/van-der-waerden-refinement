@@ -1,0 +1,18 @@
+{
+  "NOTICE.md": "9da9be3852b0f3e2582dcaa5d3dd44a005a82bbced95d15be64f90cda89d1da0",
+  "README.md": "3be3975777915293ce476882d9bb3a45d3706e8d24c06fa173b9a83a3ea2a4cb",
+  "RESULT.json": "47b68156d9d20cacc4790b5607acf9f373d5443c683e300978f182bb761661b1",
+  "verify.py": "c0c3948ee10b0e3e7c51013cef1ec84bc1c205a2416fd3193da0cd5923c87217",
+  "lean/KeyMultiplicity.lean": "cf13aebde86fcc77abf724da8a036c838d4b1340970906a9d11ec7d8fbfbb1bc",
+  "lean/KeyMultiplicity/Basic.lean": "ed944838bcfd25527f84d73002afa5da3db7b5ac6fcca92341d501ab8dad84e7",
+  "lean/Axioms.lean": "6d3a86ecc140c9bc53638a794f9f0e50252b0c8d4c2902bb71d6cfbcf1d558e9",
+  "lean/lakefile.toml": "f1633c8bb2087458f6281efb220879b3f44a92cbac4d4d34a6974fcf825e7125",
+  "lean/lean-toolchain": "d24fed434d3b13adfaab57724a0a7f270ea8bf1c818b5ae5cf25cbce24dd685c",
+  "lean/lake-manifest.json": "f5ae7708aea0fef5275cb1d19d2e92611689c9648e1a1fd4949db17cab2eca48",
+  "lean/record-evidence.sh": "ec5ba657b69c3569bf55b5febb19a633a7504951c447878d60ca9bfdc56721a9",
+  "lean/.gitignore": "ce6f311300fdc6dc6639081fb27e0647d55e7f1316dd3e1a6f92e1df8b657b32",
+  "lean/evidence/axioms.txt": "e46f2deb3eeb6332db8b10e6acee9b7840806a8c62c715e12971e76f8df70bde",
+  "lean/evidence/build.txt": "447ff1388ee62c043d32a946f6da073312878e66f2c777e1010ab924783dd18f",
+  "lean/evidence/sources.sha256": "3fa1ca94ca5e2c4f6e9103b13505822ad8fa2b0dc2a4cc7644baa4eaed7d8a4b",
+  "lean/evidence/lean-version.txt": "0bc582398c343669dbdc064b55811439fc00ec74913c38579127256cfbfb4ad0"
+}
